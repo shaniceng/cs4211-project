@@ -189,7 +189,50 @@ def cal_atkMid_values(atkMidPos_player_details):
     print(result)
     return atkMidPos, result
 
-# XY old code -> now using cal_atk_def_KepPos_values method (can be removed?)
+
+# Function to calculate the probabilities for each player in the atkForPos
+def cal_atkFor_values(atkForPos_player_details, homeDefPos_player_details, away_rows, home_rows):
+
+    atkForPos_sequence_array = atkForPos_player_details['pos']
+    homeDefPos_sequence_array = homeDefPos_player_details['pos']
+
+    atkForPos = process_sequence_to_formatted_array(atkForPos_sequence_array)
+
+    position_switch = {
+        "L": ["RL", "R"],
+        "LR": ["CR", "RL", "R"],
+        "CL": ["C", "CR", "RL"],
+        "C": ["CL", "C", "CR"],
+        "CR": ["LR", "CL", "C"],
+        "RL": ["L", "LR", "CL"],
+        "R": ["L", "LR"],
+    }
+
+    result = "AtkFor = ["
+    for i, position in enumerate(atkForPos_sequence_array):
+        positions_to_consider = position_switch.get(position)
+        # Create a Series with 'mentality_aggression' values
+        mentality_aggression_series = homeDefPos_player_details.loc[homeDefPos_sequence_array.isin(positions_to_consider), 'mentality_aggression']
+        max_mentality_aggression = mentality_aggression_series.max()
+        result += f"pos[{position}] == 1]For("
+        result += f"{atkForPos_player_details['attacking_finishing'].iloc[i]}, "
+        result += f"{atkForPos_player_details['power_long_shots'].iloc[i]}, "
+        result += f"{atkForPos_player_details['attacking_volleys'].iloc[i]}, "
+        result += f"{atkForPos_player_details['attacking_heading_accuracy'].iloc[i]}, "
+        result += f"{round((homeDefPos_player_details['defending_marking'].max() + homeDefPos_player_details['defending_standing_tackle'].max() + homeDefPos_player_details['defending_sliding_tackle'].max())/3)}, "
+        result += f"{round(max_mentality_aggression)}, " #opponent_df['mentality_aggression'].max()
+        result += f"{away_rows['mentality_penalties'].max()}, "
+        result += f"{round(0.1 * atkForPos_player_details.iloc[i]['power_jumping'] + 0.6 * atkForPos_player_details.iloc[i]['attacking_heading_accuracy'] + 0.3 * round((atkForPos_player_details.iloc[i]['height_cm'] / max(away_rows['height_cm'].max(), home_rows['height_cm'].max())) * 100))}, "
+        result += f"{position}"
+        result += ")"
+        if i < len(atkForPos_sequence_array) - 1:
+            result += " [] "
+    
+    result += ";"
+    print(result)
+    return atkForPos, result
+
+# XY old code -> now using cal_atkKepPos_values and cal_defKepPos_values method (can be removed?)
 def find_away_keeper_stats(away_xi_names_array, away_xi_ID_array, away_rows):
     # Find Away Keeper
     Keeper = away_xi_names_array[0]
@@ -300,8 +343,9 @@ print("home_atkKep_plyr_details: " + str(home_atkKep_plyr_details) + ", home_atk
 away_atkKepPos, away_AtkKep = cal_atk_def_KepPos_values(away_atkKep_plyr_details)
 # TODO: [insert calcualtion for atkDefPos HERE]
 away_atkMidPos, away_AtkMid = cal_atkMid_values(away_atkMidPos_plyr_details)
-# TODO: [insert calculation for atkForPos HERE]
+away_atkForPos, away_AtkFor = cal_atkFor_values(away_atkForPos_plyr_details, home_atkDefPos_plyr_details, away_rows, home_rows)
 away_defKepPos, away_DefKep = cal_atk_def_KepPos_values(home_atkKep_plyr_details)
+
 
 #print to check
 print(str(away_atkKepPos) + str(away_atkMidPos) + str(away_defKepPos))
@@ -312,7 +356,7 @@ print(str(away_atkKepPos) + str(away_atkMidPos) + str(away_defKepPos))
 home_atkKepPos, home_AtkKep = away_defKepPos, away_DefKep
 # TODO: [insert calcualtion for atkDefPos HERE]
 home_atkMidPos, home_AtkMid = cal_atkMid_values(home_atkMidPos_plyr_details)
-# TODO: [insert calculation for atkForPos HERE]
+home_atkForPos, home_AtkFor = cal_atkFor_values(home_atkForPos_plyr_details, away_atkDefPos_plyr_details, home_rows, away_rows)
 home_defKepPos, home_DefKep = away_atkKepPos, away_AtkKep
 
 
