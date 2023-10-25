@@ -92,7 +92,6 @@ def find_team_formation_and_rating(matching_rows, team):
         # Find Home Formation
         formation = matching_rows.iloc[0]['home_formation']
         formation = process_formation_to_dict(formation)
-        print("Home formation:" + str(formation))
 
         # Find Away Team Rating
         xi_names_array = matching_rows['home_xi_names'].iloc[0].split(',')
@@ -106,8 +105,6 @@ def find_team_formation_and_rating(matching_rows, team):
         # Find Away Formation
         formation = matching_rows.iloc[0]['away_formation']
         formation = process_formation_to_dict(formation)
-
-        print("Away formation:" + str(formation))
 
         # Find Away Team Rating
         xi_names_array = matching_rows['away_xi_names'].iloc[0].split(',')
@@ -131,26 +128,21 @@ def team_player_details(matching_rows,away_sequence_array, away_xi_ID_array, awa
         formation = matching_rows.iloc[0]['away_formation']
         formation = process_formation_to_dict(formation)
         
-    print(formation)
-
     # Split players by their formation positions
     atkKep_i = 1
     atkDefPos_i = away_formation['atkDefPos'] + atkKep_i
     atkMidPos_i = away_formation['atkMidPos'] + atkDefPos_i
     atkForPos_i = away_formation['atkForPos'] + atkMidPos_i
-    print("atkKep_i: " + str(atkKep_i) + ", atkDefPos_i: " + str(atkDefPos_i) + ", atkMidPos_i: " + str(atkMidPos_i) + ", atkForPos_i: " + str(atkForPos_i) + ", defKepPos_i: ")
 
     atkKep_sequence_array = away_sequence_array[0:atkKep_i]
     atkDefPos_sequence_array = away_sequence_array[atkKep_i:atkDefPos_i]
     atkMidPos_sequence_array = away_sequence_array[atkDefPos_i:atkMidPos_i]
     atkForPos_sequence_array = away_sequence_array[atkMidPos_i:atkForPos_i]
-    print("atkKep_sequence_array: " + str(atkKep_sequence_array) + ", atkDefPos_sequence_array: " + str(atkDefPos_sequence_array) + ", atkMidPos_sequence_array: " + str(atkMidPos_sequence_array) + ", atkForPos_sequence_array: " + str(atkForPos_sequence_array) + ", defKepPos_sequence_array: ")
 
     atkKep_ID_array = away_xi_ID_array[0:atkKep_i]
     atkDefPos_ID_array = away_xi_ID_array[atkKep_i:atkDefPos_i]
     atkMidPos_ID_array = away_xi_ID_array[atkDefPos_i:atkMidPos_i]
     atkForPos_ID_array = away_xi_ID_array[atkMidPos_i:atkForPos_i]
-    print("atkKep_ID_array: " + str(atkKep_ID_array) + ", atkDefPos_ID_array: " + str(atkDefPos_ID_array) + ", atkMidPos_ID_array: " + str(atkMidPos_ID_array) + ", atkForPos_ID_array: " + str(atkForPos_ID_array) + ", defKepPos_ID_array: ")
 
     atkKep_ID_array = [int(x) for x in atkKep_ID_array]
     atkDefPos_ID_array = [int(x) for x in atkDefPos_ID_array]
@@ -158,16 +150,16 @@ def team_player_details(matching_rows,away_sequence_array, away_xi_ID_array, awa
     atkForPos_ID_array = [int(x) for x in atkForPos_ID_array]
 
     # Get player ratings based on atkMidPos_xi_ID_array from away_rows
-    atkKep_player_details = away_rows[away_rows['sofifa_id'].isin(atkKep_ID_array)]
-    atkDefPos_player_details =  away_rows[away_rows['sofifa_id'].isin(atkDefPos_ID_array)]
-    atkMidPos_player_details = away_rows[away_rows['sofifa_id'].isin(atkMidPos_ID_array)]
-    atkForPos_player_details = away_rows[away_rows['sofifa_id'].isin(atkForPos_ID_array)]
+    atkKep_player_details = pd.concat([away_rows[away_rows['sofifa_id'] == id] for id in atkKep_ID_array], ignore_index=True)
+    atkDefPos_player_details = pd.concat([away_rows[away_rows['sofifa_id'] == id] for id in atkDefPos_ID_array], ignore_index=True)
+    atkMidPos_player_details = pd.concat([away_rows[away_rows['sofifa_id'] == id] for id in atkMidPos_ID_array], ignore_index=True)
+    atkForPos_player_details = pd.concat([away_rows[away_rows['sofifa_id'] == id] for id in atkForPos_ID_array], ignore_index=True)
 
     # Add position to player details
-    atkKep_player_details.loc[:, 'pos'] = atkKep_sequence_array
-    atkDefPos_player_details.loc[:, 'pos'] = atkDefPos_sequence_array
-    atkMidPos_player_details.loc[:, 'pos'] = atkMidPos_sequence_array
-    atkForPos_player_details.loc[:, 'pos'] = atkForPos_sequence_array
+    atkKep_player_details.loc[:, 'pos'] = atkKep_sequence_array.copy()
+    atkDefPos_player_details.loc[:, 'pos'] = atkDefPos_sequence_array.copy()
+    atkMidPos_player_details.loc[:, 'pos'] = atkMidPos_sequence_array.copy()
+    atkForPos_player_details.loc[:, 'pos'] = atkForPos_sequence_array.copy()
 
     return atkKep_player_details,atkDefPos_player_details,atkMidPos_player_details,atkForPos_player_details
 
@@ -197,8 +189,7 @@ def cal_atkMid_values(atkMidPos_player_details):
     print(result)
     return atkMidPos, result
 
-
-# XY old code -> now using cal_atkKepPos_values and cal_defKepPos_values method (can be removed?)
+# XY old code -> now using cal_atk_def_KepPos_values method (can be removed?)
 def find_away_keeper_stats(away_xi_names_array, away_xi_ID_array, away_rows):
     # Find Away Keeper
     Keeper = away_xi_names_array[0]
@@ -223,6 +214,7 @@ def find_away_keeper_stats(away_xi_names_array, away_xi_ID_array, away_rows):
 
     return keeper_stats
 
+# Function to calculate the probabilities for each player in the atkDefPos
 def cal_atk_def_KepPos_values(away_atkKep_plyr_details):
     
     atkKep_sequence_array = away_atkKep_plyr_details['pos']
@@ -307,19 +299,18 @@ print("home_atkKep_plyr_details: " + str(home_atkKep_plyr_details) + ", home_atk
 
 # Define position grid and dynamic code for AWAY team
 away_atkKepPos, away_AtkKep = cal_atk_def_KepPos_values(away_atkKep_plyr_details)
-# insert calcualtion for atkDefPos
+# TODO: [insert calcualtion for atkDefPos here]
 away_atkMidPos, away_AtkMid = cal_atkMid_values(away_atkMidPos_plyr_details)
-# insert calculation for atkForPos
+# TODO: [insert calculation for atkForPos here]
 away_defKepPos, away_DefKep = cal_atk_def_KepPos_values(home_atkKep_plyr_details)
 
 
 # Define position grid and dynamic code for HOME team
 home_atkKepPos, home_AtkKep = away_defKepPos, away_DefKep
-# insert calcualtion for atkDefPos
+# TODO: insert calcualtion for atkDefPos HERE
 home_atkMidPos, home_AtkMid = cal_atkMid_values(home_atkMidPos_plyr_details)
-# insert calculation for atkForPos
+# TODO: insert calculation for atkForPos HERE
 home_defKepPos, home_DefKep = away_atkKepPos, away_AtkKep
-
 
 
 # Generate pcsp file (to be completed)
