@@ -255,23 +255,22 @@ def process_formation_to_dict(away_formation):
 # Converts an array of string sequences to defined grid positions used in PAT
 def process_sequence_to_formatted_array(sequence_array):
     pos_array = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1]
-    print("pos_array: " + str(pos_array))
 
     for item in sequence_array:
         if item == "L":
-            pos_array[7] = 1
+            pos_array[6] = 1
         elif item == "LR":
-            pos_array[8] = 1
+            pos_array[7] = 1
         elif item == "CL":
-            pos_array[9] = 1
+            pos_array[8] = 1
         elif item == "C":
-            pos_array[10] = 1
+            pos_array[9] = 1
         elif item == "CR":
-            pos_array[11] = 1
+            pos_array[10] = 1
         elif item == "RL":
-            pos_array[12] = 1    
+            pos_array[11] = 1    
         elif item == "R":
-            pos_array[13] = 1  
+            pos_array[12] = 1  
     
     return pos_array
 
@@ -299,17 +298,21 @@ print("home_atkKep_plyr_details: " + str(home_atkKep_plyr_details) + ", home_atk
 
 # Define position grid and dynamic code for AWAY team
 away_atkKepPos, away_AtkKep = cal_atk_def_KepPos_values(away_atkKep_plyr_details)
-# TODO: [insert calcualtion for atkDefPos here]
+# TODO: [insert calcualtion for atkDefPos HERE]
 away_atkMidPos, away_AtkMid = cal_atkMid_values(away_atkMidPos_plyr_details)
-# TODO: [insert calculation for atkForPos here]
+# TODO: [insert calculation for atkForPos HERE]
 away_defKepPos, away_DefKep = cal_atk_def_KepPos_values(home_atkKep_plyr_details)
 
+#print to check
+print(str(away_atkKepPos) + str(away_atkMidPos) + str(away_defKepPos))
+
+###
 
 # Define position grid and dynamic code for HOME team
 home_atkKepPos, home_AtkKep = away_defKepPos, away_DefKep
-# TODO: insert calcualtion for atkDefPos HERE
+# TODO: [insert calcualtion for atkDefPos HERE]
 home_atkMidPos, home_AtkMid = cal_atkMid_values(home_atkMidPos_plyr_details)
-# TODO: insert calculation for atkForPos HERE
+# TODO: [insert calculation for atkForPos HERE]
 home_defKepPos, home_DefKep = away_atkKepPos, away_AtkKep
 
 
