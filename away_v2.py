@@ -202,7 +202,6 @@ def cal_atkMid_values(atkMidPos_player_details, oppAtkMidPos_player_details):
     total_max_values = 0
     for i, position in enumerate(oppAtkMidPos_sequence_array):
         max_value = max(oppAtkMidPos_player_details['defending_standing_tackle'].iloc[i], oppAtkMidPos_player_details['defending_sliding_tackle'].iloc[i], oppAtkMidPos_player_details['mentality_interceptions'].iloc[i])
-        print(max_value)
         total_max_values += max_value
     prob_lose_ball = round(total_max_values / len(oppAtkMidPos_sequence_array))
 
