@@ -348,7 +348,7 @@ away_defKepPos, away_DefKep = cal_atk_def_KepPos_values(home_atkKep_plyr_details
 
 
 #print to check
-print(str(away_atkKepPos) + str(away_atkMidPos) + str(away_defKepPos))
+print(str(away_atkKepPos) + str(away_atkMidPos) + str(away_atkForPos) + str(away_defKepPos))
 
 ###
 
