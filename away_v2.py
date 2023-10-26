@@ -128,9 +128,9 @@ def team_player_details(matching_rows, sequence_array, xi_ID_array, rows, team):
         
     # Split players by their formation positions
     atkKep_i = 1
-    atkDefPos_i = away_formation['atkDefPos'] + atkKep_i
-    atkMidPos_i = away_formation['atkMidPos'] + atkDefPos_i
-    atkForPos_i = away_formation['atkForPos'] + atkMidPos_i
+    atkDefPos_i = formation['atkDefPos'] + atkKep_i
+    atkMidPos_i = formation['atkMidPos'] + atkDefPos_i
+    atkForPos_i = formation['atkForPos'] + atkMidPos_i
 
     atkKep_sequence_array = sequence_array[0:atkKep_i]
     atkDefPos_sequence_array = sequence_array[atkKep_i:atkDefPos_i]
@@ -331,8 +331,8 @@ def cal_defKep_values(defKep_plyr_details):
     return defKepPos, result
 
 # Process formation string to dictionary containing the number of players in each position atkDefPos, atkMidPos, atkForPos
-def process_formation_to_dict(away_formation):
-    positions = away_formation.split('-')
+def process_formation_to_dict(formation):
+    positions = formation.split('-')
     
     if len(positions) == 3:
         atkDefPos = int(positions[0])
