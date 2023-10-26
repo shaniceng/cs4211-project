@@ -190,13 +190,21 @@ def cal_atkDef_values(atkDefPos_player_details, oppAtkForPos_player_details):
     return atkDefPos, result
 
 # Function to calculate the probabilities for each player in the atkMidPos
-def cal_atkMid_values(atkMidPos_player_details):
+def cal_atkMid_values(atkMidPos_player_details, oppAtkMidPos_player_details):
 
     atkMidPos_sequence_array = atkMidPos_player_details['pos']
 
     atkMidPos = process_sequence_to_formatted_array(atkMidPos_sequence_array)
 
-    # TODO: calculate probabilities
+    oppAtkMidPos_sequence_array = oppAtkMidPos_player_details['pos']
+    
+    # How the probability of losing the ball is calculated
+    total_max_values = 0
+    for i, position in enumerate(oppAtkMidPos_sequence_array):
+        max_value = max(oppAtkMidPos_player_details['defending_standing_tackle'].iloc[i], oppAtkMidPos_player_details['defending_sliding_tackle'].iloc[i], oppAtkMidPos_player_details['mentality_interceptions'].iloc[i])
+        print(max_value)
+        total_max_values += max_value
+    prob_lose_ball = round(total_max_values / len(oppAtkMidPos_sequence_array))
 
     result = "AtkMid = ["
     for i, position in enumerate(atkMidPos_sequence_array):
@@ -204,8 +212,7 @@ def cal_atkMid_values(atkMidPos_player_details):
         result += f"{atkMidPos_player_details['attacking_short_passing'].iloc[i]}, "
         result += f"{atkMidPos_player_details['skill_long_passing'].iloc[i]}, "
         result += f"{atkMidPos_player_details['power_long_shots'].iloc[i]}, "
-        result += "59, " # ask TA how it is calculated
-        result += "68, " # ask TA how it is calculated
+        result += f"{prob_lose_ball}, "
         result += f"{position}"
         result += ")"
         if i < len(atkMidPos_sequence_array) - 1:
@@ -394,7 +401,7 @@ print("home_atkKep_plyr_details: " + str(home_atkKep_plyr_details) + ", home_atk
 # Define position grid and dynamic code for AWAY team
 away_atkKepPos, away_AtkKep = cal_atkKep_values(away_atkKep_plyr_details, away_atkMidPos_plyr_details)
 away_atkDefPos, away_AtkDef = cal_atkDef_values(away_atkDefPos_plyr_details, home_atkForPos_plyr_details)
-away_atkMidPos, away_AtkMid = cal_atkMid_values(away_atkMidPos_plyr_details)
+away_atkMidPos, away_AtkMid = cal_atkMid_values(away_atkMidPos_plyr_details, home_atkMidPos_plyr_details)
 away_atkForPos, away_AtkFor = cal_atkFor_values(away_atkForPos_plyr_details, home_atkDefPos_plyr_details, away_rows, home_rows)
 away_defKepPos, away_DefKep = cal_defKep_values(home_atkKep_plyr_details)
 
@@ -411,7 +418,7 @@ print("defKepPos" + str(away_defKepPos) + "\n" + str(away_DefKep))
 # Define position grid and dynamic code for HOME team
 home_atkKepPos, home_AtkKep = cal_atkKep_values(home_atkKep_plyr_details, home_atkMidPos_plyr_details)
 home_atkDefPos, home_AtkDef = cal_atkDef_values(home_atkDefPos_plyr_details, away_atkForPos_plyr_details)
-home_atkMidPos, home_AtkMid = cal_atkMid_values(home_atkMidPos_plyr_details)
+home_atkMidPos, home_AtkMid = cal_atkMid_values(home_atkMidPos_plyr_details, away_atkMidPos_plyr_details)
 home_atkForPos, home_AtkFor = cal_atkFor_values(home_atkForPos_plyr_details, away_atkDefPos_plyr_details, home_rows, away_rows)
 home_defKepPos, home_DefKep = cal_defKep_values(away_atkKep_plyr_details)
 
