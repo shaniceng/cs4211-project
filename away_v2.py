@@ -324,10 +324,15 @@ def cal_defKep_values(defKep_plyr_details):
     atkKep_sequence_array = defKep_plyr_details['pos']
     defKepPos = process_sequence_to_formatted_array(atkKep_sequence_array)
 
+    prob_defending_value = 0
+    for i, position in enumerate(atkKep_sequence_array):
+        def_handling_value = round(0.3 * int(defKep_plyr_details['gk_diving'].iloc[i]) + 0.2 * int(defKep_plyr_details['gk_handling'].iloc[i]) + 0.05 * int(defKep_plyr_details['gk_kicking'].iloc[i]) + 0.2*int(defKep_plyr_details['gk_reflexes'].iloc[i]) + 0.05*int(defKep_plyr_details['gk_speed'].iloc[i]) + 0.2*int(defKep_plyr_details['gk_positioning'].iloc[i]))
+
+
     result = "DefKep = ["
     for i, position in enumerate(atkKep_sequence_array):
         result += f"pos[{position}] == 1]Kep_2("
-        result += "76, " # TODO: ask TA what is the calculated value ( Home team defenders, midfielders and forwards are already implicitly "defending" via the prob. to lose the ball parameter)
+        result += f"{def_handling_value},"
         result += f"{position}"
         result += ")"
         if i < len(atkKep_sequence_array) - 1:
@@ -405,6 +410,7 @@ away_atkForPos, away_AtkFor = cal_atkFor_values(away_atkForPos_plyr_details, hom
 away_defKepPos, away_DefKep = cal_defKep_values(home_atkKep_plyr_details)
 
 #Print to check
+print("Away team")
 print("atkKepPos" + str(away_atkKepPos) + "\n" + str(away_AtkKep))
 print("atkDefPos" + str(away_atkDefPos) + "\n" + str(away_AtkDef))
 print("atkMidPos" + str(away_atkMidPos) + "\n" + str(away_AtkMid))
@@ -422,6 +428,7 @@ home_atkForPos, home_AtkFor = cal_atkFor_values(home_atkForPos_plyr_details, awa
 home_defKepPos, home_DefKep = cal_defKep_values(away_atkKep_plyr_details)
 
 # Print to check
+print("Home team")
 print("atkKepPos" + str(home_atkKepPos) + "\n" + str(home_AtkKep))
 print("atkDefPos" + str(home_atkDefPos) + "\n" + str(home_AtkDef))
 print("atkMidPos" + str(home_atkMidPos) + "\n" + str(home_AtkMid))
