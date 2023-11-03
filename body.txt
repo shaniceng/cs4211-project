@@ -45,7 +45,7 @@ Mid(i, j, k, l, p) = [atkForPos[p-2] == 1 || atkForPos[p-1] == 1 || atkForPos[p]
 		if(num_mid_backpass < 2) {
 			pcase { 
 	            i: passForward -> UpdatePos(p, SP); AtkFor
-	            i: passBackward -> UpdatePos(p,SP); AtkDef
+	            i: passBackward{num_mid_backpass++;} -> UpdatePos(p,SP); AtkDef
 	        }
         } else {
         	pcase{
