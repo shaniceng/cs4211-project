@@ -1,0 +1,49 @@
+// NOTE: This will only produce probabilities of goal when the away team attacks while the home team defends 
+// A similar pcsp file will have to be generated from the home team POV to meaningfully compare which team has the higher chance of scoring during an attack
+
+// Position of players in grid
+// Left, LeftRight, and CenterLeft etc.
+#define L 6;
+#define LR 7;
+#define CL 8;
+#define C 9;
+#define CR 10;
+#define RL 11;
+#define R 12;
+
+// Grid of eligible positions that can receive the ball
+// This will change based on the previous position and the action taken
+// 1 means the position is eligible to receive the ball
+// 0 means the position is not eligible to receive the ball
+// See Individual Positions section for more info
+var pos = [-1(6), 0, 0, 0, 1, 0, 0, 0, -1(6)];
+
+// If the ball is in the air
+var inAir = false;
+
+// If there is penalty
+var penaltyGoal = false;
+var goal = false;
+
+// If middle is open for the keeper
+var midOpen = false;
+
+// Danger level for the attacking team
+// The lower the value, the lesser the danger
+var danger = 0;
+
+// Number of backpass for defender
+var num_def_backpass = 0;
+
+// Number of backpass for Mid
+var num_mid_backpass = 0;
+
+// Actions based on FIFA player ratings
+// ShortPass, LongPass, LongShot, Finishing, Volley, and Header, Penalty,backward, Keeper Volley
+enum {SP, LP, LS, FI, VO, HD, PN, BW, KVO};
+
+// Match URL: https://www.premierleague.com/match/12115
+
+// Soccer field grid
+// 1 means there is a player in that position
+// 0 means there is no player in that position
