@@ -1,71 +1,8 @@
-# generate_pcsp_for_match()
-
-#     find_match_and_teams(match_path, team_path, home_team, away_team)
-
-#     // Get info of match 
-#         - formation
-#         - Name
-#         - id 
-
-#     // Get info of team
-#         - all the player info in team 
-
-#     // Create dictionary for stat
-#     Example:
-#     4-3-3
-#     keeper: 1
-#     defender: 4
-#     midfielder: 3
-#     forward: 3
-
-#     Example:
-#     4-2-3-1
-#     keeper: 1
-#     defender: 4
-#     midfielder: 5
-#     forward: 1
-#     output: dictionary
-
-
-#     // Get player position
-#     output: Array
-#     Example: atkKepPos = [-1(6), 0, 0, 0, 1, 0, 0, 0, -1(6)] (For Def Mid For)
-
-
-# // Dynamic code (append)
-# input:
-# dictionary - data
-# Array - grid 
-# - dynamic macro
-# - dynamic grid
-# - dynamic attack and home team 
-
-
-# // Able to read multiple match
-# read_multiple_match(match_path, team_path) {
-
-#     generate_pcsp_for_match()
-# }
-
-
 import pandas as pd
 import sys
+import os
 
-# generate pcsp file
-def generate_pcsp(params, date, home_name, away_name):
-    file_name = '%s_%s_%s.pcsp' % (date, home_name.replace(' ', '-'), away_name.replace(' ', '-'))
-    # write to file
-    lines =[]
-    lines_1 = []
-    for key, value in keeper_stats.items():
-            lines_1.append('#define %s %s;\n' % (key, value))
-    with open('away.txt') as f:
-            lines_2 = f.readlines()
-
-    lines = lines_1 + lines_2
-    with open(file_name, 'w') as f:
-        f.writelines(lines)
-
+# Get match and team details
 def find_match_and_teams(match_path, team_path, home_team, away_team):
     # Read CSV files into dataframes
     match_df = pd.read_csv(match_path)
@@ -175,8 +112,9 @@ def cal_atkDef_values(atkDefPos_player_details, oppAtkForPos_player_details):
         total_max_values += max_value
     prob_lose_ball = round(total_max_values / len(oppAtkForPos_sequence_array))
 
-    result = "AtkDef = ["
+    result = "AtkDef = "
     for i, position in enumerate(atkDefPos_sequence_array):
+        result += f"["
         result += f"pos[{position}] == 1]Def("
         result += f"{atkDefPos_player_details['attacking_short_passing'].iloc[i]}, "
         result += f"{atkDefPos_player_details['skill_long_passing'].iloc[i]}, "
@@ -205,8 +143,9 @@ def cal_atkMid_values(atkMidPos_player_details, oppAtkMidPos_player_details):
         total_max_values += max_value
     prob_lose_ball = round(total_max_values / len(oppAtkMidPos_sequence_array))
 
-    result = "AtkMid = ["
+    result = "AtkMid = "
     for i, position in enumerate(atkMidPos_sequence_array):
+        result += f"["
         result += f"pos[{position}] == 1]Mid("
         result += f"{atkMidPos_player_details['attacking_short_passing'].iloc[i]}, "
         result += f"{atkMidPos_player_details['skill_long_passing'].iloc[i]}, "
@@ -238,12 +177,13 @@ def cal_atkFor_values(atkForPos_player_details, homeDefPos_player_details, away_
         "R": ["L", "LR"],
     }
 
-    result = "AtkFor = ["
+    result = "AtkFor = "
     for i, position in enumerate(atkForPos_sequence_array):
         positions_to_consider = position_switch.get(position)
         # Create a Series with 'mentality_aggression' values
         mentality_aggression_series = homeDefPos_player_details.loc[homeDefPos_sequence_array.isin(positions_to_consider), 'mentality_aggression']
         max_mentality_aggression = mentality_aggression_series.max()
+        result += f"["
         result += f"pos[{position}] == 1]For("
         result += f"{atkForPos_player_details['attacking_finishing'].iloc[i]}, "
         result += f"{atkForPos_player_details['power_long_shots'].iloc[i]}, "
@@ -260,31 +200,6 @@ def cal_atkFor_values(atkForPos_player_details, homeDefPos_player_details, away_
     
     result += ";"
     return atkForPos, result
-
-# XY old code -> now using cal_atkKepPos_values and cal_defKepPos_values method (can be removed?)
-def find_away_keeper_stats(away_xi_names_array, away_xi_ID_array, away_rows):
-    # Find Away Keeper
-    Keeper = away_xi_names_array[0]
-    Keeper_ID = away_xi_ID_array[0]
-    print("Away Keeper name: " + Keeper + ", ID: " + str(Keeper_ID))
-
-    # Atkkep Defkep Rating
-    keeper_id_int = int(Keeper_ID)
-    keeper_row = away_rows[away_rows['sofifa_id'] == keeper_id_int]
-    keeper_short_pass = keeper_row.iloc[0]['gk_kicking']
-    keeper_long_pass = keeper_row.iloc[0]['gk_kicking']
-    keeper_handling = keeper_row.iloc[0]['gk_handling']
-    print("Away Keeper short_pass: " + str(keeper_short_pass))
-    print("Away Keeper long_pass: " + str(keeper_long_pass))
-    print("Away Keeper handling: " + str(keeper_handling))
-
-    keeper_stats = {
-        'ATKKEP_SHORT_PASS': keeper_short_pass,
-        'ATKKEP_LONG_PASS': keeper_long_pass,
-        'DEFKEP_HANDLING': keeper_handling
-    }
-
-    return keeper_stats
 
 # Function to calculate the probabilities for each player in the atkKepPos
 def cal_atkKep_values(atkKep_plyr_details, atkMidPos_plyr_details):
@@ -324,10 +239,16 @@ def cal_defKep_values(defKep_plyr_details):
     atkKep_sequence_array = defKep_plyr_details['pos']
     defKepPos = process_sequence_to_formatted_array(atkKep_sequence_array)
 
-    result = "DefKep = ["
+    prob_defending_value = 0
     for i, position in enumerate(atkKep_sequence_array):
+        def_handling_value = round(0.3 * int(defKep_plyr_details['gk_diving'].iloc[i]) + 0.2 * int(defKep_plyr_details['gk_handling'].iloc[i]) + 0.05 * int(defKep_plyr_details['gk_kicking'].iloc[i]) + 0.2*int(defKep_plyr_details['gk_reflexes'].iloc[i]) + 0.05*int(defKep_plyr_details['gk_speed'].iloc[i]) + 0.2*int(defKep_plyr_details['gk_positioning'].iloc[i]))
+
+
+    result = "DefKep = "
+    for i, position in enumerate(atkKep_sequence_array):
+        result += f"["
         result += f"pos[{position}] == 1]Kep_2("
-        result += "76, " # TODO: ask TA what is the calculated value ( Home team defenders, midfielders and forwards are already implicitly "defending" via the prob. to lose the ball parameter)
+        result += f"{def_handling_value},"
         result += f"{position}"
         result += ")"
         if i < len(atkKep_sequence_array) - 1:
@@ -376,63 +297,135 @@ def process_sequence_to_formatted_array(sequence_array):
     return pos_array
 
 
-# Replace 'file1.csv' and 'file2.csv' with your actual file names
-match_path = 'Datasets/matches/epl_matches_20152016.csv'
-team_path = 'Datasets/ratings/epl_ratings_20152016.csv'
+# Generate pcsp file
+def generate_pcsp(input, date, home_name, away_name, output_folder, team):
+    output_folder = os.path.join('output', '%s_%s' % (date,team))
+    
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    
+    file_name = os.path.join(output_folder, '%s_%s_%s_%s.pcsp' % (date, home_name.replace(' ', '-'), away_name.replace(' ', '-'), team))
 
-home_team = 'AFC Bournemouth'
-away_team = 'Aston Villa'
+    lines_1 = []
+    with open('var.txt') as f:
+        lines_1 = f.readlines()
+
+    lines_2 = [input]  # Use a list to hold the input string
+
+    with open('body.txt') as f:
+        lines_3 = f.readlines()
+
+    lines = lines_1 + lines_2 + lines_3
+    with open(file_name, 'w') as f:
+        f.writelines(lines)
+
+def generate_match():
+    # Replace 'file1.csv' and 'file2.csv' with your actual file names
+    match_path = 'Datasets/matches/epl_matches_20152016.csv'
+    team_path = 'Datasets/ratings/epl_ratings_20152016.csv'
+
+    home_team = 'AFC Bournemouth'
+    away_team = 'Aston Villa'
+    date = '20152016'
+
+    matching_rows, home_rows, away_rows = find_match_and_teams(match_path, team_path, home_team, away_team)
+
+    # Get match details and team formation details
+    away_formation, away_xi_names_array, away_sequence_array, away_xi_ID_array = find_team_formation_and_rating(matching_rows, "away")
+    home_formation, home_xi_names_array, home_sequence_array, home_xi_ID_array = find_team_formation_and_rating(matching_rows, "home")
+
+    # Get player team details by their grid row positions
+    away_atkKep_plyr_details, away_atkDefPos_plyr_details, away_atkMidPos_plyr_details, away_atkForPos_plyr_details = team_player_details(matching_rows,away_sequence_array, away_xi_ID_array, away_rows, "away")
+    # print("away_atkKep_plyr_details: " + str(away_atkKep_plyr_details) + ", away_atkDefPos_plyr_details: " + str(away_atkDefPos_plyr_details) + ", away_atkMidPos_plyr_details: " + str(away_atkMidPos_plyr_details) + ", away_atkForPos_plyr_details: " + str(away_atkForPos_plyr_details) + ", away_defKepPos_plyr_details: ")
+    home_atkKep_plyr_details, home_atkDefPos_plyr_details, home_atkMidPos_plyr_details, home_atkForPos_plyr_details = team_player_details(matching_rows,home_sequence_array, home_xi_ID_array, home_rows, "home")
+    # print("home_atkKep_plyr_details: " + str(home_atkKep_plyr_details) + ", home_atkDefPos_plyr_details: " + str(home_atkDefPos_plyr_details) + ", home_atkMidPos_plyr_details: " + str(home_atkMidPos_plyr_details) + ", home_atkForPos_plyr_details: " + str(home_atkForPos_plyr_details) + ", home_defKepPos_plyr_details: ")
 
 
-matching_rows, home_rows, away_rows = find_match_and_teams(match_path, team_path, home_team, away_team)
+    # Define position grid and dynamic code for AWAY team
+    away_atkKepPos, away_AtkKep = cal_atkKep_values(away_atkKep_plyr_details, away_atkMidPos_plyr_details)
+    away_atkDefPos, away_AtkDef = cal_atkDef_values(away_atkDefPos_plyr_details, home_atkForPos_plyr_details)
+    away_atkMidPos, away_AtkMid = cal_atkMid_values(away_atkMidPos_plyr_details, home_atkMidPos_plyr_details)
+    away_atkForPos, away_AtkFor = cal_atkFor_values(away_atkForPos_plyr_details, home_atkDefPos_plyr_details, away_rows, home_rows)
+    away_defKepPos, away_DefKep = cal_defKep_values(home_atkKep_plyr_details)
 
-# Get match details and team formation details
-away_formation, away_xi_names_array, away_sequence_array, away_xi_ID_array = find_team_formation_and_rating(matching_rows, "away")
-home_formation, home_xi_names_array, home_sequence_array, home_xi_ID_array = find_team_formation_and_rating(matching_rows, "home")
-
-# Get player team details by their grid row positions
-away_atkKep_plyr_details, away_atkDefPos_plyr_details, away_atkMidPos_plyr_details, away_atkForPos_plyr_details = team_player_details(matching_rows,away_sequence_array, away_xi_ID_array, away_rows, "away")
-print("away_atkKep_plyr_details: " + str(away_atkKep_plyr_details) + ", away_atkDefPos_plyr_details: " + str(away_atkDefPos_plyr_details) + ", away_atkMidPos_plyr_details: " + str(away_atkMidPos_plyr_details) + ", away_atkForPos_plyr_details: " + str(away_atkForPos_plyr_details) + ", away_defKepPos_plyr_details: ")
-home_atkKep_plyr_details, home_atkDefPos_plyr_details, home_atkMidPos_plyr_details, home_atkForPos_plyr_details = team_player_details(matching_rows,home_sequence_array, home_xi_ID_array, home_rows, "home")
-print("home_atkKep_plyr_details: " + str(home_atkKep_plyr_details) + ", home_atkDefPos_plyr_details: " + str(home_atkDefPos_plyr_details) + ", home_atkMidPos_plyr_details: " + str(home_atkMidPos_plyr_details) + ", home_atkForPos_plyr_details: " + str(home_atkForPos_plyr_details) + ", home_defKepPos_plyr_details: ")
-
-
-# Define position grid and dynamic code for AWAY team
-away_atkKepPos, away_AtkKep = cal_atkKep_values(away_atkKep_plyr_details, away_atkMidPos_plyr_details)
-away_atkDefPos, away_AtkDef = cal_atkDef_values(away_atkDefPos_plyr_details, home_atkForPos_plyr_details)
-away_atkMidPos, away_AtkMid = cal_atkMid_values(away_atkMidPos_plyr_details, home_atkMidPos_plyr_details)
-away_atkForPos, away_AtkFor = cal_atkFor_values(away_atkForPos_plyr_details, home_atkDefPos_plyr_details, away_rows, home_rows)
-away_defKepPos, away_DefKep = cal_defKep_values(home_atkKep_plyr_details)
-
-#Print to check
-print("atkKepPos" + str(away_atkKepPos) + "\n" + str(away_AtkKep))
-print("atkDefPos" + str(away_atkDefPos) + "\n" + str(away_AtkDef))
-print("atkMidPos" + str(away_atkMidPos) + "\n" + str(away_AtkMid))
-print("atkForPos" + str(away_atkForPos) + "\n" + str(away_AtkFor))
-print("defKepPos" + str(away_defKepPos) + "\n" + str(away_DefKep))
+    #Print to check
+    # print("atkKepPos" + str(away_atkKepPos) + "\n" + str(away_AtkKep))
+    # print("atkDefPos" + str(away_atkDefPos) + "\n" + str(away_AtkDef))
+    # print("atkMidPos" + str(away_atkMidPos) + "\n" + str(away_AtkMid))
+    # print("atkForPos" + str(away_atkForPos) + "\n" + str(away_AtkFor))
+    # print("defKepPos" + str(away_defKepPos) + "\n" + str(away_DefKep))
 
 
-###
+    ###
 
-# Define position grid and dynamic code for HOME team
-home_atkKepPos, home_AtkKep = cal_atkKep_values(home_atkKep_plyr_details, home_atkMidPos_plyr_details)
-home_atkDefPos, home_AtkDef = cal_atkDef_values(home_atkDefPos_plyr_details, away_atkForPos_plyr_details)
-home_atkMidPos, home_AtkMid = cal_atkMid_values(home_atkMidPos_plyr_details, away_atkMidPos_plyr_details)
-home_atkForPos, home_AtkFor = cal_atkFor_values(home_atkForPos_plyr_details, away_atkDefPos_plyr_details, home_rows, away_rows)
-home_defKepPos, home_DefKep = cal_defKep_values(away_atkKep_plyr_details)
+    # Define position grid and dynamic code for HOME team
+    home_atkKepPos, home_AtkKep = cal_atkKep_values(home_atkKep_plyr_details, home_atkMidPos_plyr_details)
+    home_atkDefPos, home_AtkDef = cal_atkDef_values(home_atkDefPos_plyr_details, away_atkForPos_plyr_details)
+    home_atkMidPos, home_AtkMid = cal_atkMid_values(home_atkMidPos_plyr_details, away_atkMidPos_plyr_details)
+    home_atkForPos, home_AtkFor = cal_atkFor_values(home_atkForPos_plyr_details, away_atkDefPos_plyr_details, home_rows, away_rows)
+    home_defKepPos, home_DefKep = cal_defKep_values(away_atkKep_plyr_details)
 
-# Print to check
-print("atkKepPos" + str(home_atkKepPos) + "\n" + str(home_AtkKep))
-print("atkDefPos" + str(home_atkDefPos) + "\n" + str(home_AtkDef))
-print("atkMidPos" + str(home_atkMidPos) + "\n" + str(home_AtkMid))
-print("atkForPos" + str(home_atkForPos) + "\n" + str(home_AtkFor))
-print("defKepPos" + str(home_defKepPos) + "\n" + str(home_DefKep))
+    # Print to check
+    # print("atkKepPos" + str(home_atkKepPos) + "\n" + str(home_AtkKep))
+    # print("atkDefPos" + str(home_atkDefPos) + "\n" + str(home_AtkDef))
+    # print("atkMidPos" + str(home_atkMidPos) + "\n" + str(home_AtkMid))
+    # print("atkForPos" + str(home_atkForPos) + "\n" + str(home_AtkFor))
+    # print("defKepPos" + str(home_defKepPos) + "\n" + str(home_DefKep))
 
-# Generate pcsp file (to be completed)
-keeper_stats = find_away_keeper_stats(away_xi_names_array, away_xi_ID_array, away_rows)
-generate_pcsp(keeper_stats, '2015-08-08', 'AFC Bournemouth', 'Aston Villa')
-# TODO: function to read multiple matches
+    # Get away team's formation and stats
+    away_input = (
+    "var atkKepPos = " + str(away_atkKepPos) + ";\n" +
+    "var atkDefPos = " + str(away_atkDefPos) + ";\n" +
+    "var atkMidPos = " + str(away_atkMidPos) + ";\n" +
+    "var atkForPos = " + str(away_atkForPos) + ";\n" +
+    "var defKepPos = " + str(away_defKepPos) + ";\n" +
+    str(away_AtkKep) + "\n" +
+    str(away_AtkDef) + "\n" +
+    str(away_AtkMid) + "\n" +
+    str(away_AtkFor) + "\n" +
+    str(away_DefKep) + "\n"
+    )
+    # print(away_input)
+    home_input = (
+    "var atkKepPos = " + str(home_atkKepPos) + ";\n" +
+    "var atkDefPos = " + str(home_atkDefPos) + ";\n" +
+    "var atkMidPos = " + str(home_atkMidPos) + ";\n" +
+    "var atkForPos = " + str(home_atkForPos) + ";\n" +
+    "var defKepPos = " + str(home_defKepPos) + ";\n" +
+    str(home_AtkKep) + "\n" +
+    str(home_AtkDef) + "\n" +
+    str(home_AtkMid) + "\n" +
+    str(home_AtkFor) + "\n" +
+    str(home_DefKep) + "\n"
+    )
+    # print(home_input)
 
+    # Generate pcsp file (to be completed)
+    output_folder = 'Output'
+    generate_pcsp(away_input, date, home_team, away_team, output_folder, "away")
+    generate_pcsp(home_input, date, home_team, away_team, output_folder, "home")
+    
+def process_csv_files(folder_path):
+    files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
+    for file in files:
+        file_path = os.path.join(folder_path, file)
+        match_df = pd.read_csv(file_path)
+        file_parts = file.split('_')
+        date = file_parts[2].split('.')[0]
+        for index, row in match_df.iterrows():
+            home_team = row['home_team']
+            away_team = row['away_team']
+            # print(f"Home: {home_team}, Away: {away_team}, Date: {date}")
+
+            # Function to write to a file
+
+def main():
+    # folder_path = 'Datasets/matches'
+    # process_csv_files(folder_path)
+    generate_match()
+
+if __name__ == "__main__":
+    main()
 
 
 
