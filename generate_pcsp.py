@@ -348,24 +348,23 @@ def generate_match():
     away_atkForPos, away_AtkFor = cal_atkFor_values(away_atkForPos_plyr_details, home_atkDefPos_plyr_details, away_rows, home_rows)
     away_defKepPos, away_DefKep = cal_defKep_values(home_atkKep_plyr_details)
 
-    #Print to check
-    # print("atkKepPos" + str(away_atkKepPos) + "\n" + str(away_AtkKep))
-    # print("atkDefPos" + str(away_atkDefPos) + "\n" + str(away_AtkDef))
-    # print("atkMidPos" + str(away_atkMidPos) + "\n" + str(away_AtkMid))
-    # print("atkForPos" + str(away_atkForPos) + "\n" + str(away_AtkFor))
-    # print("defKepPos" + str(away_defKepPos) + "\n" + str(away_DefKep))
-
-
-    ###
-
     # Define position grid and dynamic code for HOME team
     home_atkKepPos, home_AtkKep = cal_atkKep_values(home_atkKep_plyr_details, home_atkMidPos_plyr_details)
     home_atkDefPos, home_AtkDef = cal_atkDef_values(home_atkDefPos_plyr_details, away_atkForPos_plyr_details)
     home_atkMidPos, home_AtkMid = cal_atkMid_values(home_atkMidPos_plyr_details, away_atkMidPos_plyr_details)
     home_atkForPos, home_AtkFor = cal_atkFor_values(home_atkForPos_plyr_details, away_atkDefPos_plyr_details, home_rows, away_rows)
     home_defKepPos, home_DefKep = cal_defKep_values(away_atkKep_plyr_details)
+    
+    #Print to check
+    # print("Away team")
+    # print("atkKepPos" + str(away_atkKepPos) + "\n" + str(away_AtkKep))
+    # print("atkDefPos" + str(away_atkDefPos) + "\n" + str(away_AtkDef))
+    # print("atkMidPos" + str(away_atkMidPos) + "\n" + str(away_AtkMid))
+    # print("atkForPos" + str(away_atkForPos) + "\n" + str(away_AtkFor))
+    # print("defKepPos" + str(away_defKepPos) + "\n" + str(away_DefKep))
 
-    # Print to check
+    # # Print to check
+    # print("Home team")
     # print("atkKepPos" + str(home_atkKepPos) + "\n" + str(home_AtkKep))
     # print("atkDefPos" + str(home_atkDefPos) + "\n" + str(home_AtkDef))
     # print("atkMidPos" + str(home_atkMidPos) + "\n" + str(home_AtkMid))
