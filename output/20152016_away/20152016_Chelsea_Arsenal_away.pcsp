@@ -49,13 +49,13 @@ enum {SP, LP, LS, FI, VO, HD, PN, BW, KVO};
 // 0 means there is no player in that position
 var atkKepPos = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, -1, -1, -1, -1, -1, -1];
 var atkDefPos = [-1, -1, -1, -1, -1, -1, 1, 0, 1, 0, 1, 0, 1, -1, -1, -1, -1, -1, -1];
-var atkMidPos = [-1, -1, -1, -1, -1, -1, 0, 1, 1, 1, 1, 1, 0, -1, -1, -1, -1, -1, -1];
-var atkForPos = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, -1, -1, -1, -1, -1, -1];
+var atkMidPos = [-1, -1, -1, -1, -1, -1, 0, 0, 1, 0, 1, 0, 0, -1, -1, -1, -1, -1, -1];
+var atkForPos = [-1, -1, -1, -1, -1, -1, 0, 1, 0, 1, 0, 1, 0, -1, -1, -1, -1, -1, -1];
 var defKepPos = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, -1, -1, -1, -1, -1, -1];
-AtkKep = [pos[C] == 1]Kep_1(73, 73, 29, C);
-AtkDef = [pos[R] == 1]Def(72, 59, 40, R) [] [pos[CR] == 1]Def(83, 64, 40, CR) [] [pos[CL] == 1]Def(75, 67, 40, CL) [] [pos[L] == 1]Def(77, 61, 40, L);
-AtkMid = [pos[CR] == 1]Mid(78, 72, 59, 59, CR) [] [pos[CL] == 1]Mid(86, 84, 82, 59, CL) [] [pos[RL] == 1]Mid(84, 82, 78, 59, RL) [] [pos[C] == 1]Mid(87, 80, 75, 59, C) [] [pos[LR] == 1]Mid(80, 73, 80, 59, LR);
-AtkFor = [pos[C] == 1]For(82, 67, 71, 53, 88, 78, 86, 64, C);
+AtkKep = [pos[C] == 1]Kep_1(73, 73, 14, C);
+AtkDef = [pos[R] == 1]Def(72, 59, 45, R) [] [pos[CR] == 1]Def(83, 64, 45, CR) [] [pos[CL] == 1]Def(75, 67, 45, CL) [] [pos[L] == 1]Def(77, 61, 45, L);
+AtkMid = [pos[CR] == 1]Mid(78, 72, 59, 77, CR) [] [pos[CL] == 1]Mid(86, 84, 82, 77, CL);
+AtkFor = [pos[RL] == 1]For(75, 78, 81, 58, 88, 78, 86, 68, RL) [] [pos[C] == 1]For(74, 75, 77, 54, 88, 78, 86, 65, C) [] [pos[LR] == 1]For(85, 80, 78, 60, 88, 90, 86, 68, LR) [] [pos[C] == 1]For(82, 67, 71, 53, 88, 78, 86, 64, C);
 DefKep = [pos[C] == 1]Kep_2(80,C);
 
 ///////////// Individual Positions /////////////
@@ -197,7 +197,7 @@ UpdatePos(p, e) = case {
 		case {
 			e == SP: {pos[L] = 0; pos[LR] = 1; pos[CL] = 1; pos[C] = 1; pos[CR] = 1; pos[RL] = 1; pos[R] = 0;} -> Skip
 			e == LP: {pos[L] = 1; pos[LR] = 0; pos[CL] = 0; pos[C] = 0; pos[CR] = 0; pos[RL] = 0; pos[R] = 1;} -> Skip
-			e == KVO: {pos[L] = 0; pos[LR] = 1; pos[CL] = 1; pos[C] = 1; pos[CR] = 1; pos[RL] = 1; pos[R] = 0; } -> Skip //Keeper volley to midfielders
+			e == KVO: {pos[L] = 0; pos[LR] = 0; pos[CL] = 1; pos[C] = 0; pos[CR] = 1; pos[RL] = 0; pos[R] = 0; } -> Skip //Keeper volley to midfielders
 			default: {pos[L] = 0; pos[LR] = 0; pos[CL] = 0; pos[C] = 1; pos[CR] = 0; pos[RL] = 0; pos[R] = 0;} -> Skip
 		}	
 	p == CR:

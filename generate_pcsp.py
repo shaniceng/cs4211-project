@@ -289,17 +289,23 @@ def cal_defKep_values(defKep_plyr_details):
 # Process formation string to dictionary containing the number of players in each position atkDefPos, atkMidPos, atkForPos
 def process_formation_to_dict(formation):
     positions = formation.split('-')
+    if (positions[-1] == '0'):
+        positions.pop()
     
-    if len(positions) == 3:
+    if len(positions) == 3: #def mid for
         atkDefPos = int(positions[0])
         atkMidPos = int(positions[1])
         atkForPos = int(positions[2])
-    elif len(positions) == 4:
+    elif len(positions) == 4: #def mid for for
         atkDefPos = int(positions[0])
-        atkMidPos = int(positions[1]) + int(positions[2]) # combine into 3 row formation
-        atkForPos = int(positions[3])
+        atkMidPos = int(positions[1])  
+        atkForPos = int(positions[2]) + int(positions[3]) 
+    elif len(positions) == 5: #def mid mid for for 
+        atkDefPos = int(positions[0])
+        atkMidPos = int(positions[1]) + int(positions[2])
+        atkForPos = int(positions[3]) + int(positions[4])
     else:
-        raise ValueError("Invalid input format. Must be in the format 'X-Y-Z' or 'X-Y-Z-W'.")
+        raise ValueError("Invalid input format. Must be in the format 'X-Y-Z' or 'X-Y-Z-W' or 'X-Y-Z-W-V.")
     
     return {"atkDefPos": atkDefPos, "atkMidPos": atkMidPos, "atkForPos": atkForPos}
 
