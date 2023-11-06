@@ -27,19 +27,19 @@ def extract_data(directory):
             probabilities_home = re.findall(r'The Assertion .* is Valid with Probability \[(.*?), (.*?)\];', data2)
 
             # Modify the output file path here
-            output_file_path = os.path.join(os.path.dirname(os.path.dirname(file1_path)), 'softmax_probabilities', os.path.splitext(os.path.basename(file1_path))[0].replace('_away', '') + '.txt')
+            output_file_path = os.path.join(os.path.dirname(os.path.dirname(file1_path)), 'softmax_probabilities', os.path.splitext(os.path.basename(file1_path))[0].replace('_away', '') + '.csv')
             os.makedirs(os.path.dirname(output_file_path), exist_ok=True)  # Ensure the directory exists
 
             with open(output_file_path, 'w') as f:
                 for match_away, probability_away, match_home, probability_home in zip(matches_away, probabilities_away, matches_home, probabilities_home):
                     average_probability_away = (float(probability_away[0]) + float(probability_away[1])) / 2
                     average_probability_home = (float(probability_home[0]) + float(probability_home[1])) / 2
-                    print("\n match 1: ", match_away)
-                    print('\navg prob 1: ', average_probability_away)
-                    print("\n match 2: ", match_home)
-                    print('\navg prob 2: ', average_probability_home)
+                    # print("\n match 1: ", match_away)
+                    # print('\navg prob 1: ', average_probability_away)
+                    # print("\n match 2: ", match_home)
+                    # print('\navg prob 2: ', average_probability_home)
                     softmax_probabilities = softmax(np.array([average_probability_home, average_probability_away]))
-                    print('\nsoftmax probabilities: ', softmax_probabilities[0])
+                    # print('\nsoftmax probabilities: ', softmax_probabilities[0])
                     match_away = match_away.replace('-', ' ')
                     match_home = match_home.replace('-', ' ')
                     info_array = match_away.split('_')
@@ -51,8 +51,9 @@ def extract_data(directory):
                     if not match_row.empty:
                         match_url = match_row['match_url'].values[0]
 
-                        f.write(f'Match: {match_away.replace("_away", "").replace("_home", "")}\n')
-                        f.write(f'Softmax Probability: {softmax_probabilities[0]}\n')
-                        f.write(f'Match Url: {match_url}\n\n')
+                        # f.write(f'Match: {match_away.replace("_away", "").replace("_home", "")}\n')
+                        # f.write(f'Softmax Probability: {softmax_probabilities[0]}\n')
+                        # f.write(f'Match Url: {match_url}\n\n')
+                        f.write(f'{match_url}, {softmax_probabilities[0]}\n')
 # Call the function with your directory path
 extract_data('probability_results')
