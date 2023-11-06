@@ -21,23 +21,28 @@ def extract_data(directory):
                 data1 = f1.read()
                 data2 = f2.read()
 
-            matches1 = re.findall(r'\*{3,}\n\*(.*?)\n\*{3,}', data1)
-            probabilities1 = re.findall(r'The Assertion .* is Valid with Probability \[(.*?), (.*?)\];', data1)
+            matches_away = re.findall(r'\*{3,}\n\*(.*?)\n\*{3,}', data1)
+            probabilities_away = re.findall(r'The Assertion .* is Valid with Probability \[(.*?), (.*?)\];', data1)
+            matches_home = re.findall(r'\*{3,}\n\*(.*?)\n\*{3,}', data2)
+            probabilities_home = re.findall(r'The Assertion .* is Valid with Probability \[(.*?), (.*?)\];', data2)
 
-            matches2 = re.findall(r'\*{3,}\n\*(.*?)\n\*{3,}', data2)
-            probabilities2 = re.findall(r'The Assertion .* is Valid with Probability \[(.*?), (.*?)\];', data2)
+            # Modify the output file path here
+            output_file_path = os.path.join(os.path.dirname(os.path.dirname(file1_path)), 'softmax_probabilities', os.path.splitext(os.path.basename(file1_path))[0].replace('_away', '') + '.txt')
+            os.makedirs(os.path.dirname(output_file_path), exist_ok=True)  # Ensure the directory exists
 
-            output_file_path = os.path.splitext(file1_path)[0].replace('_away', '') + '.txt'
             with open(output_file_path, 'w') as f:
-                for match1, probability1, match2, probability2 in zip(matches1, probabilities1, matches2, probabilities2):
-                    average_probability1 = (float(probability1[0]) + float(probability1[1])) / 2
-                    average_probability2 = (float(probability2[0]) + float(probability2[1])) / 2
-
-                    softmax_probabilities = softmax(np.array([average_probability1, average_probability2]))
-
-                    match1 = match1.replace('-', ' ')
-                    match2 = match2.replace('-', ' ')
-                    info_array = match1.split('_')
+                for match_away, probability_away, match_home, probability_home in zip(matches_away, probabilities_away, matches_home, probabilities_home):
+                    average_probability_away = (float(probability_away[0]) + float(probability_away[1])) / 2
+                    average_probability_home = (float(probability_home[0]) + float(probability_home[1])) / 2
+                    print("\n match 1: ", match_away)
+                    print('\navg prob 1: ', average_probability_away)
+                    print("\n match 2: ", match_home)
+                    print('\navg prob 2: ', average_probability_home)
+                    softmax_probabilities = softmax(np.array([average_probability_home, average_probability_away]))
+                    print('\nsoftmax probabilities: ', softmax_probabilities[0])
+                    match_away = match_away.replace('-', ' ')
+                    match_home = match_home.replace('-', ' ')
+                    info_array = match_away.split('_')
                     year = info_array[0]
                     team1 = info_array[2]
                     team2 = info_array[3]
@@ -46,7 +51,7 @@ def extract_data(directory):
                     if not match_row.empty:
                         match_url = match_row['match_url'].values[0]
 
-                        f.write(f'Match: {match1.replace("_away", "").replace("_home", "")}\n')
+                        f.write(f'Match: {match_away.replace("_away", "").replace("_home", "")}\n')
                         f.write(f'Softmax Probability: {softmax_probabilities[0]}\n')
                         f.write(f'Match Url: {match_url}\n\n')
 # Call the function with your directory path
