@@ -1,2280 +1,1520 @@
-Match: 20152016\20152016_AFC-Bournemouth_Crystal-Palace.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Crystal Palace.pcsp
 Softmax Probability: 0.4985175043443151
+Match Url: https://www.premierleague.com/match/12286
 
-Match: 20152016\20152016_Southampton_Manchester-United.pcsp
-Softmax Probability: 0.5014824956556849
-
-Match: 20152016\20152016_Sunderland_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Sunderland_AFC Bournemouth.pcsp
 Softmax Probability: 0.494637705598845
+Match Url: https://www.premierleague.com/match/12339
 
-Match: 20152016\20152016_Norwich-City_Southampton.pcsp
-Softmax Probability: 0.505362294401155
-
-Match: 20152016\20152016_Crystal-Palace_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Crystal Palace_AFC Bournemouth.pcsp
 Softmax Probability: 0.4922906110272329
+Match Url: https://www.premierleague.com/match/12346
 
-Match: 20152016\20152016_Tottenham-Hotspur_Liverpool.pcsp
-Softmax Probability: 0.5077093889727671
-
-Match: 20152016\20152016_West-Ham-United_Crystal-Palace.pcsp
+Match: 20152016\20152016_West Ham United_Crystal Palace.pcsp
 Softmax Probability: 0.5155837010184131
+Match Url: https://www.premierleague.com/match/12425
 
-Match: 20152016\20152016_Tottenham-Hotspur_Manchester-City.pcsp
-Softmax Probability: 0.4844162989815869
-
-Match: 20152016\20152016_Aston-Villa_Swansea-City.pcsp
+Match: 20152016\20152016_Aston Villa_Swansea City.pcsp
 Softmax Probability: 0.4972200286462485
+Match Url: https://www.premierleague.com/match/12206
 
-Match: 20152016\20152016_AFC-Bournemouth_Watford.pcsp
-Softmax Probability: 0.5027799713537516
-
-Match: 20152016\20152016_Norwich-City_Leicester-City.pcsp
+Match: 20152016\20152016_Norwich City_Leicester City.pcsp
 Softmax Probability: 0.518017195611995
+Match Url: https://www.premierleague.com/match/12190
 
-Match: 20152016\20152016_Liverpool_Manchester-United.pcsp
-Softmax Probability: 0.48198280438800506
-
-Match: 20152016\20152016_Tottenham-Hotspur_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_West Bromwich Albion.pcsp
 Softmax Probability: 0.48901052009289026
+Match Url: https://www.premierleague.com/match/12460
 
-Match: 20152016\20152016_Manchester-United_Crystal-Palace.pcsp
-Softmax Probability: 0.5109894799071096
-
-Match: 20152016\20152016_Everton_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Everton_AFC Bournemouth.pcsp
 Softmax Probability: 0.48814347309370515
+Match Url: https://www.premierleague.com/match/12462
 
-Match: 20152016\20152016_Norwich-City_Chelsea.pcsp
-Softmax Probability: 0.5118565269062949
-
-Match: 20152016\20152016_West-Ham-United_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_West Ham United_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4966350508026157
+Match Url: https://www.premierleague.com/match/12392
 
-Match: 20152016\20152016_Swansea-City_Watford.pcsp
-Softmax Probability: 0.5033649491973842
-
-Match: 20152016\20152016_Newcastle-United_Leicester-City.pcsp
+Match: 20152016\20152016_Newcastle United_Leicester City.pcsp
 Softmax Probability: 0.518328034448216
+Match Url: https://www.premierleague.com/match/12238
 
-Match: 20152016\20152016_Chelsea_Stoke-City.pcsp
-Softmax Probability: 0.48167196555178415
-
-Match: 20152016\20152016_Liverpool_Norwich-City.pcsp
+Match: 20152016\20152016_Liverpool_Norwich City.pcsp
 Softmax Probability: 0.5034536950708167
+Match Url: https://www.premierleague.com/match/12172
 
-Match: 20152016\20152016_Watford_Swansea-City.pcsp
-Softmax Probability: 0.49654630492918334
-
-Match: 20152016\20152016_Sunderland_Stoke-City.pcsp
+Match: 20152016\20152016_Sunderland_Stoke City.pcsp
 Softmax Probability: 0.5121038848111563
+Match Url: https://www.premierleague.com/match/12250
 
-Match: 20152016\20152016_Tottenham-Hotspur_Swansea-City.pcsp
-Softmax Probability: 0.4878961151888436
-
-Match: 20152016\20152016_Leicester-City_Liverpool.pcsp
+Match: 20152016\20152016_Leicester City_Liverpool.pcsp
 Softmax Probability: 0.5046636147524491
+Match Url: https://www.premierleague.com/match/12347
 
-Match: 20152016\20152016_Liverpool_Watford.pcsp
-Softmax Probability: 0.49533638524755075
-
-Match: 20152016\20152016_Sunderland_Norwich-City.pcsp
+Match: 20152016\20152016_Sunderland_Norwich City.pcsp
 Softmax Probability: 0.5139726110590628
+Match Url: https://www.premierleague.com/match/12127
 
-Match: 20152016\20152016_Tottenham-Hotspur_Everton.pcsp
-Softmax Probability: 0.4860273889409372
-
-Match: 20152016\20152016_Manchester-City_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Manchester City_Tottenham Hotspur.pcsp
 Softmax Probability: 0.48446625056675907
+Match Url: https://www.premierleague.com/match/12374
 
-Match: 20152016\20152016_Chelsea_Sunderland.pcsp
-Softmax Probability: 0.5155337494332409
-
-Match: 20152016\20152016_West-Ham-United_Everton.pcsp
+Match: 20152016\20152016_West Ham United_Everton.pcsp
 Softmax Probability: 0.49623507115801563
+Match Url: https://www.premierleague.com/match/12231
 
-Match: 20152016\20152016_Tottenham-Hotspur_Leicester-City.pcsp
-Softmax Probability: 0.5037649288419844
-
-Match: 20152016\20152016_Leicester-City_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Leicester City_West Bromwich Albion.pcsp
 Softmax Probability: 0.5120439197982165
+Match Url: https://www.premierleague.com/match/12385
 
-Match: 20152016\20152016_Norwich-City_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.48795608020178355
-
-Match: 20152016\20152016_Newcastle-United_Southampton.pcsp
+Match: 20152016\20152016_Newcastle United_Southampton.pcsp
 Softmax Probability: 0.5006324996626195
+Match Url: https://www.premierleague.com/match/12122
 
-Match: 20152016\20152016_Newcastle-United_Norwich-City.pcsp
-Softmax Probability: 0.49936750033738053
-
-Match: 20152016\20152016_Tottenham-Hotspur_West-Ham-United.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_West Ham United.pcsp
 Softmax Probability: 0.46317430489538725
+Match Url: https://www.premierleague.com/match/12243
 
-Match: 20152016\20152016_Newcastle-United_Sunderland.pcsp
-Softmax Probability: 0.5368256951046128
-
-Match: 20152016\20152016_Manchester-United_Stoke-City.pcsp
+Match: 20152016\20152016_Manchester United_Stoke City.pcsp
 Softmax Probability: 0.49404278190723905
+Match Url: https://www.premierleague.com/match/12348
 
-Match: 20152016\20152016_Crystal-Palace_Leicester-City.pcsp
-Softmax Probability: 0.5059572180927611
-
-Match: 20152016\20152016_Arsenal_Stoke-City.pcsp
+Match: 20152016\20152016_Arsenal_Stoke City.pcsp
 Softmax Probability: 0.49780751405251966
+Match Url: https://www.premierleague.com/match/12155
 
-Match: 20152016\20152016_Manchester-City_West-Ham-United.pcsp
-Softmax Probability: 0.5021924859474803
-
-Match: 20152016\20152016_AFC-Bournemouth_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Tottenham Hotspur.pcsp
 Softmax Probability: 0.5007774993733292
+Match Url: https://www.premierleague.com/match/12211
 
-Match: 20152016\20152016_Newcastle-United_Stoke-City.pcsp
-Softmax Probability: 0.4992225006266709
-
-Match: 20152016\20152016_Manchester-United_Sunderland.pcsp
+Match: 20152016\20152016_Manchester United_Sunderland.pcsp
 Softmax Probability: 0.4892891388209498
-
-Match: 20152016\20152016_Chelsea_Crystal-Palace.pcsp
-Softmax Probability: 0.5107108611790502
+Match Url: https://www.premierleague.com/match/12177
 
 Match: 20152016\20152016_Arsenal_Sunderland.pcsp
 Softmax Probability: 0.5166188760492957
+Match Url: https://www.premierleague.com/match/12255
 
-Match: 20152016\20152016_Sunderland_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.4833811239507043
-
-Match: 20152016\20152016_Chelsea_Aston-Villa.pcsp
+Match: 20152016\20152016_Chelsea_Aston Villa.pcsp
 Softmax Probability: 0.4955351186832071
+Match Url: https://www.premierleague.com/match/12195
 
-Match: 20152016\20152016_Liverpool_Southampton.pcsp
-Softmax Probability: 0.5044648813167929
-
-Match: 20152016\20152016_Watford_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Watford_West Bromwich Albion.pcsp
 Softmax Probability: 0.4996525000559504
+Match Url: https://www.premierleague.com/match/12130
 
-Match: 20152016\20152016_Stoke-City_Arsenal.pcsp
-Softmax Probability: 0.5003474999440496
-
-Match: 20152016\20152016_Leicester-City_Crystal-Palace.pcsp
+Match: 20152016\20152016_Leicester City_Crystal Palace.pcsp
 Softmax Probability: 0.5251998803813408
+Match Url: https://www.premierleague.com/match/12207
 
-Match: 20152016\20152016_AFC-Bournemouth_Stoke-City.pcsp
-Softmax Probability: 0.47480011961865914
-
-Match: 20152016\20152016_Swansea-City_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Swansea City_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4947276954200794
+Match Url: https://www.premierleague.com/match/12194
 
-Match: 20152016\20152016_Norwich-City_Newcastle-United.pcsp
-Softmax Probability: 0.5052723045799206
-
-Match: 20152016\20152016_Aston-Villa_Liverpool.pcsp
+Match: 20152016\20152016_Aston Villa_Liverpool.pcsp
 Softmax Probability: 0.5016024945130492
+Match Url: https://www.premierleague.com/match/12373
 
-Match: 20152016\20152016_AFC-Bournemouth_Sunderland.pcsp
-Softmax Probability: 0.4983975054869508
-
-Match: 20152016\20152016_Arsenal_Manchester-United.pcsp
+Match: 20152016\20152016_Arsenal_Manchester United.pcsp
 Softmax Probability: 0.5054760310385316
+Match Url: https://www.premierleague.com/match/12192
 
-Match: 20152016\20152016_Southampton_Arsenal.pcsp
-Softmax Probability: 0.49452396896146844
-
-Match: 20152016\20152016_Leicester-City_West-Ham-United.pcsp
+Match: 20152016\20152016_Leicester City_West Ham United.pcsp
 Softmax Probability: 0.46561436316941107
+Match Url: https://www.premierleague.com/match/12447
 
-Match: 20152016\20152016_Arsenal_Aston-Villa.pcsp
-Softmax Probability: 0.5343856368305889
-
-Match: 20152016\20152016_Leicester-City_Norwich-City.pcsp
+Match: 20152016\20152016_Leicester City_Norwich City.pcsp
 Softmax Probability: 0.5207817705508283
+Match Url: https://www.premierleague.com/match/12375
 
-Match: 20152016\20152016_Crystal-Palace_Liverpool.pcsp
-Softmax Probability: 0.47921822944917175
-
-Match: 20152016\20152016_Crystal-Palace_Stoke-City.pcsp
+Match: 20152016\20152016_Crystal Palace_Stoke City.pcsp
 Softmax Probability: 0.4895477729271764
+Match Url: https://www.premierleague.com/match/12473
 
-Match: 20152016\20152016_Everton_Arsenal.pcsp
-Softmax Probability: 0.5104522270728237
-
-Match: 20152016\20152016_Chelsea_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Chelsea_West Bromwich Albion.pcsp
 Softmax Probability: 0.49988500000202785
+Match Url: https://www.premierleague.com/match/12318
 
-Match: 20152016\20152016_Everton_Manchester-United.pcsp
-Softmax Probability: 0.5001149999979722
-
-Match: 20152016\20152016_Crystal-Palace_Everton.pcsp
+Match: 20152016\20152016_Crystal Palace_Everton.pcsp
 Softmax Probability: 0.5093739015216607
+Match Url: https://www.premierleague.com/match/12438
 
-Match: 20152016\20152016_West-Bromwich-Albion_Chelsea.pcsp
-Softmax Probability: 0.49062609847833927
-
-Match: 20152016\20152016_Crystal-Palace_Sunderland.pcsp
+Match: 20152016\20152016_Crystal Palace_Sunderland.pcsp
 Softmax Probability: 0.503413696957281
+Match Url: https://www.premierleague.com/match/12244
 
-Match: 20152016\20152016_Sunderland_Leicester-City.pcsp
-Softmax Probability: 0.49658630304271906
-
-Match: 20152016\20152016_Manchester-United_Aston-Villa.pcsp
+Match: 20152016\20152016_Manchester United_Aston Villa.pcsp
 Softmax Probability: 0.48752009259813794
+Match Url: https://www.premierleague.com/match/12441
 
-Match: 20152016\20152016_Aston-Villa_Stoke-City.pcsp
-Softmax Probability: 0.512479907401862
-
-Match: 20152016\20152016_Stoke-City_Norwich-City.pcsp
+Match: 20152016\20152016_Stoke City_Norwich City.pcsp
 Softmax Probability: 0.50420990051154
-
-Match: 20152016\20152016_Norwich-City_West-Ham-United.pcsp
-Softmax Probability: 0.49579009948846
+Match Url: https://www.premierleague.com/match/12322
 
 Match: 20152016\20152016_Watford_Liverpool.pcsp
 Softmax Probability: 0.5107458450653773
+Match Url: https://www.premierleague.com/match/12283
 
-Match: 20152016\20152016_Swansea-City_Crystal-Palace.pcsp
-Softmax Probability: 0.48925415493462265
-
-Match: 20152016\20152016_Swansea-City_Manchester-City.pcsp
+Match: 20152016\20152016_Swansea City_Manchester City.pcsp
 Softmax Probability: 0.5027462223844494
+Match Url: https://www.premierleague.com/match/12491
 
-Match: 20152016\20152016_Aston-Villa_Sunderland.pcsp
-Softmax Probability: 0.4972537776155505
-
-Match: 20152016\20152016_Leicester-City_Newcastle-United.pcsp
+Match: 20152016\20152016_Leicester City_Newcastle United.pcsp
 Softmax Probability: 0.49904875114768343
+Match Url: https://www.premierleague.com/match/12407
 
-Match: 20152016\20152016_Southampton_West-Ham-United.pcsp
-Softmax Probability: 0.5009512488523166
-
-Match: 20152016\20152016_Chelsea_Manchester-United.pcsp
+Match: 20152016\20152016_Chelsea_Manchester United.pcsp
 Softmax Probability: 0.5026424753975208
+Match Url: https://www.premierleague.com/match/12364
 
-Match: 20152016\20152016_Aston-Villa_Manchester-United.pcsp
-Softmax Probability: 0.4973575246024792
-
-Match: 20152016\20152016_Manchester-United_Chelsea.pcsp
+Match: 20152016\20152016_Manchester United_Chelsea.pcsp
 Softmax Probability: 0.4881984423098764
+Match Url: https://www.premierleague.com/match/12298
 
-Match: 20152016\20152016_Liverpool_Leicester-City.pcsp
-Softmax Probability: 0.5118015576901236
-
-Match: 20152016\20152016_Norwich-City_Manchester-City.pcsp
+Match: 20152016\20152016_Norwich City_Manchester City.pcsp
 Softmax Probability: 0.5082942390780743
+Match Url: https://www.premierleague.com/match/12404
 
-Match: 20152016\20152016_AFC-Bournemouth_Aston-Villa.pcsp
-Softmax Probability: 0.49170576092192575
-
-Match: 20152016\20152016_Southampton_Manchester-City.pcsp
+Match: 20152016\20152016_Southampton_Manchester City.pcsp
 Softmax Probability: 0.49519639779641317
-
-Match: 20152016\20152016_Everton_Aston-Villa.pcsp
-Softmax Probability: 0.5048036022035868
+Match Url: https://www.premierleague.com/match/12468
 
 Match: 20152016\20152016_Watford_Chelsea.pcsp
 Softmax Probability: 0.49085976835086054
-
-Match: 20152016\20152016_Crystal-Palace_Norwich-City.pcsp
-Softmax Probability: 0.5091402316491394
+Match Url: https://www.premierleague.com/match/12354
 
 Match: 20152016\20152016_Chelsea_Arsenal.pcsp
 Softmax Probability: 0.4853304612642248
+Match Url: https://www.premierleague.com/match/12167
 
-Match: 20152016\20152016_Manchester-City_Aston-Villa.pcsp
-Softmax Probability: 0.5146695387357753
-
-Match: 20152016\20152016_Leicester-City_Arsenal.pcsp
+Match: 20152016\20152016_Leicester City_Arsenal.pcsp
 Softmax Probability: 0.5192816833182872
-
-Match: 20152016\20152016_Southampton_Leicester-City.pcsp
-Softmax Probability: 0.48071831668171283
+Match Url: https://www.premierleague.com/match/12175
 
 Match: 20152016\20152016_Sunderland_Watford.pcsp
 Softmax Probability: 0.5006287496685847
+Match Url: https://www.premierleague.com/match/12269
 
-Match: 20152016\20152016_Leicester-City_Manchester-City.pcsp
-Softmax Probability: 0.4993712503314152
-
-Match: 20152016\20152016_West-Ham-United_Swansea-City.pcsp
+Match: 20152016\20152016_West Ham United_Swansea City.pcsp
 Softmax Probability: 0.4952613918778261
+Match Url: https://www.premierleague.com/match/12477
 
-Match: 20152016\20152016_Crystal-Palace_Aston-Villa.pcsp
-Softmax Probability: 0.504738608122174
-
-Match: 20152016\20152016_Chelsea_Norwich-City.pcsp
+Match: 20152016\20152016_Chelsea_Norwich City.pcsp
 Softmax Probability: 0.5013537466920962
+Match Url: https://www.premierleague.com/match/12235
 
-Match: 20152016\20152016_Newcastle-United_Liverpool.pcsp
-Softmax Probability: 0.4986462533079038
-
-Match: 20152016\20152016_Newcastle-United_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Newcastle United_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4905861125976011
+Match Url: https://www.premierleague.com/match/12488
 
-Match: 20152016\20152016_Everton_Stoke-City.pcsp
-Softmax Probability: 0.5094138874023989
-
-Match: 20152016\20152016_West-Bromwich-Albion_Manchester-United.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Manchester United.pcsp
 Softmax Probability: 0.5047423577850912
+Match Url: https://www.premierleague.com/match/12402
 
-Match: 20152016\20152016_Manchester-City_Watford.pcsp
-Softmax Probability: 0.49525764221490876
-
-Match: 20152016\20152016_Aston-Villa_Arsenal.pcsp
+Match: 20152016\20152016_Aston Villa_Arsenal.pcsp
 Softmax Probability: 0.4923905875603317
+Match Url: https://www.premierleague.com/match/12271
 
-Match: 20152016\20152016_Watford_Sunderland.pcsp
-Softmax Probability: 0.5076094124396682
-
-Match: 20152016\20152016_Watford_Aston-Villa.pcsp
+Match: 20152016\20152016_Watford_Aston Villa.pcsp
 Softmax Probability: 0.5039774161007056
+Match Url: https://www.premierleague.com/match/12465
 
-Match: 20152016\20152016_Newcastle-United_Chelsea.pcsp
-Softmax Probability: 0.49602258389929443
-
-Match: 20152016\20152016_Leicester-City_Southampton.pcsp
+Match: 20152016\20152016_Leicester City_Southampton.pcsp
 Softmax Probability: 0.5064721384854306
+Match Url: https://www.premierleague.com/match/12426
 
-Match: 20152016\20152016_Everton_Sunderland.pcsp
-Softmax Probability: 0.4935278615145694
-
-Match: 20152016\20152016_Everton_West-Ham-United.pcsp
+Match: 20152016\20152016_Everton_West Ham United.pcsp
 Softmax Probability: 0.4664081778031764
+Match Url: https://www.premierleague.com/match/12394
 
-Match: 20152016\20152016_Manchester-City_Newcastle-United.pcsp
-Softmax Probability: 0.5335918221968236
-
-Match: 20152016\20152016_Crystal-Palace_West-Ham-United.pcsp
+Match: 20152016\20152016_Crystal Palace_West Ham United.pcsp
 Softmax Probability: 0.4595759233435813
+Match Url: https://www.premierleague.com/match/12196
 
-Match: 20152016\20152016_Watford_Stoke-City.pcsp
-Softmax Probability: 0.5404240766564188
-
-Match: 20152016\20152016_AFC-Bournemouth_Newcastle-United.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Newcastle United.pcsp
 Softmax Probability: 0.4922468714874242
+Match Url: https://www.premierleague.com/match/12225
 
-Match: 20152016\20152016_Arsenal_Crystal-Palace.pcsp
-Softmax Probability: 0.5077531285125758
-
-Match: 20152016\20152016_Sunderland_West-Ham-United.pcsp
+Match: 20152016\20152016_Sunderland_West Ham United.pcsp
 Softmax Probability: 0.47095648157188563
+Match Url: https://www.premierleague.com/match/12191
 
-Match: 20152016\20152016_Swansea-City_West-Ham-United.pcsp
-Softmax Probability: 0.5290435184281143
-
-Match: 20152016\20152016_Stoke-City_Newcastle-United.pcsp
+Match: 20152016\20152016_Stoke City_Newcastle United.pcsp
 Softmax Probability: 0.5007687493942496
+Match Url: https://www.premierleague.com/match/12391
 
-Match: 20152016\20152016_Liverpool_Sunderland.pcsp
-Softmax Probability: 0.4992312506057504
-
-Match: 20152016\20152016_Crystal-Palace_Manchester-United.pcsp
+Match: 20152016\20152016_Crystal Palace_Manchester United.pcsp
 Softmax Probability: 0.507668148727123
+Match Url: https://www.premierleague.com/match/12216
 
-Match: 20152016\20152016_Liverpool_Stoke-City.pcsp
-Softmax Probability: 0.4923318512728771
-
-Match: 20152016\20152016_Manchester-City_Crystal-Palace.pcsp
+Match: 20152016\20152016_Manchester City_Crystal Palace.pcsp
 Softmax Probability: 0.5142973513106007
+Match Url: https://www.premierleague.com/match/12328
 
-Match: 20152016\20152016_Arsenal_Everton.pcsp
-Softmax Probability: 0.48570264868939916
-
-Match: 20152016\20152016_Manchester-City_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Manchester City_West Bromwich Albion.pcsp
 Softmax Probability: 0.5020412386597028
+Match Url: https://www.premierleague.com/match/12430
 
-Match: 20152016\20152016_Everton_Liverpool.pcsp
-Softmax Probability: 0.4979587613402971
-
-Match: 20152016\20152016_Crystal-Palace_Swansea-City.pcsp
+Match: 20152016\20152016_Crystal Palace_Swansea City.pcsp
 Softmax Probability: 0.49344912487064435
+Match Url: https://www.premierleague.com/match/12296
 
-Match: 20152016\20152016_Leicester-City_Swansea-City.pcsp
-Softmax Probability: 0.5065508751293556
-
-Match: 20152016\20152016_Tottenham-Hotspur_Aston-Villa.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Aston Villa.pcsp
 Softmax Probability: 0.49977750001468685
+Match Url: https://www.premierleague.com/match/12224
 
-Match: 20152016\20152016_Tottenham-Hotspur_Arsenal.pcsp
-Softmax Probability: 0.5002224999853132
-
-Match: 20152016\20152016_West-Ham-United_Arsenal.pcsp
+Match: 20152016\20152016_West Ham United_Arsenal.pcsp
 Softmax Probability: 0.5065208802554882
+Match Url: https://www.premierleague.com/match/12434
 
-Match: 20152016\20152016_Stoke-City_Swansea-City.pcsp
-Softmax Probability: 0.4934791197445117
-
-Match: 20152016\20152016_Everton_Newcastle-United.pcsp
+Match: 20152016\20152016_Everton_Newcastle United.pcsp
 Softmax Probability: 0.48937410012386834
+Match Url: https://www.premierleague.com/match/12353
 
-Match: 20152016\20152016_Stoke-City_Leicester-City.pcsp
-Softmax Probability: 0.5106258998761317
-
-Match: 20152016\20152016_Tottenham-Hotspur_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_AFC Bournemouth.pcsp
 Softmax Probability: 0.4868630241607541
-
-Match: 20152016\20152016_Leicester-City_Stoke-City.pcsp
-Softmax Probability: 0.5131369758392459
+Match Url: https://www.premierleague.com/match/12417
 
 Match: 20152016\20152016_Sunderland_Southampton.pcsp
 Softmax Probability: 0.49552011988333955
+Match Url: https://www.premierleague.com/match/12230
 
-Match: 20152016\20152016_Leicester-City_Sunderland.pcsp
-Softmax Probability: 0.5044798801166605
-
-Match: 20152016\20152016_Swansea-City_Liverpool.pcsp
+Match: 20152016\20152016_Swansea City_Liverpool.pcsp
 Softmax Probability: 0.4861335565954104
-
-Match: 20152016\20152016_Crystal-Palace_Manchester-City.pcsp
-Softmax Probability: 0.5138664434045895
+Match Url: https://www.premierleague.com/match/12469
 
 Match: 20152016\20152016_Sunderland_Chelsea.pcsp
 Softmax Probability: 0.4857426160744617
+Match Url: https://www.premierleague.com/match/12476
 
-Match: 20152016\20152016_West-Bromwich-Albion_Newcastle-United.pcsp
-Softmax Probability: 0.5142573839255383
-
-Match: 20152016\20152016_Crystal-Palace_Arsenal.pcsp
+Match: 20152016\20152016_Crystal Palace_Arsenal.pcsp
 Softmax Probability: 0.5132106746419589
+Match Url: https://www.premierleague.com/match/12132
 
-Match: 20152016\20152016_Everton_Manchester-City.pcsp
-Softmax Probability: 0.4867893253580411
-
-Match: 20152016\20152016_Tottenham-Hotspur_Norwich-City.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Norwich City.pcsp
 Softmax Probability: 0.49975375001990985
+Match Url: https://www.premierleague.com/match/12294
 
-Match: 20152016\20152016_Stoke-City_Everton.pcsp
-Softmax Probability: 0.5002462499800902
-
-Match: 20152016\20152016_Leicester-City_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Leicester City_AFC Bournemouth.pcsp
 Softmax Probability: 0.48875939426008025
+Match Url: https://www.premierleague.com/match/12306
 
-Match: 20152016\20152016_Liverpool_Chelsea.pcsp
-Softmax Probability: 0.5112406057399198
-
-Match: 20152016\20152016_Watford_Norwich-City.pcsp
+Match: 20152016\20152016_Watford_Norwich City.pcsp
 Softmax Probability: 0.5017362430213178
+Match Url: https://www.premierleague.com/match/12261
 
-Match: 20152016\20152016_Chelsea_Liverpool.pcsp
-Softmax Probability: 0.49826375697868214
-
-Match: 20152016\20152016_Stoke-City_Southampton.pcsp
+Match: 20152016\20152016_Stoke City_Southampton.pcsp
 Softmax Probability: 0.49797501107161485
+Match Url: https://www.premierleague.com/match/12405
 
-Match: 20152016\20152016_Norwich-City_Watford.pcsp
-Softmax Probability: 0.5020249889283851
-
-Match: 20152016\20152016_Southampton_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Southampton_West Bromwich Albion.pcsp
 Softmax Probability: 0.496563804098446
+Match Url: https://www.premierleague.com/match/12330
 
-Match: 20152016\20152016_Swansea-City_Chelsea.pcsp
-Softmax Probability: 0.503436195901554
-
-Match: 20152016\20152016_Newcastle-United_Swansea-City.pcsp
+Match: 20152016\20152016_Newcastle United_Swansea City.pcsp
 Softmax Probability: 0.4807545128742682
+Match Url: https://www.premierleague.com/match/12442
 
-Match: 20152016\20152016_Watford_Crystal-Palace.pcsp
-Softmax Probability: 0.5192454871257318
-
-Match: 20152016\20152016_Manchester-United_Watford.pcsp
+Match: 20152016\20152016_Manchester United_Watford.pcsp
 Softmax Probability: 0.53647135905806
+Match Url: https://www.premierleague.com/match/12390
 
-Match: 20152016\20152016_West-Ham-United_Norwich-City.pcsp
-Softmax Probability: 0.46352864094194
-
-Match: 20152016\20152016_Liverpool_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Liverpool_West Bromwich Albion.pcsp
 Softmax Probability: 0.4899463552353262
+Match Url: https://www.premierleague.com/match/12272
 
-Match: 20152016\20152016_AFC-Bournemouth_Chelsea.pcsp
-Softmax Probability: 0.5100536447646739
-
-Match: 20152016\20152016_Newcastle-United_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Newcastle United_West Bromwich Albion.pcsp
 Softmax Probability: 0.503942418296052
+Match Url: https://www.premierleague.com/match/12358
 
-Match: 20152016\20152016_Chelsea_Swansea-City.pcsp
-Softmax Probability: 0.4960575817039479
-
-Match: 20152016\20152016_Sunderland_Newcastle-United.pcsp
+Match: 20152016\20152016_Sunderland_Newcastle United.pcsp
 Softmax Probability: 0.5026212259862883
+Match Url: https://www.premierleague.com/match/12214
 
-Match: 20152016\20152016_Southampton_Everton.pcsp
-Softmax Probability: 0.4973787740137118
-
-Match: 20152016\20152016_Stoke-City_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Stoke City_West Bromwich Albion.pcsp
 Softmax Probability: 0.5076244089586275
+Match Url: https://www.premierleague.com/match/12151
 
-Match: 20152016\20152016_Sunderland_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.49237559104137263
-
-Match: 20152016\20152016_Manchester-United_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Manchester United_Tottenham Hotspur.pcsp
 Softmax Probability: 0.49432649351569397
-
-Match: 20152016\20152016_Sunderland_Manchester-City.pcsp
-Softmax Probability: 0.5056735064843061
+Match Url: https://www.premierleague.com/match/12119
 
 Match: 20152016\20152016_Chelsea_Everton.pcsp
 Softmax Probability: 0.487196549566063
+Match Url: https://www.premierleague.com/match/12327
 
-Match: 20152016\20152016_Manchester-City_AFC-Bournemouth.pcsp
-Softmax Probability: 0.512803450433937
-
-Match: 20152016\20152016_Leicester-City_Everton.pcsp
+Match: 20152016\20152016_Leicester City_Everton.pcsp
 Softmax Probability: 0.5071270172579663
+Match Url: https://www.premierleague.com/match/12474
 
-Match: 20152016\20152016_West-Bromwich-Albion_Leicester-City.pcsp
-Softmax Probability: 0.49287298274203367
-
-Match: 20152016\20152016_Leicester-City_Manchester-United.pcsp
+Match: 20152016\20152016_Leicester City_Manchester United.pcsp
 Softmax Probability: 0.5213532540942871
+Match Url: https://www.premierleague.com/match/12248
 
-Match: 20152016\20152016_Stoke-City_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.4786467459057128
-
-Match: 20152016\20152016_Aston-Villa_Everton.pcsp
+Match: 20152016\20152016_Aston Villa_Everton.pcsp
 Softmax Probability: 0.483393610151725
+Match Url: https://www.premierleague.com/match/12383
 
-Match: 20152016\20152016_Everton_Leicester-City.pcsp
-Softmax Probability: 0.516606389848275
-
-Match: 20152016\20152016_Watford_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Watford_Tottenham Hotspur.pcsp
 Softmax Probability: 0.5147944302194397
+Match Url: https://www.premierleague.com/match/12300
 
-Match: 20152016\20152016_Aston-Villa_Southampton.pcsp
-Softmax Probability: 0.4852055697805603
-
-Match: 20152016\20152016_Crystal-Palace_Norwich-City.pcsp
+Match: 20152016\20152016_Crystal Palace_Norwich City.pcsp
 Softmax Probability: 0.494232755786979
+Match Url: https://www.premierleague.com/match/12429
 
-Match: 20152016\20152016_West-Bromwich-Albion_Aston-Villa.pcsp
-Softmax Probability: 0.5057672442130211
-
-Match: 20152016\20152016_Everton_Aston-Villa.pcsp
+Match: 20152016\20152016_Everton_Aston Villa.pcsp
 Softmax Probability: 0.5120976384718673
+Match Url: https://www.premierleague.com/match/12236
 
-Match: 20152016\20152016_Everton_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.48790236152813277
-
-Match: 20152016\20152016_Manchester-City_Aston-Villa.pcsp
+Match: 20152016\20152016_Manchester City_Aston Villa.pcsp
 Softmax Probability: 0.5052535566573056
+Match Url: https://www.premierleague.com/match/12395
 
-Match: 20152016\20152016_Aston-Villa_Norwich-City.pcsp
-Softmax Probability: 0.49474644334269424
-
-Match: 20152016\20152016_Southampton_Leicester-City.pcsp
+Match: 20152016\20152016_Southampton_Leicester City.pcsp
 Softmax Probability: 0.5016087444485988
+Match Url: https://www.premierleague.com/match/12199
 
-Match: 20152016\20152016_Newcastle-United_Watford.pcsp
-Softmax Probability: 0.4983912555514013
-
-Match: 20152016\20152016_Crystal-Palace_Aston-Villa.pcsp
+Match: 20152016\20152016_Crystal Palace_Aston Villa.pcsp
 Softmax Probability: 0.5304535085239359
+Match Url: https://www.premierleague.com/match/12135
 
-Match: 20152016\20152016_West-Ham-United_Southampton.pcsp
-Softmax Probability: 0.46954649147606403
-
-Match: 20152016\20152016_Leicester-City_Manchester-City.pcsp
+Match: 20152016\20152016_Leicester City_Manchester City.pcsp
 Softmax Probability: 0.5059384707460272
+Match Url: https://www.premierleague.com/match/12303
 
-Match: 20152016\20152016_Manchester-City_Chelsea.pcsp
-Softmax Probability: 0.4940615292539728
-
-Match: 20152016\20152016_Everton_Stoke-City.pcsp
+Match: 20152016\20152016_Everton_Stoke City.pcsp
 Softmax Probability: 0.4969312885315715
+Match Url: https://www.premierleague.com/match/12297
 
-Match: 20152016\20152016_Southampton_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5030687114684286
-
-Match: 20152016\20152016_Newcastle-United_Liverpool.pcsp
+Match: 20152016\20152016_Newcastle United_Liverpool.pcsp
 Softmax Probability: 0.4820914140281064
-
-Match: 20152016\20152016_Norwich-City_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5179085859718936
+Match Url: https://www.premierleague.com/match/12263
 
 Match: 20152016\20152016_Watford_Sunderland.pcsp
 Softmax Probability: 0.5206594809301653
+Match Url: https://www.premierleague.com/match/12492
 
-Match: 20152016\20152016_Swansea-City_Aston-Villa.pcsp
-Softmax Probability: 0.4793405190698347
-
-Match: 20152016\20152016_Manchester-City_Watford.pcsp
+Match: 20152016\20152016_Manchester City_Watford.pcsp
 Softmax Probability: 0.49412652018493985
-
-Match: 20152016\20152016_Liverpool_Swansea-City.pcsp
-Softmax Probability: 0.5058734798150603
+Match Url: https://www.premierleague.com/match/12149
 
 Match: 20152016\20152016_Everton_Sunderland.pcsp
 Softmax Probability: 0.49941750026352766
+Match Url: https://www.premierleague.com/match/12222
 
-Match: 20152016\20152016_Swansea-City_Newcastle-United.pcsp
-Softmax Probability: 0.5005824997364723
-
-Match: 20152016\20152016_Newcastle-United_Chelsea.pcsp
+Match: 20152016\20152016_Newcastle United_Chelsea.pcsp
 Softmax Probability: 0.5186713138574666
+Match Url: https://www.premierleague.com/match/12178
 
-Match: 20152016\20152016_Sunderland_Swansea-City.pcsp
-Softmax Probability: 0.48132868614253344
-
-Match: 20152016\20152016_Watford_Stoke-City.pcsp
+Match: 20152016\20152016_Watford_Stoke City.pcsp
 Softmax Probability: 0.5141337336755464
+Match Url: https://www.premierleague.com/match/12412
 
-Match: 20152016\20152016_Swansea-City_Sunderland.pcsp
-Softmax Probability: 0.48586626632445357
-
-Match: 20152016\20152016_Manchester-City_Newcastle-United.pcsp
+Match: 20152016\20152016_Manchester City_Newcastle United.pcsp
 Softmax Probability: 0.4958950922287902
+Match Url: https://www.premierleague.com/match/12189
 
-Match: 20152016\20152016_Chelsea_Newcastle-United.pcsp
-Softmax Probability: 0.5041049077712098
-
-Match: 20152016\20152016_Arsenal_Crystal-Palace.pcsp
+Match: 20152016\20152016_Arsenal_Crystal Palace.pcsp
 Softmax Probability: 0.5113130688613453
+Match Url: https://www.premierleague.com/match/12445
 
-Match: 20152016\20152016_Swansea-City_Stoke-City.pcsp
-Softmax Probability: 0.4886869311386546
-
-Match: 20152016\20152016_Swansea-City_West-Ham-United.pcsp
+Match: 20152016\20152016_Swansea City_West Ham United.pcsp
 Softmax Probability: 0.46616180314312444
+Match Url: https://www.premierleague.com/match/12282
 
-Match: 20152016\20152016_Swansea-City_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5338381968568756
-
-Match: 20152016\20152016_West-Bromwich-Albion_Chelsea.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Chelsea.pcsp
 Softmax Probability: 0.489352859740394
+Match Url: https://www.premierleague.com/match/12143
 
-Match: 20152016\20152016_Aston-Villa_Leicester-City.pcsp
-Softmax Probability: 0.5106471402596059
-
-Match: 20152016\20152016_Aston-Villa_Stoke-City.pcsp
+Match: 20152016\20152016_Aston Villa_Stoke City.pcsp
 Softmax Probability: 0.5349429451582145
+Match Url: https://www.premierleague.com/match/12185
 
-Match: 20152016\20152016_West-Ham-United_Sunderland.pcsp
-Softmax Probability: 0.4650570548417855
-
-Match: 20152016\20152016_Sunderland_Leicester-City.pcsp
+Match: 20152016\20152016_Sunderland_Leicester City.pcsp
 Softmax Probability: 0.4952338943621715
+Match Url: https://www.premierleague.com/match/12436
 
-Match: 20152016\20152016_West-Bromwich-Albion_Watford.pcsp
-Softmax Probability: 0.5047661056378284
-
-Match: 20152016\20152016_Aston-Villa_Sunderland.pcsp
+Match: 20152016\20152016_Aston Villa_Sunderland.pcsp
 Softmax Probability: 0.5365795287206244
+Match Url: https://www.premierleague.com/match/12145
 
-Match: 20152016\20152016_West-Ham-United_Stoke-City.pcsp
-Softmax Probability: 0.4634204712793756
-
-Match: 20152016\20152016_Norwich-City_West-Ham-United.pcsp
+Match: 20152016\20152016_Norwich City_West Ham United.pcsp
 Softmax Probability: 0.4764137684143087
+Match Url: https://www.premierleague.com/match/12369
 
-Match: 20152016\20152016_Chelsea_Manchester-United.pcsp
-Softmax Probability: 0.5235862315856914
-
-Match: 20152016\20152016_Swansea-City_Crystal-Palace.pcsp
+Match: 20152016\20152016_Swansea City_Crystal Palace.pcsp
 Softmax Probability: 0.504147404876906
+Match Url: https://www.premierleague.com/match/12361
 
-Match: 20152016\20152016_Leicester-City_Newcastle-United.pcsp
-Softmax Probability: 0.49585259512309404
-
-Match: 20152016\20152016_Southampton_West-Ham-United.pcsp
+Match: 20152016\20152016_Southampton_West Ham United.pcsp
 Softmax Probability: 0.4631680888044058
+Match Url: https://www.premierleague.com/match/12359
 
-Match: 20152016\20152016_Manchester-United_Chelsea.pcsp
-Softmax Probability: 0.5368319111955941
-
-Match: 20152016\20152016_Liverpool_Leicester-City.pcsp
+Match: 20152016\20152016_Liverpool_Leicester City.pcsp
 Softmax Probability: 0.5003999999146667
+Match Url: https://www.premierleague.com/match/12288
 
-Match: 20152016\20152016_Norwich-City_Manchester-City.pcsp
-Softmax Probability: 0.49960000008533334
-
-Match: 20152016\20152016_Aston-Villa_Manchester-United.pcsp
+Match: 20152016\20152016_Aston Villa_Manchester United.pcsp
 Softmax Probability: 0.5000062499999997
+Match Url: https://www.premierleague.com/match/12125
 
-Match: 20152016\20152016_Southampton_Manchester-City.pcsp
-Softmax Probability: 0.49999375000000035
-
-Match: 20152016\20152016_AFC-Bournemouth_Aston-Villa.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Aston Villa.pcsp
 Softmax Probability: 0.5153014705009465
+Match Url: https://www.premierleague.com/match/12115
 
-Match: 20152016\20152016_Watford_Chelsea.pcsp
-Softmax Probability: 0.4846985294990534
-
-Match: 20152016\20152016_Newcastle-United_Sunderland.pcsp
+Match: 20152016\20152016_Newcastle United_Sunderland.pcsp
 Softmax Probability: 0.49047115386323115
+Match Url: https://www.premierleague.com/match/12415
 
-Match: 20152016\20152016_Chelsea_Arsenal.pcsp
-Softmax Probability: 0.509528846136769
-
-Match: 20152016\20152016_Crystal-Palace_Leicester-City.pcsp
+Match: 20152016\20152016_Crystal Palace_Leicester City.pcsp
 Softmax Probability: 0.5151566050176475
+Match Url: https://www.premierleague.com/match/12409
 
-Match: 20152016\20152016_Leicester-City_Arsenal.pcsp
-Softmax Probability: 0.4848433949823525
-
-Match: 20152016\20152016_Newcastle-United_Stoke-City.pcsp
+Match: 20152016\20152016_Newcastle United_Stoke City.pcsp
 Softmax Probability: 0.5119177422867458
+Match Url: https://www.premierleague.com/match/12218
 
-Match: 20152016\20152016_West-Ham-United_Swansea-City.pcsp
-Softmax Probability: 0.48808225771325414
-
-Match: 20152016\20152016_Manchester-City_West-Ham-United.pcsp
+Match: 20152016\20152016_Manchester City_West Ham United.pcsp
 Softmax Probability: 0.4519549462536334
-
-Match: 20152016\20152016_Sunderland_Watford.pcsp
-Softmax Probability: 0.5480450537463666
+Match Url: https://www.premierleague.com/match/12168
 
 Match: 20152016\20152016_Liverpool_Southampton.pcsp
 Softmax Probability: 0.5002312499835114
+Match Url: https://www.premierleague.com/match/12212
 
-Match: 20152016\20152016_Chelsea_Norwich-City.pcsp
-Softmax Probability: 0.4997687500164886
-
-Match: 20152016\20152016_Sunderland_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Sunderland_West Bromwich Albion.pcsp
 Softmax Probability: 0.5000837499992168
+Match Url: https://www.premierleague.com/match/12424
 
-Match: 20152016\20152016_Newcastle-United_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.4999162500007832
-
-Match: 20152016\20152016_Chelsea_Crystal-Palace.pcsp
+Match: 20152016\20152016_Chelsea_Crystal Palace.pcsp
 Softmax Probability: 0.49655255463152237
+Match Url: https://www.premierleague.com/match/12147
 
-Match: 20152016\20152016_Aston-Villa_Arsenal.pcsp
-Softmax Probability: 0.5034474453684776
-
-Match: 20152016\20152016_Stoke-City_Arsenal.pcsp
+Match: 20152016\20152016_Stoke City_Arsenal.pcsp
 Softmax Probability: 0.5003424999464302
+Match Url: https://www.premierleague.com/match/12333
 
-Match: 20152016\20152016_Watford_Aston-Villa.pcsp
-Softmax Probability: 0.49965750005356985
-
-Match: 20152016\20152016_AFC-Bournemouth_Stoke-City.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Stoke City.pcsp
 Softmax Probability: 0.4983162563645777
+Match Url: https://www.premierleague.com/match/12365
 
-Match: 20152016\20152016_West-Bromwich-Albion_Manchester-United.pcsp
-Softmax Probability: 0.5016837436354223
-
-Match: 20152016\20152016_AFC-Bournemouth_Sunderland.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Sunderland.pcsp
 Softmax Probability: 0.5034199466654141
+Match Url: https://www.premierleague.com/match/12166
 
-Match: 20152016\20152016_Watford_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.49658005333458594
-
-Match: 20152016\20152016_Norwich-City_Newcastle-United.pcsp
+Match: 20152016\20152016_Norwich City_Newcastle United.pcsp
 Softmax Probability: 0.4928804812198051
-
-Match: 20152016\20152016_Leicester-City_Crystal-Palace.pcsp
-Softmax Probability: 0.5071195187801948
+Match Url: https://www.premierleague.com/match/12422
 
 Match: 20152016\20152016_Southampton_Arsenal.pcsp
 Softmax Probability: 0.4982962565940818
+Match Url: https://www.premierleague.com/match/12291
 
-Match: 20152016\20152016_Swansea-City_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.5017037434059183
-
-Match: 20152016\20152016_Arsenal_Aston-Villa.pcsp
+Match: 20152016\20152016_Arsenal_Aston Villa.pcsp
 Softmax Probability: 0.49376282355147083
+Match Url: https://www.premierleague.com/match/12485
 
-Match: 20152016\20152016_Aston-Villa_Liverpool.pcsp
-Softmax Probability: 0.5062371764485292
-
-Match: 20152016\20152016_Crystal-Palace_Liverpool.pcsp
+Match: 20152016\20152016_Crystal Palace_Liverpool.pcsp
 Softmax Probability: 0.5102185769542846
-
-Match: 20152016\20152016_Leicester-City_West-Ham-United.pcsp
-Softmax Probability: 0.48978142304571537
+Match Url: https://www.premierleague.com/match/12401
 
 Match: 20152016\20152016_Everton_Arsenal.pcsp
 Softmax Probability: 0.4704457413880431
+Match Url: https://www.premierleague.com/match/12410
 
-Match: 20152016\20152016_Leicester-City_Norwich-City.pcsp
-Softmax Probability: 0.5295542586119569
-
-Match: 20152016\20152016_Everton_Manchester-United.pcsp
+Match: 20152016\20152016_Everton_Manchester United.pcsp
 Softmax Probability: 0.5079430816997955
+Match Url: https://www.premierleague.com/match/12197
 
-Match: 20152016\20152016_Arsenal_Manchester-United.pcsp
-Softmax Probability: 0.4920569183002045
-
-Match: 20152016\20152016_Southampton_Manchester-United.pcsp
+Match: 20152016\20152016_Southampton_Manchester United.pcsp
 Softmax Probability: 0.5063671557948017
+Match Url: https://www.premierleague.com/match/12173
 
-Match: 20152016\20152016_Crystal-Palace_Stoke-City.pcsp
-Softmax Probability: 0.49363284420519826
-
-Match: 20152016\20152016_Norwich-City_Southampton.pcsp
+Match: 20152016\20152016_Norwich City_Southampton.pcsp
 Softmax Probability: 0.5162018258039668
+Match Url: https://www.premierleague.com/match/12308
 
-Match: 20152016\20152016_Chelsea_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.4837981741960332
-
-Match: 20152016\20152016_Tottenham-Hotspur_Manchester-City.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Manchester City.pcsp
 Softmax Probability: 0.499081251034023
+Match Url: https://www.premierleague.com/match/12181
 
-Match: 20152016\20152016_Manchester-United_Aston-Villa.pcsp
-Softmax Probability: 0.500918748965977
-
-Match: 20152016\20152016_Tottenham-Hotspur_Liverpool.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Liverpool.pcsp
 Softmax Probability: 0.4838868315178263
+Match Url: https://www.premierleague.com/match/12200
 
-Match: 20152016\20152016_Crystal-Palace_Sunderland.pcsp
-Softmax Probability: 0.5161131684821737
-
-Match: 20152016\20152016_AFC-Bournemouth_Watford.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Watford.pcsp
 Softmax Probability: 0.49798001098980554
+Match Url: https://www.premierleague.com/match/12186
 
-Match: 20152016\20152016_Crystal-Palace_Everton.pcsp
-Softmax Probability: 0.5020199890101944
-
-Match: 20152016\20152016_Liverpool_Manchester-United.pcsp
+Match: 20152016\20152016_Liverpool_Manchester United.pcsp
 Softmax Probability: 0.5018187419785024
+Match Url: https://www.premierleague.com/match/12332
 
-Match: 20152016\20152016_Watford_Liverpool.pcsp
-Softmax Probability: 0.4981812580214976
-
-Match: 20152016\20152016_Norwich-City_Chelsea.pcsp
+Match: 20152016\20152016_Norwich City_Chelsea.pcsp
 Softmax Probability: 0.5134030382938074
+Match Url: https://www.premierleague.com/match/12386
 
-Match: 20152016\20152016_Stoke-City_Norwich-City.pcsp
-Softmax Probability: 0.4865969617061926
-
-Match: 20152016\20152016_Swansea-City_Watford.pcsp
+Match: 20152016\20152016_Swansea City_Watford.pcsp
 Softmax Probability: 0.4911146854906497
+Match Url: https://www.premierleague.com/match/12334
 
-Match: 20152016\20152016_Swansea-City_Manchester-City.pcsp
-Softmax Probability: 0.5088853145093503
-
-Match: 20152016\20152016_Manchester-United_Crystal-Palace.pcsp
+Match: 20152016\20152016_Manchester United_Crystal Palace.pcsp
 Softmax Probability: 0.4997400000234346
-
-Match: 20152016\20152016_Sunderland_Stoke-City.pcsp
-Softmax Probability: 0.5002599999765653
+Match Url: https://www.premierleague.com/match/12451
 
 Match: 20152016\20152016_Liverpool_Watford.pcsp
 Softmax Probability: 0.5030887107101489
+Match Url: https://www.premierleague.com/match/12478
 
-Match: 20152016\20152016_Leicester-City_Liverpool.pcsp
-Softmax Probability: 0.496911289289851
-
-Match: 20152016\20152016_Chelsea_Stoke-City.pcsp
+Match: 20152016\20152016_Chelsea_Stoke City.pcsp
 Softmax Probability: 0.4953388850301743
+Match Url: https://www.premierleague.com/match/12393
 
-Match: 20152016\20152016_Manchester-City_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.5046611149698257
-
-Match: 20152016\20152016_Watford_Swansea-City.pcsp
+Match: 20152016\20152016_Watford_Swansea City.pcsp
 Softmax Probability: 0.5014737457321545
+Match Url: https://www.premierleague.com/match/12160
 
-Match: 20152016\20152016_Sunderland_Norwich-City.pcsp
-Softmax Probability: 0.4985262542678454
-
-Match: 20152016\20152016_Tottenham-Hotspur_Swansea-City.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Swansea City.pcsp
 Softmax Probability: 0.5401396845755799
+Match Url: https://www.premierleague.com/match/12382
 
-Match: 20152016\20152016_West-Ham-United_Everton.pcsp
-Softmax Probability: 0.45986031542442013
-
-Match: 20152016\20152016_Tottenham-Hotspur_Everton.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Everton.pcsp
 Softmax Probability: 0.49980250001027166
-
-Match: 20152016\20152016_Newcastle-United_Southampton.pcsp
-Softmax Probability: 0.5001974999897284
+Match Url: https://www.premierleague.com/match/12152
 
 Match: 20152016\20152016_Chelsea_Sunderland.pcsp
 Softmax Probability: 0.48287420188616326
+Match Url: https://www.premierleague.com/match/12275
 
-Match: 20152016\20152016_Leicester-City_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.5171257981138367
-
-Match: 20152016\20152016_Tottenham-Hotspur_Leicester-City.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Leicester City.pcsp
 Softmax Probability: 0.5190332984978433
+Match Url: https://www.premierleague.com/match/12324
 
-Match: 20152016\20152016_Tottenham-Hotspur_West-Ham-United.pcsp
-Softmax Probability: 0.48096670150215665
-
-Match: 20152016\20152016_Newcastle-United_Norwich-City.pcsp
+Match: 20152016\20152016_Newcastle United_Norwich City.pcsp
 Softmax Probability: 0.49572635407666954
+Match Url: https://www.premierleague.com/match/12203
 
-Match: 20152016\20152016_Arsenal_Stoke-City.pcsp
-Softmax Probability: 0.5042736459233303
-
-Match: 20152016\20152016_Norwich-City_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Norwich City_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4861098248931244
+Match Url: https://www.premierleague.com/match/12349
 
-Match: 20152016\20152016_Manchester-United_Stoke-City.pcsp
-Softmax Probability: 0.5138901751068756
-
-Match: 20152016\20152016_Chelsea_Newcastle-United.pcsp
+Match: 20152016\20152016_Chelsea_Newcastle United.pcsp
 Softmax Probability: 0.4974337725336242
+Match Url: https://www.premierleague.com/match/12366
 
-Match: 20152016\20152016_AFC-Bournemouth_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.5025662274663758
-
-Match: 20152016\20152016_Sunderland_Swansea-City.pcsp
+Match: 20152016\20152016_Sunderland_Swansea City.pcsp
 Softmax Probability: 0.48082066505823545
+Match Url: https://www.premierleague.com/match/12139
 
-Match: 20152016\20152016_Arsenal_Sunderland.pcsp
-Softmax Probability: 0.5191793349417645
-
-Match: 20152016\20152016_Swansea-City_Sunderland.pcsp
+Match: 20152016\20152016_Swansea City_Sunderland.pcsp
 Softmax Probability: 0.4889255614724974
+Match Url: https://www.premierleague.com/match/12323
 
-Match: 20152016\20152016_Manchester-United_Sunderland.pcsp
-Softmax Probability: 0.5110744385275026
-
-Match: 20152016\20152016_Swansea-City_Stoke-City.pcsp
+Match: 20152016\20152016_Swansea City_Stoke City.pcsp
 Softmax Probability: 0.49816125828904395
+Match Url: https://www.premierleague.com/match/12204
 
-Match: 20152016\20152016_Chelsea_Aston-Villa.pcsp
-Softmax Probability: 0.501838741710956
-
-Match: 20152016\20152016_Swansea-City_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Swansea City_AFC Bournemouth.pcsp
 Softmax Probability: 0.4988862518420483
+Match Url: https://www.premierleague.com/match/12240
 
-Match: 20152016\20152016_AFC-Bournemouth_Crystal-Palace.pcsp
-Softmax Probability: 0.5011137481579516
-
-Match: 20152016\20152016_Aston-Villa_Leicester-City.pcsp
+Match: 20152016\20152016_Aston Villa_Leicester City.pcsp
 Softmax Probability: 0.5180371696136472
+Match Url: https://www.premierleague.com/match/12325
 
-Match: 20152016\20152016_Sunderland_AFC-Bournemouth.pcsp
-Softmax Probability: 0.4819628303863528
-
-Match: 20152016\20152016_West-Ham-United_Sunderland.pcsp
+Match: 20152016\20152016_West Ham United_Sunderland.pcsp
 Softmax Probability: 0.489461560929836
+Match Url: https://www.premierleague.com/match/12380
 
-Match: 20152016\20152016_Crystal-Palace_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5105384390701639
-
-Match: 20152016\20152016_West-Bromwich-Albion_Watford.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Watford.pcsp
 Softmax Probability: 0.5388440686807856
+Match Url: https://www.premierleague.com/match/12444
 
-Match: 20152016\20152016_West-Ham-United_Crystal-Palace.pcsp
-Softmax Probability: 0.4611559313192144
-
-Match: 20152016\20152016_West-Ham-United_Stoke-City.pcsp
+Match: 20152016\20152016_West Ham United_Stoke City.pcsp
 Softmax Probability: 0.4889880309843286
+Match Url: https://www.premierleague.com/match/12270
 
-Match: 20152016\20152016_Norwich-City_Leicester-City.pcsp
-Softmax Probability: 0.5110119690156715
-
-Match: 20152016\20152016_West-Bromwich-Albion_Leicester-City.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Leicester City.pcsp
 Softmax Probability: 0.5189159677156354
+Match Url: https://www.premierleague.com/match/12221
 
-Match: 20152016\20152016_Aston-Villa_Swansea-City.pcsp
-Softmax Probability: 0.48108403228436464
-
-Match: 20152016\20152016_Stoke-City_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Stoke City_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4924318280579968
+Match Url: https://www.premierleague.com/match/12448
 
-Match: 20152016\20152016_Everton_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5075681719420032
-
-Match: 20152016\20152016_Everton_Leicester-City.pcsp
+Match: 20152016\20152016_Everton_Leicester City.pcsp
 Softmax Probability: 0.5245452544181118
+Match Url: https://www.premierleague.com/match/12276
 
-Match: 20152016\20152016_Tottenham-Hotspur_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.4754547455818881
-
-Match: 20152016\20152016_Aston-Villa_Southampton.pcsp
+Match: 20152016\20152016_Aston Villa_Southampton.pcsp
 Softmax Probability: 0.5321356413939654
+Match Url: https://www.premierleague.com/match/12454
 
-Match: 20152016\20152016_West-Ham-United_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.4678643586060346
-
-Match: 20152016\20152016_West-Bromwich-Albion_Aston-Villa.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Aston Villa.pcsp
 Softmax Probability: 0.4922606181871775
+Match Url: https://www.premierleague.com/match/12341
 
-Match: 20152016\20152016_Newcastle-United_Leicester-City.pcsp
-Softmax Probability: 0.5077393818128225
-
-Match: 20152016\20152016_Everton_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Everton_West Bromwich Albion.pcsp
 Softmax Probability: 0.4937678227740469
+Match Url: https://www.premierleague.com/match/12368
 
-Match: 20152016\20152016_Liverpool_Norwich-City.pcsp
-Softmax Probability: 0.506232177225953
-
-Match: 20152016\20152016_West-Ham-United_Southampton.pcsp
+Match: 20152016\20152016_West Ham United_Southampton.pcsp
 Softmax Probability: 0.5036386857628607
+Match Url: https://www.premierleague.com/match/12302
 
-Match: 20152016\20152016_Newcastle-United_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.49636131423713925
-
-Match: 20152016\20152016_Newcastle-United_Watford.pcsp
+Match: 20152016\20152016_Newcastle United_Watford.pcsp
 Softmax Probability: 0.49277550282402455
+Match Url: https://www.premierleague.com/match/12169
 
-Match: 20152016\20152016_Stoke-City_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.5072244971759755
-
-Match: 20152016\20152016_Aston-Villa_Norwich-City.pcsp
+Match: 20152016\20152016_Aston Villa_Norwich City.pcsp
 Softmax Probability: 0.5042973941785862
+Match Url: https://www.premierleague.com/match/12355
 
-Match: 20152016\20152016_Sunderland_Newcastle-United.pcsp
-Softmax Probability: 0.49570260582141384
-
-Match: 20152016\20152016_Southampton_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Southampton_AFC Bournemouth.pcsp
 Softmax Probability: 0.5055247751388783
+Match Url: https://www.premierleague.com/match/12223
 
-Match: 20152016\20152016_Manchester-United_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.4944752248611217
-
-Match: 20152016\20152016_Manchester-City_Chelsea.pcsp
+Match: 20152016\20152016_Manchester City_Chelsea.pcsp
 Softmax Probability: 0.5125386206285981
+Match Url: https://www.premierleague.com/match/12133
 
-Match: 20152016\20152016_Chelsea_Everton.pcsp
-Softmax Probability: 0.4874613793714019
-
-Match: 20152016\20152016_Swansea-City_Aston-Villa.pcsp
+Match: 20152016\20152016_Swansea City_Aston Villa.pcsp
 Softmax Probability: 0.4844562602248627
+Match Url: https://www.premierleague.com/match/12411
 
-Match: 20152016\20152016_Leicester-City_Manchester-United.pcsp
-Softmax Probability: 0.5155437397751372
-
-Match: 20152016\20152016_Norwich-City_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Norwich City_AFC Bournemouth.pcsp
 Softmax Probability: 0.4871091073337225
+Match Url: https://www.premierleague.com/match/12159
 
-Match: 20152016\20152016_Leicester-City_Everton.pcsp
-Softmax Probability: 0.5128908926662775
-
-Match: 20152016\20152016_Liverpool_Swansea-City.pcsp
+Match: 20152016\20152016_Liverpool_Swansea City.pcsp
 Softmax Probability: 0.49836000588123336
+Match Url: https://www.premierleague.com/match/12251
 
-Match: 20152016\20152016_Aston-Villa_Everton.pcsp
-Softmax Probability: 0.5016399941187666
-
-Match: 20152016\20152016_Swansea-City_Newcastle-United.pcsp
+Match: 20152016\20152016_Swansea City_Newcastle United.pcsp
 Softmax Probability: 0.493684085961065
+Match Url: https://www.premierleague.com/match/12128
 
-Match: 20152016\20152016_Watford_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.5063159140389349
-
-Match: 20152016\20152016_Crystal-Palace_Manchester-City.pcsp
+Match: 20152016\20152016_Crystal Palace_Manchester City.pcsp
 Softmax Probability: 0.5024312308387656
+Match Url: https://www.premierleague.com/match/12156
 
-Match: 20152016\20152016_Swansea-City_Liverpool.pcsp
-Softmax Probability: 0.4975687691612345
-
-Match: 20152016\20152016_West-Bromwich-Albion_Newcastle-United.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Newcastle United.pcsp
 Softmax Probability: 0.509616314064544
+Match Url: https://www.premierleague.com/match/12301
 
-Match: 20152016\20152016_Sunderland_Chelsea.pcsp
-Softmax Probability: 0.490383685935456
-
-Match: 20152016\20152016_Everton_Manchester-City.pcsp
+Match: 20152016\20152016_Everton_Manchester City.pcsp
 Softmax Probability: 0.5021637364930676
-
-Match: 20152016\20152016_Tottenham-Hotspur_Norwich-City.pcsp
-Softmax Probability: 0.4978362635069324
+Match Url: https://www.premierleague.com/match/12141
 
 Match: 20152016\20152016_Liverpool_Chelsea.pcsp
 Softmax Probability: 0.5009249989447306
+Match Url: https://www.premierleague.com/match/12482
 
-Match: 20152016\20152016_Leicester-City_AFC-Bournemouth.pcsp
-Softmax Probability: 0.4990750010552694
-
-Match: 20152016\20152016_Stoke-City_Everton.pcsp
+Match: 20152016\20152016_Stoke City_Everton.pcsp
 Softmax Probability: 0.49388155542237466
+Match Url: https://www.premierleague.com/match/12360
 
-Match: 20152016\20152016_Watford_Norwich-City.pcsp
-Softmax Probability: 0.5061184445776253
-
-Match: 20152016\20152016_Watford_Crystal-Palace.pcsp
+Match: 20152016\20152016_Watford_Crystal Palace.pcsp
 Softmax Probability: 0.4994937501729951
+Match Url: https://www.premierleague.com/match/12183
 
-Match: 20152016\20152016_Crystal-Palace_Arsenal.pcsp
-Softmax Probability: 0.500506249827005
-
-Match: 20152016\20152016_Norwich-City_Watford.pcsp
+Match: 20152016\20152016_Norwich City_Watford.pcsp
 Softmax Probability: 0.5012324975036903
+Match Url: https://www.premierleague.com/match/12483
 
-Match: 20152016\20152016_Stoke-City_Southampton.pcsp
-Softmax Probability: 0.49876750249630963
-
-Match: 20152016\20152016_Swansea-City_Chelsea.pcsp
+Match: 20152016\20152016_Swansea City_Chelsea.pcsp
 Softmax Probability: 0.5101348616489618
-
-Match: 20152016\20152016_Newcastle-United_Swansea-City.pcsp
-Softmax Probability: 0.4898651383510381
+Match Url: https://www.premierleague.com/match/12432
 
 Match: 20152016\20152016_Chelsea_Liverpool.pcsp
 Softmax Probability: 0.49933875038550984
+Match Url: https://www.premierleague.com/match/12215
 
-Match: 20152016\20152016_Southampton_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.5006612496144901
-
-Match: 20152016\20152016_West-Ham-United_Norwich-City.pcsp
+Match: 20152016\20152016_West Ham United_Norwich City.pcsp
 Softmax Probability: 0.48992636333747797
-
-Match: 20152016\20152016_Manchester-United_Watford.pcsp
-Softmax Probability: 0.510073636662522
+Match Url: https://www.premierleague.com/match/12182
 
 Match: 20152016\20152016_Southampton_Everton.pcsp
 Softmax Probability: 0.5087541053484281
+Match Url: https://www.premierleague.com/match/12126
 
-Match: 20152016\20152016_Liverpool_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.4912458946515719
-
-Match: 20152016\20152016_Chelsea_Swansea-City.pcsp
+Match: 20152016\20152016_Chelsea_Swansea City.pcsp
 Softmax Probability: 0.48630842369084243
+Match Url: https://www.premierleague.com/match/12116
 
-Match: 20152016\20152016_Crystal-Palace_Swansea-City.pcsp
-Softmax Probability: 0.5136915763091575
-
-Match: 20152016\20152016_AFC-Bournemouth_Chelsea.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Chelsea.pcsp
 Softmax Probability: 0.5051498178865615
+Match Url: https://www.premierleague.com/match/12455
 
-Match: 20152016\20152016_Manchester-City_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.4948501821134385
-
-Match: 20152016\20152016_Sunderland_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Sunderland_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4737965287790286
+Match Url: https://www.premierleague.com/match/12163
 
-Match: 20152016\20152016_Manchester-City_Crystal-Palace.pcsp
-Softmax Probability: 0.5262034712209714
-
-Match: 20152016\20152016_Sunderland_Manchester-City.pcsp
+Match: 20152016\20152016_Sunderland_Manchester City.pcsp
 Softmax Probability: 0.511516712664242
+Match Url: https://www.premierleague.com/match/12350
 
-Match: 20152016\20152016_Tottenham-Hotspur_Aston-Villa.pcsp
-Softmax Probability: 0.4884832873357579
-
-Match: 20152016\20152016_Manchester-City_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Manchester City_AFC Bournemouth.pcsp
 Softmax Probability: 0.5365907184894169
-
-Match: 20152016\20152016_West-Ham-United_Arsenal.pcsp
-Softmax Probability: 0.46340928151058314
+Match Url: https://www.premierleague.com/match/12198
 
 Match: 20152016\20152016_Liverpool_Sunderland.pcsp
 Softmax Probability: 0.4937828204492485
+Match Url: https://www.premierleague.com/match/12356
 
-Match: 20152016\20152016_Everton_Newcastle-United.pcsp
-Softmax Probability: 0.5062171795507515
-
-Match: 20152016\20152016_Liverpool_Stoke-City.pcsp
+Match: 20152016\20152016_Liverpool_Stoke City.pcsp
 Softmax Probability: 0.509076502804626
-
-Match: 20152016\20152016_Sunderland_Southampton.pcsp
-Softmax Probability: 0.49092349719537404
+Match Url: https://www.premierleague.com/match/12435
 
 Match: 20152016\20152016_Everton_Liverpool.pcsp
 Softmax Probability: 0.49863250340972576
+Match Url: https://www.premierleague.com/match/12193
 
-Match: 20152016\20152016_Tottenham-Hotspur_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5013674965902744
-
-Match: 20152016\20152016_Leicester-City_Swansea-City.pcsp
+Match: 20152016\20152016_Leicester City_Swansea City.pcsp
 Softmax Probability: 0.48648829048551884
-
-Match: 20152016\20152016_Leicester-City_Southampton.pcsp
-Softmax Probability: 0.5135117095144811
+Match Url: https://www.premierleague.com/match/12458
 
 Match: 20152016\20152016_Arsenal_Everton.pcsp
 Softmax Probability: 0.4971325314371598
+Match Url: https://www.premierleague.com/match/12205
 
-Match: 20152016\20152016_Everton_West-Ham-United.pcsp
-Softmax Probability: 0.5028674685628403
-
-Match: 20152016\20152016_Tottenham-Hotspur_Arsenal.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Arsenal.pcsp
 Softmax Probability: 0.495677607678937
+Match Url: https://www.premierleague.com/match/12399
 
-Match: 20152016\20152016_Crystal-Palace_West-Ham-United.pcsp
-Softmax Probability: 0.5043223923210629
-
-Match: 20152016\20152016_Stoke-City_Swansea-City.pcsp
+Match: 20152016\20152016_Stoke City_Swansea City.pcsp
 Softmax Probability: 0.49709003285578285
+Match Url: https://www.premierleague.com/match/12423
 
-Match: 20152016\20152016_AFC-Bournemouth_Newcastle-United.pcsp
-Softmax Probability: 0.5029099671442172
-
-Match: 20152016\20152016_Leicester-City_Stoke-City.pcsp
+Match: 20152016\20152016_Leicester City_Stoke City.pcsp
 Softmax Probability: 0.5154013762341328
+Match Url: https://www.premierleague.com/match/12336
 
-Match: 20152016\20152016_Sunderland_West-Ham-United.pcsp
-Softmax Probability: 0.48459862376586715
-
-Match: 20152016\20152016_Stoke-City_Leicester-City.pcsp
+Match: 20152016\20152016_Stoke City_Leicester City.pcsp
 Softmax Probability: 0.5133980418852969
+Match Url: https://www.premierleague.com/match/12170
 
-Match: 20152016\20152016_Stoke-City_Newcastle-United.pcsp
-Softmax Probability: 0.48660195811470314
-
-Match: 20152016\20152016_Leicester-City_Sunderland.pcsp
+Match: 20152016\20152016_Leicester City_Sunderland.pcsp
 Softmax Probability: 0.500716249510072
+Match Url: https://www.premierleague.com/match/12118
 
-Match: 20152016\20152016_Crystal-Palace_Manchester-United.pcsp
-Softmax Probability: 0.499283750489928
-
-Match: 20152016\20152016_Manchester-City_Everton.pcsp
+Match: 20152016\20152016_Manchester City_Everton.pcsp
 Softmax Probability: 0.5101248657535278
+Match Url: https://www.premierleague.com/match/12320
 
-Match: 20152016\20152016_Arsenal_Newcastle-United.pcsp
-Softmax Probability: 0.4898751342464723
-
-Match: 20152016\20152016_AFC-Bournemouth_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_AFC Bournemouth_West Bromwich Albion.pcsp
 Softmax Probability: 0.5075106850159523
+Match Url: https://www.premierleague.com/match/12472
 
-Match: 20152016\20152016_AFC-Bournemouth_Swansea-City.pcsp
-Softmax Probability: 0.4924893149840476
-
-Match: 20152016\20152016_Stoke-City_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Stoke City_AFC Bournemouth.pcsp
 Softmax Probability: 0.5051310698683759
+Match Url: https://www.premierleague.com/match/12180
 
-Match: 20152016\20152016_West-Ham-United_Newcastle-United.pcsp
-Softmax Probability: 0.49486893013162403
-
-Match: 20152016\20152016_Arsenal_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Arsenal_West Bromwich Albion.pcsp
 Softmax Probability: 0.5073119786862031
+Match Url: https://www.premierleague.com/match/12453
 
-Match: 20152016\20152016_Sunderland_Manchester-United.pcsp
-Softmax Probability: 0.49268802131379685
-
-Match: 20152016\20152016_West-Bromwich-Albion_Arsenal.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Arsenal.pcsp
 Softmax Probability: 0.5038536736904258
+Match Url: https://www.premierleague.com/match/12242
 
-Match: 20152016\20152016_West-Bromwich-Albion_Southampton.pcsp
-Softmax Probability: 0.49614632630957417
-
-Match: 20152016\20152016_AFC-Bournemouth_West-Ham-United.pcsp
+Match: 20152016\20152016_AFC Bournemouth_West Ham United.pcsp
 Softmax Probability: 0.4424240292638769
+Match Url: https://www.premierleague.com/match/12316
 
-Match: 20152016\20152016_West-Bromwich-Albion_Crystal-Palace.pcsp
-Softmax Probability: 0.5575759707361232
-
-Match: 20152016\20152016_Crystal-Palace_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Crystal Palace_West Bromwich Albion.pcsp
 Softmax Probability: 0.5075194330392883
+Match Url: https://www.premierleague.com/match/12188
 
-Match: 20152016\20152016_Everton_Crystal-Palace.pcsp
-Softmax Probability: 0.49248056696071174
-
-Match: 20152016\20152016_Stoke-City_Aston-Villa.pcsp
+Match: 20152016\20152016_Stoke City_Aston Villa.pcsp
 Softmax Probability: 0.4887094196428393
+Match Url: https://www.premierleague.com/match/12377
 
-Match: 20152016\20152016_Newcastle-United_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5112905803571608
-
-Match: 20152016\20152016_Southampton_Newcastle-United.pcsp
+Match: 20152016\20152016_Southampton_Newcastle United.pcsp
 Softmax Probability: 0.5300412727148957
+Match Url: https://www.premierleague.com/match/12431
 
-Match: 20152016\20152016_West-Ham-United_Aston-Villa.pcsp
-Softmax Probability: 0.46995872728510435
-
-Match: 20152016\20152016_Crystal-Palace_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Crystal Palace_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4936978337718449
+Match Url: https://www.premierleague.com/match/12335
 
-Match: 20152016\20152016_Arsenal_Manchester-City.pcsp
-Softmax Probability: 0.5063021662281552
-
-Match: 20152016\20152016_West-Bromwich-Albion_Swansea-City.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Swansea City.pcsp
 Softmax Probability: 0.5213582449729264
+Match Url: https://www.premierleague.com/match/12351
 
-Match: 20152016\20152016_West-Ham-United_Liverpool.pcsp
-Softmax Probability: 0.4786417550270736
-
-Match: 20152016\20152016_Newcastle-United_Arsenal.pcsp
+Match: 20152016\20152016_Newcastle United_Arsenal.pcsp
 Softmax Probability: 0.5052535566573056
+Match Url: https://www.premierleague.com/match/12150
 
-Match: 20152016\20152016_Aston-Villa_West-Ham-United.pcsp
-Softmax Probability: 0.49474644334269424
-
-Match: 20152016\20152016_Aston-Villa_Manchester-City.pcsp
+Match: 20152016\20152016_Aston Villa_Manchester City.pcsp
 Softmax Probability: 0.5110432038147035
+Match Url: https://www.premierleague.com/match/12233
 
-Match: 20152016\20152016_Swansea-City_Southampton.pcsp
-Softmax Probability: 0.4889567961852965
-
-Match: 20152016\20152016_Arsenal_West-Ham-United.pcsp
+Match: 20152016\20152016_Arsenal_West Ham United.pcsp
 Softmax Probability: 0.476854054741281
+Match Url: https://www.premierleague.com/match/12121
 
-Match: 20152016\20152016_Sunderland_Everton.pcsp
-Softmax Probability: 0.5231459452587189
-
-Match: 20152016\20152016_Leicester-City_Aston-Villa.pcsp
+Match: 20152016\20152016_Leicester City_Aston Villa.pcsp
 Softmax Probability: 0.49019750617064234
+Match Url: https://www.premierleague.com/match/12162
 
-Match: 20152016\20152016_West-Ham-United_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5098024938293576
-
-Match: 20152016\20152016_Chelsea_Manchester-City.pcsp
+Match: 20152016\20152016_Chelsea_Manchester City.pcsp
 Softmax Probability: 0.4923468477517419
+Match Url: https://www.premierleague.com/match/12439
 
-Match: 20152016\20152016_Southampton_Norwich-City.pcsp
-Softmax Probability: 0.507653152248258
-
-Match: 20152016\20152016_Watford_Manchester-United.pcsp
+Match: 20152016\20152016_Watford_Manchester United.pcsp
 Softmax Probability: 0.5108145631067489
+Match Url: https://www.premierleague.com/match/12241
 
-Match: 20152016\20152016_Aston-Villa_Crystal-Palace.pcsp
-Softmax Probability: 0.48918543689325106
-
-Match: 20152016\20152016_Tottenham-Hotspur_Manchester-United.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Manchester United.pcsp
 Softmax Probability: 0.5074119570064415
+Match Url: https://www.premierleague.com/match/12437
 
-Match: 20152016\20152016_Aston-Villa_Chelsea.pcsp
-Softmax Probability: 0.4925880429935586
-
-Match: 20152016\20152016_Manchester-City_Swansea-City.pcsp
+Match: 20152016\20152016_Manchester City_Swansea City.pcsp
 Softmax Probability: 0.4893728506884834
+Match Url: https://www.premierleague.com/match/12267
 
-Match: 20152016\20152016_Manchester-United_Arsenal.pcsp
-Softmax Probability: 0.5106271493115166
-
-Match: 20152016\20152016_Stoke-City_Liverpool.pcsp
+Match: 20152016\20152016_Stoke City_Liverpool.pcsp
 Softmax Probability: 0.4953701323325905
+Match Url: https://www.premierleague.com/match/12123
 
-Match: 20152016\20152016_AFC-Bournemouth_Manchester-City.pcsp
-Softmax Probability: 0.5046298676674096
-
-Match: 20152016\20152016_Norwich-City_Arsenal.pcsp
+Match: 20152016\20152016_Norwich City_Arsenal.pcsp
 Softmax Probability: 0.4936553405694139
+Match Url: https://www.premierleague.com/match/12252
 
-Match: 20152016\20152016_Manchester-United_AFC-Bournemouth.pcsp
-Softmax Probability: 0.506344659430586
-
-Match: 20152016\20152016_Leicester-City_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Leicester City_Tottenham Hotspur.pcsp
 Softmax Probability: 0.49914625082971775
-
-Match: 20152016\20152016_Leicester-City_Chelsea.pcsp
-Softmax Probability: 0.5008537491702822
+Match Url: https://www.premierleague.com/match/12136
 
 Match: 20152016\20152016_Arsenal_Chelsea.pcsp
 Softmax Probability: 0.4975637692796954
+Match Url: https://www.premierleague.com/match/12343
 
-Match: 20152016\20152016_Watford_Arsenal.pcsp
-Softmax Probability: 0.5024362307203046
-
-Match: 20152016\20152016_AFC-Bournemouth_Everton.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Everton.pcsp
 Softmax Probability: 0.4980650096600427
-
-Match: 20152016\20152016_Crystal-Palace_Watford.pcsp
-Softmax Probability: 0.5019349903399574
+Match Url: https://www.premierleague.com/match/12246
 
 Match: 20152016\20152016_Southampton_Chelsea.pcsp
 Softmax Probability: 0.49606508123855453
+Match Url: https://www.premierleague.com/match/12376
 
-Match: 20152016\20152016_West-Bromwich-Albion_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5039349187614455
-
-Match: 20152016\20152016_Stoke-City_Sunderland.pcsp
+Match: 20152016\20152016_Stoke City_Sunderland.pcsp
 Softmax Probability: 0.4869966827665847
+Match Url: https://www.premierleague.com/match/12464
 
-Match: 20152016\20152016_Everton_Swansea-City.pcsp
-Softmax Probability: 0.5130033172334153
-
-Match: 20152016\20152016_Liverpool_West-Ham-United.pcsp
+Match: 20152016\20152016_Liverpool_West Ham United.pcsp
 Softmax Probability: 0.5328874491075685
+Match Url: https://www.premierleague.com/match/12148
 
-Match: 20152016\20152016_West-Ham-United_Watford.pcsp
-Softmax Probability: 0.46711255089243153
-
-Match: 20152016\20152016_Tottenham-Hotspur_Southampton.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Southampton.pcsp
 Softmax Probability: 0.49732252559305873
+Match Url: https://www.premierleague.com/match/12480
 
-Match: 20152016\20152016_Arsenal_Liverpool.pcsp
-Softmax Probability: 0.5026774744069412
-
-Match: 20152016\20152016_Swansea-City_Everton.pcsp
+Match: 20152016\20152016_Swansea City_Everton.pcsp
 Softmax Probability: 0.49626256961016035
-
-Match: 20152016\20152016_Manchester-City_Liverpool.pcsp
-Softmax Probability: 0.5037374303898396
+Match Url: https://www.premierleague.com/match/12171
 
 Match: 20152016\20152016_Everton_Chelsea.pcsp
 Softmax Probability: 0.4992200006327354
+Match Url: https://www.premierleague.com/match/12157
 
-Match: 20152016\20152016_Watford_Newcastle-United.pcsp
-Softmax Probability: 0.5007799993672646
-
-Match: 20152016\20152016_Southampton_Stoke-City.pcsp
+Match: 20152016\20152016_Southampton_Stoke City.pcsp
 Softmax Probability: 0.495347634271191
-
-Match: 20152016\20152016_Liverpool_Manchester-City.pcsp
-Softmax Probability: 0.504652365728809
+Match Url: https://www.premierleague.com/match/12239
 
 Match: 20152016\20152016_Southampton_Sunderland.pcsp
 Softmax Probability: 0.4778320421434468
+Match Url: https://www.premierleague.com/match/12397
 
-Match: 20152016\20152016_Manchester-United_Liverpool.pcsp
-Softmax Probability: 0.5221679578565531
-
-Match: 20152016\20152016_Manchester-City_Leicester-City.pcsp
+Match: 20152016\20152016_Manchester City_Leicester City.pcsp
 Softmax Probability: 0.5057347485126472
+Match Url: https://www.premierleague.com/match/12357
 
-Match: 20152016\20152016_Manchester-United_Swansea-City.pcsp
-Softmax Probability: 0.49426525148735284
-
-Match: 20152016\20152016_Sunderland_Aston-Villa.pcsp
+Match: 20152016\20152016_Sunderland_Aston Villa.pcsp
 Softmax Probability: 0.4772956244658054
+Match Url: https://www.premierleague.com/match/12309
 
-Match: 20152016\20152016_Stoke-City_Crystal-Palace.pcsp
-Softmax Probability: 0.5227043755341946
-
-Match: 20152016\20152016_Watford_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Watford_AFC Bournemouth.pcsp
 Softmax Probability: 0.50062249967837
+Match Url: https://www.premierleague.com/match/12378
 
-Match: 20152016\20152016_Tottenham-Hotspur_Sunderland.pcsp
-Softmax Probability: 0.49937750032163
-
-Match: 20152016\20152016_Tottenham-Hotspur_Watford.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Watford.pcsp
 Softmax Probability: 0.4988600019753879
+Match Url: https://www.premierleague.com/match/12362
 
-Match: 20152016\20152016_Tottenham-Hotspur_Stoke-City.pcsp
-Softmax Probability: 0.5011399980246121
-
-Match: 20152016\20152016_Stoke-City_Chelsea.pcsp
+Match: 20152016\20152016_Stoke City_Chelsea.pcsp
 Softmax Probability: 0.5030524620772975
-
-Match: 20152016\20152016_Arsenal_Swansea-City.pcsp
-Softmax Probability: 0.4969475379227026
+Match Url: https://www.premierleague.com/match/12229
 
 Match: 20152016\20152016_Liverpool_Everton.pcsp
 Softmax Probability: 0.4883508584435604
+Match Url: https://www.premierleague.com/match/12450
 
-Match: 20152016\20152016_Crystal-Palace_Newcastle-United.pcsp
-Softmax Probability: 0.5116491415564396
-
-Match: 20152016\20152016_West-Ham-United_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_West Ham United_West Bromwich Albion.pcsp
 Softmax Probability: 0.49932375041234456
+Match Url: https://www.premierleague.com/match/12254
 
-Match: 20152016\20152016_Norwich-City_Sunderland.pcsp
-Softmax Probability: 0.5006762495876554
-
-Match: 20152016\20152016_Southampton_Aston-Villa.pcsp
+Match: 20152016\20152016_Southampton_Aston Villa.pcsp
 Softmax Probability: 0.5014599958504995
+Match Url: https://www.premierleague.com/match/12258
 
-Match: 20152016\20152016_Chelsea_West-Ham-United.pcsp
-Softmax Probability: 0.49854000414950056
-
-Match: 20152016\20152016_Manchester-City_Arsenal.pcsp
+Match: 20152016\20152016_Manchester City_Arsenal.pcsp
 Softmax Probability: 0.5192991572698633
+Match Url: https://www.premierleague.com/match/12479
 
-Match: 20152016\20152016_Norwich-City_Liverpool.pcsp
-Softmax Probability: 0.4807008427301367
-
-Match: 20152016\20152016_Everton_Norwich-City.pcsp
+Match: 20152016\20152016_Everton_Norwich City.pcsp
 Softmax Probability: 0.5015262452596092
+Match Url: https://www.premierleague.com/match/12487
 
-Match: 20152016\20152016_Norwich-City_Stoke-City.pcsp
-Softmax Probability: 0.49847375474039085
-
-Match: 20152016\20152016_AFC-Bournemouth_Manchester-United.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Manchester United.pcsp
 Softmax Probability: 0.4988762518921126
+Match Url: https://www.premierleague.com/match/12265
 
-Match: 20152016\20152016_Stoke-City_Manchester-United.pcsp
-Softmax Probability: 0.5011237481078874
-
-Match: 20152016\20152016_Manchester-United_Manchester-City.pcsp
+Match: 20152016\20152016_Manchester United_Manchester City.pcsp
 Softmax Probability: 0.49273176201327495
+Match Url: https://www.premierleague.com/match/12213
 
-Match: 20152016\20152016_Watford_Leicester-City.pcsp
-Softmax Probability: 0.507268237986725
-
-Match: 20152016\20152016_West-Bromwich-Albion_Manchester-City.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Manchester City.pcsp
 Softmax Probability: 0.5031012102312092
+Match Url: https://www.premierleague.com/match/12124
 
-Match: 20152016\20152016_Crystal-Palace_Chelsea.pcsp
-Softmax Probability: 0.4968987897687907
-
-Match: 20152016\20152016_West-Bromwich-Albion_Everton.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Everton.pcsp
 Softmax Probability: 0.5089165546060106
+Match Url: https://www.premierleague.com/match/12184
 
-Match: 20152016\20152016_Sunderland_Crystal-Palace.pcsp
-Softmax Probability: 0.4910834453939894
-
-Match: 20152016\20152016_Manchester-City_Manchester-United.pcsp
+Match: 20152016\20152016_Manchester City_Manchester United.pcsp
 Softmax Probability: 0.49363159440794147
+Match Url: https://www.premierleague.com/match/12414
 
-Match: 20152016\20152016_Leicester-City_Watford.pcsp
-Softmax Probability: 0.5063684055920586
-
-Match: 20152016\20152016_Manchester-United_Southampton.pcsp
+Match: 20152016\20152016_Manchester United_Southampton.pcsp
 Softmax Probability: 0.4995837500961615
+Match Url: https://www.premierleague.com/match/12337
 
-Match: 20152016\20152016_Chelsea_Watford.pcsp
-Softmax Probability: 0.5004162499038385
-
-Match: 20152016\20152016_Manchester-United_Norwich-City.pcsp
+Match: 20152016\20152016_Manchester United_Norwich City.pcsp
 Softmax Probability: 0.49753377000072807
+Match Url: https://www.premierleague.com/match/12277
 
-Match: 20152016\20152016_Swansea-City_Leicester-City.pcsp
-Softmax Probability: 0.502466229999272
-
-Match: 20152016\20152016_Stoke-City_West-Ham-United.pcsp
+Match: 20152016\20152016_Stoke City_West Ham United.pcsp
 Softmax Probability: 0.4926717747967513
+Match Url: https://www.premierleague.com/match/12490
 
-Match: 20152016\20152016_Aston-Villa_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5073282252032487
-
-Match: 20152016\20152016_Arsenal_Norwich-City.pcsp
+Match: 20152016\20152016_Arsenal_Norwich City.pcsp
 Softmax Probability: 0.5145683752902529
+Match Url: https://www.premierleague.com/match/12461
 
-Match: 20152016\20152016_Newcastle-United_West-Ham-United.pcsp
-Softmax Probability: 0.48543162470974704
-
-Match: 20152016\20152016_Arsenal_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Arsenal_AFC Bournemouth.pcsp
 Softmax Probability: 0.4896002500998685
+Match Url: https://www.premierleague.com/match/12295
 
-Match: 20152016\20152016_Everton_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.5103997499001315
-
-Match: 20152016\20152016_Newcastle-United_Manchester-City.pcsp
+Match: 20152016\20152016_Newcastle United_Manchester City.pcsp
 Softmax Probability: 0.48407164158371396
+Match Url: https://www.premierleague.com/match/12449
 
-Match: 20152016\20152016_Southampton_Liverpool.pcsp
-Softmax Probability: 0.5159283584162861
-
-Match: 20152016\20152016_West-Ham-United_Manchester-United.pcsp
+Match: 20152016\20152016_West Ham United_Manchester United.pcsp
 Softmax Probability: 0.5084104566383529
+Match Url: https://www.premierleague.com/match/12481
 
-Match: 20152016\20152016_Aston-Villa_Watford.pcsp
-Softmax Probability: 0.49158954336164706
-
-Match: 20152016\20152016_West-Ham-United_Manchester-City.pcsp
+Match: 20152016\20152016_West Ham United_Manchester City.pcsp
 Softmax Probability: 0.4930979384548486
+Match Url: https://www.premierleague.com/match/12342
 
-Match: 20152016\20152016_Manchester-United_Newcastle-United.pcsp
-Softmax Probability: 0.5069020615451514
-
-Match: 20152016\20152016_Newcastle-United_Everton.pcsp
+Match: 20152016\20152016_Newcastle United_Everton.pcsp
 Softmax Probability: 0.4771359567041036
-
-Match: 20152016\20152016_Manchester-City_Norwich-City.pcsp
-Softmax Probability: 0.5228640432958965
+Match Url: https://www.premierleague.com/match/12290
 
 Match: 20152016\20152016_Watford_Southampton.pcsp
 Softmax Probability: 0.5088478263017785
+Match Url: https://www.premierleague.com/match/12142
 
-Match: 20152016\20152016_Sunderland_Arsenal.pcsp
-Softmax Probability: 0.4911521736982215
-
-Match: 20152016\20152016_AFC-Bournemouth_Liverpool.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Liverpool.pcsp
 Softmax Probability: 0.49367658715920953
+Match Url: https://www.premierleague.com/match/12446
 
-Match: 20152016\20152016_Liverpool_Crystal-Palace.pcsp
-Softmax Probability: 0.5063234128407904
-
-Match: 20152016\20152016_Aston-Villa_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Aston Villa_West Bromwich Albion.pcsp
 Softmax Probability: 0.5089065577826443
+Match Url: https://www.premierleague.com/match/12165
 
-Match: 20152016\20152016_AFC-Bournemouth_Southampton.pcsp
-Softmax Probability: 0.49109344221735574
-
-Match: 20152016\20152016_AFC-Bournemouth_Norwich-City.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Norwich City.pcsp
 Softmax Probability: 0.4877037297994804
+Match Url: https://www.premierleague.com/match/12326
 
-Match: 20152016\20152016_Everton_Southampton.pcsp
-Softmax Probability: 0.5122962702005196
-
-Match: 20152016\20152016_Stoke-City_Watford.pcsp
+Match: 20152016\20152016_Stoke City_Watford.pcsp
 Softmax Probability: 0.4999425000002535
+Match Url: https://www.premierleague.com/match/12209
 
-Match: 20152016\20152016_Manchester-United_West-Ham-United.pcsp
-Softmax Probability: 0.5000574999997465
-
-Match: 20152016\20152016_Tottenham-Hotspur_Chelsea.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Chelsea.pcsp
 Softmax Probability: 0.5017274931262959
+Match Url: https://www.premierleague.com/match/12253
 
-Match: 20152016\20152016_Norwich-City_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.49827250687370406
-
-Match: 20152016\20152016_Newcastle-United_Manchester-United.pcsp
+Match: 20152016\20152016_Newcastle United_Manchester United.pcsp
 Softmax Probability: 0.5066446088052563
+Match Url: https://www.premierleague.com/match/12317
 
-Match: 20152016\20152016_Manchester-City_Southampton.pcsp
-Softmax Probability: 0.49335539119474375
-
-Match: 20152016\20152016_AFC-Bournemouth_Leicester-City.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Leicester City.pcsp
 Softmax Probability: 0.5054797805884198
+Match Url: https://www.premierleague.com/match/12146
 
-Match: 20152016\20152016_West-Bromwich-Albion_West-Ham-United.pcsp
-Softmax Probability: 0.49452021941158025
-
-Match: 20152016\20152016_West-Bromwich-Albion_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4858787563451561
+Match Url: https://www.premierleague.com/match/12262
 
-Match: 20152016\20152016_Crystal-Palace_Southampton.pcsp
-Softmax Probability: 0.5141212436548439
-
-Match: 20152016\20152016_Newcastle-United_Crystal-Palace.pcsp
+Match: 20152016\20152016_Newcastle United_Crystal Palace.pcsp
 Softmax Probability: 0.5017887423689298
+Match Url: https://www.premierleague.com/match/12463
 
-Match: 20152016\20152016_West-Bromwich-Albion_Liverpool.pcsp
-Softmax Probability: 0.4982112576310703
-
-Match: 20152016\20152016_Chelsea_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Chelsea_Tottenham Hotspur.pcsp
 Softmax Probability: 0.49596508759070873
-
-Match: 20152016\20152016_Aston-Villa_Newcastle-United.pcsp
-Softmax Probability: 0.5040349124092912
+Match Url: https://www.premierleague.com/match/12470
 
 Match: 20152016\20152016_Everton_Watford.pcsp
 Softmax Probability: 0.4948964272510496
+Match Url: https://www.premierleague.com/match/12117
 
-Match: 20152016\20152016_Norwich-City_Manchester-United.pcsp
-Softmax Probability: 0.5051035727489503
-
-Match: 20152016\20152016_West-Ham-United_Leicester-City.pcsp
+Match: 20152016\20152016_West Ham United_Leicester City.pcsp
 Softmax Probability: 0.513906412551307
+Match Url: https://www.premierleague.com/match/12131
 
-Match: 20152016\20152016_Southampton_Crystal-Palace.pcsp
-Softmax Probability: 0.4860935874486929
-
-Match: 20152016\20152016_Norwich-City_Everton.pcsp
+Match: 20152016\20152016_Norwich City_Everton.pcsp
 Softmax Probability: 0.5004112499072623
+Match Url: https://www.premierleague.com/match/12268
 
-Match: 20152016\20152016_Manchester-City_Stoke-City.pcsp
-Softmax Probability: 0.4995887500927377
-
-Match: 20152016\20152016_Norwich-City_Crystal-Palace.pcsp
+Match: 20152016\20152016_Norwich City_Crystal Palace.pcsp
 Softmax Probability: 0.4840441695402621
-
-Match: 20152016\20152016_Manchester-City_Sunderland.pcsp
-Softmax Probability: 0.5159558304597378
+Match Url: https://www.premierleague.com/match/12120
 
 Match: 20152016\20152016_Southampton_Watford.pcsp
 Softmax Probability: 0.49383031316107595
+Match Url: https://www.premierleague.com/match/12321
 
-Match: 20152016\20152016_Southampton_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.506169686838924
-
-Match: 20152016\20152016_Manchester-United_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Manchester United_West Bromwich Albion.pcsp
 Softmax Probability: 0.48661320004364045
-
-Match: 20152016\20152016_Manchester-United_Everton.pcsp
-Softmax Probability: 0.5133867999563596
+Match Url: https://www.premierleague.com/match/12227
 
 Match: 20152016\20152016_Arsenal_Watford.pcsp
 Softmax Probability: 0.5069420538787488
+Match Url: https://www.premierleague.com/match/12418
 
-Match: 20152016\20152016_Liverpool_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.49305794612125126
-
-Match: 20152016\20152016_AFC-Bournemouth_Arsenal.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Arsenal.pcsp
 Softmax Probability: 0.4936665887611619
+Match Url: https://www.premierleague.com/match/12363
 
-Match: 20152016\20152016_Stoke-City_Manchester-City.pcsp
-Softmax Probability: 0.5063334112388381
-
-Match: 20152016\20152016_Southampton_Swansea-City.pcsp
+Match: 20152016\20152016_Southampton_Swansea City.pcsp
 Softmax Probability: 0.4989312516276698
+Match Url: https://www.premierleague.com/match/12179
 
-Match: 20152016\20152016_Watford_Everton.pcsp
-Softmax Probability: 0.5010687483723301
-
-Match: 20152016\20152016_Swansea-City_Arsenal.pcsp
+Match: 20152016\20152016_Swansea City_Arsenal.pcsp
 Softmax Probability: 0.4970187853287076
+Match Url: https://www.premierleague.com/match/12219
 
-Match: 20152016\20152016_Arsenal_Leicester-City.pcsp
-Softmax Probability: 0.5029812146712924
-
-Match: 20152016\20152016_Newcastle-United_Aston-Villa.pcsp
+Match: 20152016\20152016_Newcastle United_Aston Villa.pcsp
 Softmax Probability: 0.49623132137084774
+Match Url: https://www.premierleague.com/match/12278
 
-Match: 20152016\20152016_Norwich-City_Aston-Villa.pcsp
-Softmax Probability: 0.5037686786291522
-
-Match: 20152016\20152016_Watford_West-Ham-United.pcsp
+Match: 20152016\20152016_Watford_West Ham United.pcsp
 Softmax Probability: 0.459409522707625
-
-Match: 20152016\20152016_Watford_Manchester-City.pcsp
-Softmax Probability: 0.540590477292375
+Match Url: https://www.premierleague.com/match/12220
 
 Match: 20152016\20152016_Sunderland_Liverpool.pcsp
 Softmax Probability: 0.500483749849061
-
-Match: 20152016\20152016_Manchester-United_Leicester-City.pcsp
-Softmax Probability: 0.49951625015093903
+Match Url: https://www.premierleague.com/match/12304
 
 Match: 20152016\20152016_Chelsea_Southampton.pcsp
 Softmax Probability: 0.5080605516055917
+Match Url: https://www.premierleague.com/match/12187
 
-Match: 20152016\20152016_Swansea-City_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.4919394483944083
-
-Match: 20152016\20152016_Arsenal_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Arsenal_Tottenham Hotspur.pcsp
 Softmax Probability: 0.5024262309567402
-
-Match: 20152016\20152016_Tottenham-Hotspur_Crystal-Palace.pcsp
-Softmax Probability: 0.49757376904325973
+Match Url: https://www.premierleague.com/match/12232
 
 Match: 20152016\20152016_Liverpool_Arsenal.pcsp
 Softmax Probability: 0.5016349941723944
+Match Url: https://www.premierleague.com/match/12319
 
-Match: 20152016\20152016_Tottenham-Hotspur_Newcastle-United.pcsp
-Softmax Probability: 0.49836500582760557
-
-Match: 20152016\20152016_Swansea-City_Manchester-United.pcsp
+Match: 20152016\20152016_Swansea City_Manchester United.pcsp
 Softmax Probability: 0.5077881200589973
+Match Url: https://www.premierleague.com/match/12154
 
-Match: 20152016\20152016_West-Bromwich-Albion_Sunderland.pcsp
-Softmax Probability: 0.4922118799410027
-
-Match: 20152016\20152016_Liverpool_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Liverpool_AFC Bournemouth.pcsp
 Softmax Probability: 0.5065183806805441
+Match Url: https://www.premierleague.com/match/12134
 
-Match: 20152016\20152016_Aston-Villa_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.49348161931945583
-
-Match: 20152016\20152016_Norwich-City_Sunderland.pcsp
+Match: 20152016\20152016_Norwich City_Sunderland.pcsp
 Softmax Probability: 0.4929517169179136
+Match Url: https://www.premierleague.com/match/12443
 
-Match: 20152016\20152016_West-Bromwich-Albion_Stoke-City.pcsp
-Softmax Probability: 0.5070482830820864
-
-Match: 20152016\20152016_Crystal-Palace_Newcastle-United.pcsp
+Match: 20152016\20152016_Crystal Palace_Newcastle United.pcsp
 Softmax Probability: 0.49803001019376736
+Match Url: https://www.premierleague.com/match/12247
 
-Match: 20152016\20152016_Chelsea_Leicester-City.pcsp
-Softmax Probability: 0.5019699898062326
-
-Match: 20152016\20152016_Norwich-City_Stoke-City.pcsp
+Match: 20152016\20152016_Norwich City_Stoke City.pcsp
 Softmax Probability: 0.4979025123038659
+Match Url: https://www.premierleague.com/match/12138
 
-Match: 20152016\20152016_Liverpool_Aston-Villa.pcsp
-Softmax Probability: 0.5020974876961342
-
-Match: 20152016\20152016_Norwich-City_Liverpool.pcsp
+Match: 20152016\20152016_Norwich City_Liverpool.pcsp
 Softmax Probability: 0.4993475003704077
+Match Url: https://www.premierleague.com/match/12338
 
-Match: 20152016\20152016_Norwich-City_Swansea-City.pcsp
-Softmax Probability: 0.5006524996295924
-
-Match: 20152016\20152016_Chelsea_West-Ham-United.pcsp
+Match: 20152016\20152016_Chelsea_West Ham United.pcsp
 Softmax Probability: 0.4591624220567076
+Match Url: https://www.premierleague.com/match/12408
 
-Match: 20152016\20152016_West-Bromwich-Albion_Norwich-City.pcsp
-Softmax Probability: 0.5408375779432923
-
-Match: 20152016\20152016_Stoke-City_Manchester-United.pcsp
+Match: 20152016\20152016_Stoke City_Manchester United.pcsp
 Softmax Probability: 0.5140975125669306
+Match Url: https://www.premierleague.com/match/12292
 
-Match: 20152016\20152016_Chelsea_AFC-Bournemouth.pcsp
-Softmax Probability: 0.4859024874330693
-
-Match: 20152016\20152016_Watford_Leicester-City.pcsp
+Match: 20152016\20152016_Watford_Leicester City.pcsp
 Softmax Probability: 0.5140650383436435
+Match Url: https://www.premierleague.com/match/12400
 
-Match: 20152016\20152016_Arsenal_Southampton.pcsp
-Softmax Probability: 0.4859349616563564
-
-Match: 20152016\20152016_Everton_Swansea-City.pcsp
+Match: 20152016\20152016_Everton_Swansea City.pcsp
 Softmax Probability: 0.5001312499969853
+Match Url: https://www.premierleague.com/match/12344
 
-Match: 20152016\20152016_Swansea-City_Norwich-City.pcsp
-Softmax Probability: 0.4998687500030146
-
-Match: 20152016\20152016_West-Ham-United_Watford.pcsp
+Match: 20152016\20152016_West Ham United_Watford.pcsp
 Softmax Probability: 0.5083654693028095
-
-Match: 20152016\20152016_Liverpool_Newcastle-United.pcsp
-Softmax Probability: 0.4916345306971906
+Match Url: https://www.premierleague.com/match/12452
 
 Match: 20152016\20152016_Arsenal_Liverpool.pcsp
 Softmax Probability: 0.5373366194088008
+Match Url: https://www.premierleague.com/match/12144
 
-Match: 20152016\20152016_West-Ham-United_Chelsea.pcsp
-Softmax Probability: 0.46266338059119916
-
-Match: 20152016\20152016_Manchester-City_Liverpool.pcsp
+Match: 20152016\20152016_Manchester City_Liverpool.pcsp
 Softmax Probability: 0.5118352888339684
+Match Url: https://www.premierleague.com/match/12237
 
-Match: 20152016\20152016_Stoke-City_Sunderland.pcsp
-Softmax Probability: 0.48816471116603155
-
-Match: 20152016\20152016_Watford_Newcastle-United.pcsp
+Match: 20152016\20152016_Watford_Newcastle United.pcsp
 Softmax Probability: 0.49764501741436395
+Match Url: https://www.premierleague.com/match/12340
 
-Match: 20152016\20152016_Southampton_Chelsea.pcsp
-Softmax Probability: 0.502354982585636
-
-Match: 20152016\20152016_Liverpool_Manchester-City.pcsp
+Match: 20152016\20152016_Liverpool_Manchester City.pcsp
 Softmax Probability: 0.5080842954150052
+Match Url: https://www.premierleague.com/match/12389
 
-Match: 20152016\20152016_AFC-Bournemouth_Everton.pcsp
-Softmax Probability: 0.49191570458499473
-
-Match: 20152016\20152016_Manchester-United_Liverpool.pcsp
+Match: 20152016\20152016_Manchester United_Liverpool.pcsp
 Softmax Probability: 0.4943039964241773
+Match Url: https://www.premierleague.com/match/12158
 
-Match: 20152016\20152016_Liverpool_West-Ham-United.pcsp
-Softmax Probability: 0.5056960035758227
-
-Match: 20152016\20152016_Stoke-City_Crystal-Palace.pcsp
+Match: 20152016\20152016_Stoke City_Crystal Palace.pcsp
 Softmax Probability: 0.5027462223844494
+Match Url: https://www.premierleague.com/match/12280
 
-Match: 20152016\20152016_Swansea-City_Everton.pcsp
-Softmax Probability: 0.49725377761555056
-
-Match: 20152016\20152016_Manchester-United_Swansea-City.pcsp
+Match: 20152016\20152016_Manchester United_Swansea City.pcsp
 Softmax Probability: 0.5002949999657701
+Match Url: https://www.premierleague.com/match/12307
 
-Match: 20152016\20152016_Tottenham-Hotspur_Southampton.pcsp
-Softmax Probability: 0.4997050000342298
-
-Match: 20152016\20152016_Tottenham-Hotspur_Sunderland.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Sunderland.pcsp
 Softmax Probability: 0.496645050351045
+Match Url: https://www.premierleague.com/match/12331
 
-Match: 20152016\20152016_Southampton_Stoke-City.pcsp
-Softmax Probability: 0.5033549496489549
-
-Match: 20152016\20152016_Tottenham-Hotspur_Stoke-City.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Stoke City.pcsp
 Softmax Probability: 0.4989412515824071
+Match Url: https://www.premierleague.com/match/12129
 
-Match: 20152016\20152016_Everton_Chelsea.pcsp
-Softmax Probability: 0.5010587484175929
-
-Match: 20152016\20152016_Arsenal_Swansea-City.pcsp
+Match: 20152016\20152016_Arsenal_Swansea City.pcsp
 Softmax Probability: 0.5097050309326603
+Match Url: https://www.premierleague.com/match/12388
 
-Match: 20152016\20152016_Southampton_Sunderland.pcsp
-Softmax Probability: 0.49029496906733977
-
-Match: 20152016\20152016_Southampton_Norwich-City.pcsp
+Match: 20152016\20152016_Southampton_Norwich City.pcsp
 Softmax Probability: 0.48765251092441253
+Match Url: https://www.premierleague.com/match/12153
 
-Match: 20152016\20152016_Manchester-City_Leicester-City.pcsp
-Softmax Probability: 0.5123474890755876
-
-Match: 20152016\20152016_Aston-Villa_Crystal-Palace.pcsp
+Match: 20152016\20152016_Aston Villa_Crystal Palace.pcsp
 Softmax Probability: 0.4916007901827916
+Match Url: https://www.premierleague.com/match/12315
 
-Match: 20152016\20152016_Watford_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5083992098172083
-
-Match: 20152016\20152016_Aston-Villa_Chelsea.pcsp
+Match: 20152016\20152016_Aston Villa_Chelsea.pcsp
 Softmax Probability: 0.5035786888883625
+Match Url: https://www.premierleague.com/match/12419
 
-Match: 20152016\20152016_Sunderland_Aston-Villa.pcsp
-Softmax Probability: 0.4964213111116374
-
-Match: 20152016\20152016_Manchester-United_Arsenal.pcsp
+Match: 20152016\20152016_Manchester United_Arsenal.pcsp
 Softmax Probability: 0.5049323399988468
+Match Url: https://www.premierleague.com/match/12381
 
-Match: 20152016\20152016_Tottenham-Hotspur_Watford.pcsp
-Softmax Probability: 0.4950676600011532
-
-Match: 20152016\20152016_AFC-Bournemouth_Manchester-City.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Manchester City.pcsp
 Softmax Probability: 0.5125698509274834
+Match Url: https://www.premierleague.com/match/12420
 
-Match: 20152016\20152016_Liverpool_Everton.pcsp
-Softmax Probability: 0.4874301490725166
-
-Match: 20152016\20152016_Leicester-City_Chelsea.pcsp
+Match: 20152016\20152016_Leicester City_Chelsea.pcsp
 Softmax Probability: 0.5021674864227195
+Match Url: https://www.premierleague.com/match/12274
 
-Match: 20152016\20152016_Stoke-City_Chelsea.pcsp
-Softmax Probability: 0.4978325135772805
-
-Match: 20152016\20152016_Manchester-United_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Manchester United_AFC Bournemouth.pcsp
 Softmax Probability: 0.5453983737703885
+Match Url: https://www.premierleague.com/match/12494
 
-Match: 20152016\20152016_West-Ham-United_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.4546016262296115
-
-Match: 20152016\20152016_West-Bromwich-Albion_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_West Bromwich Albion_AFC Bournemouth.pcsp
 Softmax Probability: 0.4876587571148281
-
-Match: 20152016\20152016_Southampton_Aston-Villa.pcsp
-Softmax Probability: 0.5123412428851718
+Match Url: https://www.premierleague.com/match/12281
 
 Match: 20152016\20152016_Watford_Arsenal.pcsp
 Softmax Probability: 0.4939028022514057
+Match Url: https://www.premierleague.com/match/12201
 
-Match: 20152016\20152016_Leicester-City_Aston-Villa.pcsp
-Softmax Probability: 0.5060971977485943
-
-Match: 20152016\20152016_Crystal-Palace_Watford.pcsp
+Match: 20152016\20152016_Crystal Palace_Watford.pcsp
 Softmax Probability: 0.4914495836365321
+Match Url: https://www.premierleague.com/match/12367
 
-Match: 20152016\20152016_Chelsea_Manchester-City.pcsp
-Softmax Probability: 0.5085504163634679
-
-Match: 20152016\20152016_Arsenal_Newcastle-United.pcsp
+Match: 20152016\20152016_Arsenal_Newcastle United.pcsp
 Softmax Probability: 0.4996050000821731
+Match Url: https://www.premierleague.com/match/12305
 
-Match: 20152016\20152016_Tottenham-Hotspur_Manchester-United.pcsp
-Softmax Probability: 0.5003949999178269
-
-Match: 20152016\20152016_West-Ham-United_Newcastle-United.pcsp
+Match: 20152016\20152016_West Ham United_Newcastle United.pcsp
 Softmax Probability: 0.498157508339862
+Match Url: https://www.premierleague.com/match/12164
 
-Match: 20152016\20152016_Watford_Manchester-United.pcsp
-Softmax Probability: 0.501842491660138
-
-Match: 20152016\20152016_AFC-Bournemouth_Swansea-City.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Swansea City.pcsp
 Softmax Probability: 0.4959913358923508
+Match Url: https://www.premierleague.com/match/12403
 
-Match: 20152016\20152016_Manchester-City_Swansea-City.pcsp
-Softmax Probability: 0.5040086641076492
-
-Match: 20152016\20152016_Sunderland_Manchester-United.pcsp
+Match: 20152016\20152016_Sunderland_Manchester United.pcsp
 Softmax Probability: 0.49940500028085966
+Match Url: https://www.premierleague.com/match/12370
 
-Match: 20152016\20152016_Stoke-City_Liverpool.pcsp
-Softmax Probability: 0.5005949997191403
-
-Match: 20152016\20152016_West-Bromwich-Albion_Crystal-Palace.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Crystal Palace.pcsp
 Softmax Probability: 0.49970875003294096
+Match Url: https://www.premierleague.com/match/12379
 
-Match: 20152016\20152016_Norwich-City_Arsenal.pcsp
-Softmax Probability: 0.500291249967059
-
-Match: 20152016\20152016_West-Bromwich-Albion_Southampton.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Southampton.pcsp
 Softmax Probability: 0.5006537496274595
+Match Url: https://www.premierleague.com/match/12161
 
-Match: 20152016\20152016_Leicester-City_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.4993462503725406
-
-Match: 20152016\20152016_Everton_Crystal-Palace.pcsp
+Match: 20152016\20152016_Everton_Crystal Palace.pcsp
 Softmax Probability: 0.5064783874372047
+Match Url: https://www.premierleague.com/match/12264
 
-Match: 20152016\20152016_Arsenal_Chelsea.pcsp
-Softmax Probability: 0.4935216125627953
-
-Match: 20152016\20152016_Newcastle-United_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Newcastle United_AFC Bournemouth.pcsp
 Softmax Probability: 0.5014637458184434
+Match Url: https://www.premierleague.com/match/12396
 
-Match: 20152016\20152016_West-Bromwich-Albion_Swansea-City.pcsp
-Softmax Probability: 0.4985362541815565
-
-Match: 20152016\20152016_Aston-Villa_West-Ham-United.pcsp
+Match: 20152016\20152016_Aston Villa_West Ham United.pcsp
 Softmax Probability: 0.46562182770595006
+Match Url: https://www.premierleague.com/match/12285
 
-Match: 20152016\20152016_Crystal-Palace_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.5343781722940499
-
-Match: 20152016\20152016_West-Ham-United_Liverpool.pcsp
+Match: 20152016\20152016_West Ham United_Liverpool.pcsp
 Softmax Probability: 0.49874875261198043
+Match Url: https://www.premierleague.com/match/12312
 
-Match: 20152016\20152016_Newcastle-United_Arsenal.pcsp
-Softmax Probability: 0.5012512473880195
-
-Match: 20152016\20152016_West-Ham-United_Aston-Villa.pcsp
+Match: 20152016\20152016_West Ham United_Aston Villa.pcsp
 Softmax Probability: 0.4972725270537732
+Match Url: https://www.premierleague.com/match/12352
 
-Match: 20152016\20152016_Arsenal_West-Ham-United.pcsp
-Softmax Probability: 0.5027274729462268
-
-Match: 20152016\20152016_Arsenal_Manchester-City.pcsp
+Match: 20152016\20152016_Arsenal_Manchester City.pcsp
 Softmax Probability: 0.5231272354063571
+Match Url: https://www.premierleague.com/match/12284
 
-Match: 20152016\20152016_Aston-Villa_Manchester-City.pcsp
-Softmax Probability: 0.4768727645936429
-
-Match: 20152016\20152016_Swansea-City_Southampton.pcsp
+Match: 20152016\20152016_Swansea City_Southampton.pcsp
 Softmax Probability: 0.5050660766272842
-
-Match: 20152016\20152016_AFC-Bournemouth_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.4949339233727157
+Match Url: https://www.premierleague.com/match/12371
 
 Match: 20152016\20152016_Sunderland_Everton.pcsp
 Softmax Probability: 0.4908072859959959
+Match Url: https://www.premierleague.com/match/12484
 
-Match: 20152016\20152016_Manchester-City_Everton.pcsp
-Softmax Probability: 0.5091927140040041
-
-Match: 20152016\20152016_West-Ham-United_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_West Ham United_AFC Bournemouth.pcsp
 Softmax Probability: 0.4876887388824405
+Match Url: https://www.premierleague.com/match/12140
 
-Match: 20152016\20152016_Stoke-City_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5123112611175595
-
-Match: 20152016\20152016_West-Bromwich-Albion_Sunderland.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Sunderland.pcsp
 Softmax Probability: 0.5029337163331826
+Match Url: https://www.premierleague.com/match/12202
 
-Match: 20152016\20152016_Arsenal_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.49706628366681743
-
-Match: 20152016\20152016_West-Bromwich-Albion_Stoke-City.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Stoke City.pcsp
 Softmax Probability: 0.5101398595936402
+Match Url: https://www.premierleague.com/match/12311
 
-Match: 20152016\20152016_AFC-Bournemouth_West-Ham-United.pcsp
-Softmax Probability: 0.4898601404063598
-
-Match: 20152016\20152016_Aston-Villa_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Aston Villa_Tottenham Hotspur.pcsp
 Softmax Probability: 0.49220688115487776
+Match Url: https://www.premierleague.com/match/12406
 
-Match: 20152016\20152016_West-Bromwich-Albion_Arsenal.pcsp
-Softmax Probability: 0.5077931188451222
-
-Match: 20152016\20152016_Chelsea_Leicester-City.pcsp
+Match: 20152016\20152016_Chelsea_Leicester City.pcsp
 Softmax Probability: 0.4988200021907045
+Match Url: https://www.premierleague.com/match/12486
 
-Match: 20152016\20152016_Southampton_Newcastle-United.pcsp
-Softmax Probability: 0.5011799978092956
-
-Match: 20152016\20152016_Liverpool_Aston-Villa.pcsp
+Match: 20152016\20152016_Liverpool_Aston Villa.pcsp
 Softmax Probability: 0.5064346447323876
+Match Url: https://www.premierleague.com/match/12176
 
-Match: 20152016\20152016_Stoke-City_Aston-Villa.pcsp
-Softmax Probability: 0.49356535526761236
-
-Match: 20152016\20152016_West-Bromwich-Albion_Norwich-City.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Norwich City.pcsp
 Softmax Probability: 0.4927467588501735
+Match Url: https://www.premierleague.com/match/12413
 
-Match: 20152016\20152016_Crystal-Palace_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.5072532411498265
-
-Match: 20152016\20152016_Norwich-City_Swansea-City.pcsp
+Match: 20152016\20152016_Norwich City_Swansea City.pcsp
 Softmax Probability: 0.4973325253073736
+Match Url: https://www.premierleague.com/match/12228
 
-Match: 20152016\20152016_Arsenal_Watford.pcsp
-Softmax Probability: 0.5026674746926264
-
-Match: 20152016\20152016_Chelsea_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Chelsea_AFC Bournemouth.pcsp
 Softmax Probability: 0.4976687668927948
-
-Match: 20152016\20152016_AFC-Bournemouth_Arsenal.pcsp
-Softmax Probability: 0.5023312331072052
+Match Url: https://www.premierleague.com/match/12256
 
 Match: 20152016\20152016_Arsenal_Southampton.pcsp
 Softmax Probability: 0.49790001234791287
+Match Url: https://www.premierleague.com/match/12345
 
-Match: 20152016\20152016_Southampton_Swansea-City.pcsp
-Softmax Probability: 0.5020999876520871
-
-Match: 20152016\20152016_Swansea-City_Norwich-City.pcsp
+Match: 20152016\20152016_Swansea City_Norwich City.pcsp
 Softmax Probability: 0.49752877012262064
+Match Url: https://www.premierleague.com/match/12398
 
-Match: 20152016\20152016_Swansea-City_Arsenal.pcsp
-Softmax Probability: 0.5024712298773794
-
-Match: 20152016\20152016_West-Ham-United_Chelsea.pcsp
+Match: 20152016\20152016_West Ham United_Chelsea.pcsp
 Softmax Probability: 0.5079605772735823
+Match Url: https://www.premierleague.com/match/12210
 
-Match: 20152016\20152016_Newcastle-United_Aston-Villa.pcsp
-Softmax Probability: 0.4920394227264177
-
-Match: 20152016\20152016_Liverpool_Newcastle-United.pcsp
+Match: 20152016\20152016_Liverpool_Newcastle United.pcsp
 Softmax Probability: 0.4967237968880725
+Match Url: https://www.premierleague.com/match/12456
 
-Match: 20152016\20152016_Watford_West-Ham-United.pcsp
-Softmax Probability: 0.5032762031119274
-
-Match: 20152016\20152016_Norwich-City_Aston-Villa.pcsp
+Match: 20152016\20152016_Norwich City_Aston Villa.pcsp
 Softmax Probability: 0.5022049857057577
+Match Url: https://www.premierleague.com/match/12299
 
-Match: 20152016\20152016_Chelsea_Southampton.pcsp
-Softmax Probability: 0.49779501429424233
-
-Match: 20152016\20152016_Watford_Manchester-City.pcsp
+Match: 20152016\20152016_Watford_Manchester City.pcsp
 Softmax Probability: 0.506129692889935
+Match Url: https://www.premierleague.com/match/12310
 
-Match: 20152016\20152016_Sunderland_Liverpool.pcsp
-Softmax Probability: 0.49387030711006497
-
-Match: 20152016\20152016_Manchester-United_Leicester-City.pcsp
+Match: 20152016\20152016_Manchester United_Leicester City.pcsp
 Softmax Probability: 0.5000674999995899
+Match Url: https://www.premierleague.com/match/12467
 
-Match: 20152016\20152016_Liverpool_Arsenal.pcsp
-Softmax Probability: 0.49993250000041006
-
-Match: 20152016\20152016_Swansea-City_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Swansea City_West Bromwich Albion.pcsp
 Softmax Probability: 0.49956875010693647
+Match Url: https://www.premierleague.com/match/12293
 
-Match: 20152016\20152016_Arsenal_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.5004312498930635
-
-Match: 20152016\20152016_Tottenham-Hotspur_Crystal-Palace.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Crystal Palace.pcsp
 Softmax Probability: 0.5067533392836572
+Match Url: https://www.premierleague.com/match/12174
 
-Match: 20152016\20152016_Swansea-City_Manchester-United.pcsp
-Softmax Probability: 0.49324666071634277
-
-Match: 20152016\20152016_Tottenham-Hotspur_Newcastle-United.pcsp
+Match: 20152016\20152016_Tottenham Hotspur_Newcastle United.pcsp
 Softmax Probability: 0.5030262130472486
+Match Url: https://www.premierleague.com/match/12273
 
-Match: 20152016\20152016_Liverpool_AFC-Bournemouth.pcsp
-Softmax Probability: 0.4969737869527514
-
-Match: 20152016\20152016_Manchester-United_West-Ham-United.pcsp
+Match: 20152016\20152016_Manchester United_West Ham United.pcsp
 Softmax Probability: 0.47014680017094185
+Match Url: https://www.premierleague.com/match/12257
 
-Match: 20152016\20152016_AFC-Bournemouth_Norwich-City.pcsp
-Softmax Probability: 0.5298531998290582
-
-Match: 20152016\20152016_Norwich-City_West-Bromwich-Albion.pcsp
+Match: 20152016\20152016_Norwich City_West Bromwich Albion.pcsp
 Softmax Probability: 0.4952276449308106
-
-Match: 20152016\20152016_Stoke-City_Watford.pcsp
-Softmax Probability: 0.5047723550691894
+Match Url: https://www.premierleague.com/match/12208
 
 Match: 20152016\20152016_Everton_Southampton.pcsp
 Softmax Probability: 0.5070107904942621
+Match Url: https://www.premierleague.com/match/12440
 
-Match: 20152016\20152016_Tottenham-Hotspur_Chelsea.pcsp
-Softmax Probability: 0.4929892095057379
-
-Match: 20152016\20152016_Manchester-City_Southampton.pcsp
+Match: 20152016\20152016_Manchester City_Southampton.pcsp
 Softmax Probability: 0.5047848539274358
+Match Url: https://www.premierleague.com/match/12249
 
-Match: 20152016\20152016_Newcastle-United_Manchester-United.pcsp
-Softmax Probability: 0.49521514607256434
-
-Match: 20152016\20152016_West-Bromwich-Albion_West-Ham-United.pcsp
+Match: 20152016\20152016_West Bromwich Albion_West Ham United.pcsp
 Softmax Probability: 0.47086927769331044
+Match Url: https://www.premierleague.com/match/12466
 
-Match: 20152016\20152016_AFC-Bournemouth_Leicester-City.pcsp
-Softmax Probability: 0.5291307223066896
-
-Match: 20152016\20152016_Crystal-Palace_Southampton.pcsp
+Match: 20152016\20152016_Crystal Palace_Southampton.pcsp
 Softmax Probability: 0.5305718162876543
+Match Url: https://www.premierleague.com/match/12266
 
-Match: 20152016\20152016_West-Bromwich-Albion_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.4694281837123458
-
-Match: 20152016\20152016_West-Bromwich-Albion_Liverpool.pcsp
+Match: 20152016\20152016_West Bromwich Albion_Liverpool.pcsp
 Softmax Probability: 0.4906873270904937
+Match Url: https://www.premierleague.com/match/12493
 
-Match: 20152016\20152016_Chelsea_Tottenham-Hotspur.pcsp
-Softmax Probability: 0.5093126729095063
-
-Match: 20152016\20152016_Norwich-City_Manchester-United.pcsp
+Match: 20152016\20152016_Norwich City_Manchester United.pcsp
 Softmax Probability: 0.5270323652208112
+Match Url: https://www.premierleague.com/match/12475
 
-Match: 20152016\20152016_Newcastle-United_Crystal-Palace.pcsp
-Softmax Probability: 0.47296763477918885
-
-Match: 20152016\20152016_Aston-Villa_Newcastle-United.pcsp
+Match: 20152016\20152016_Aston Villa_Newcastle United.pcsp
 Softmax Probability: 0.4833923615306896
+Match Url: https://www.premierleague.com/match/12471
 
-Match: 20152016\20152016_Everton_Watford.pcsp
-Softmax Probability: 0.5166076384693105
-
-Match: 20152016\20152016_Southampton_Crystal-Palace.pcsp
+Match: 20152016\20152016_Southampton_Crystal Palace.pcsp
 Softmax Probability: 0.5013399967918706
+Match Url: https://www.premierleague.com/match/12489
 
-Match: 20152016\20152016_Norwich-City_Everton.pcsp
-Softmax Probability: 0.4986600032081294
-
-Match: 20152016\20152016_Manchester-City_Stoke-City.pcsp
+Match: 20152016\20152016_Manchester City_Stoke City.pcsp
 Softmax Probability: 0.5457789335218428
+Match Url: https://www.premierleague.com/match/12457
 
-Match: 20152016\20152016_West-Ham-United_Leicester-City.pcsp
-Softmax Probability: 0.45422106647815713
-
-Match: 20152016\20152016_Southampton_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Southampton_Tottenham Hotspur.pcsp
 Softmax Probability: 0.4766607234134118
+Match Url: https://www.premierleague.com/match/12279
 
-Match: 20152016\20152016_Manchester-United_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.5233392765865882
-
-Match: 20152016\20152016_Manchester-City_Sunderland.pcsp
+Match: 20152016\20152016_Manchester City_Sunderland.pcsp
 Softmax Probability: 0.4909509881606744
+Match Url: https://www.premierleague.com/match/12289
 
-Match: 20152016\20152016_Southampton_Watford.pcsp
-Softmax Probability: 0.5090490118393257
-
-Match: 20152016\20152016_Manchester-United_Everton.pcsp
+Match: 20152016\20152016_Manchester United_Everton.pcsp
 Softmax Probability: 0.4982337573467133
+Match Url: https://www.premierleague.com/match/12427
 
-Match: 20152016\20152016_Norwich-City_Crystal-Palace.pcsp
-Softmax Probability: 0.5017662426532866
-
-Match: 20152016\20152016_Liverpool_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Liverpool_Tottenham Hotspur.pcsp
 Softmax Probability: 0.49648255802731256
+Match Url: https://www.premierleague.com/match/12421
 
-Match: 20152016\20152016_Arsenal_AFC-Bournemouth.pcsp
-Softmax Probability: 0.5035174419726874
-
-Match: 20152016\20152016_Arsenal_Leicester-City.pcsp
+Match: 20152016\20152016_Arsenal_Leicester City.pcsp
 Softmax Probability: 0.5175203239535033
+Match Url: https://www.premierleague.com/match/12372
 
-Match: 20152016\20152016_Newcastle-United_Manchester-City.pcsp
-Softmax Probability: 0.4824796760464966
-
-Match: 20152016\20152016_Stoke-City_Manchester-City.pcsp
+Match: 20152016\20152016_Stoke City_Manchester City.pcsp
 Softmax Probability: 0.5444944875886867
-
-Match: 20152016\20152016_West-Ham-United_Manchester-City.pcsp
-Softmax Probability: 0.4555055124113134
+Match Url: https://www.premierleague.com/match/12259
 
 Match: 20152016\20152016_Watford_Everton.pcsp
 Softmax Probability: 0.49772501569926586
+Match Url: https://www.premierleague.com/match/12433
 
-Match: 20152016\20152016_West-Ham-United_Manchester-United.pcsp
-Softmax Probability: 0.5022749843007343
-
-Match: 20152016\20152016_Crystal-Palace_Chelsea.pcsp
+Match: 20152016\20152016_Crystal Palace_Chelsea.pcsp
 Softmax Probability: 0.49752627018375223
+Match Url: https://www.premierleague.com/match/12313
 
-Match: 20152016\20152016_Newcastle-United_Everton.pcsp
-Softmax Probability: 0.5024737298162478
-
-Match: 20152016\20152016_Sunderland_Crystal-Palace.pcsp
+Match: 20152016\20152016_Sunderland_Crystal Palace.pcsp
 Softmax Probability: 0.5084242027415229
+Match Url: https://www.premierleague.com/match/12387
 
-Match: 20152016\20152016_Watford_Southampton.pcsp
-Softmax Probability: 0.4915757972584771
-
-Match: 20152016\20152016_Leicester-City_Watford.pcsp
+Match: 20152016\20152016_Leicester City_Watford.pcsp
 Softmax Probability: 0.5079518294891235
+Match Url: https://www.premierleague.com/match/12226
 
-Match: 20152016\20152016_AFC-Bournemouth_Liverpool.pcsp
-Softmax Probability: 0.4920481705108764
-
-Match: 20152016\20152016_Swansea-City_Leicester-City.pcsp
+Match: 20152016\20152016_Swansea City_Leicester City.pcsp
 Softmax Probability: 0.5070082909855987
-
-Match: 20152016\20152016_Aston-Villa_West-Bromwich-Albion.pcsp
-Softmax Probability: 0.49299170901440126
+Match Url: https://www.premierleague.com/match/12260
 
 Match: 20152016\20152016_Chelsea_Watford.pcsp
 Softmax Probability: 0.48694546756597046
+Match Url: https://www.premierleague.com/match/12287
 
-Match: 20152016\20152016_Manchester-City_Arsenal.pcsp
-Softmax Probability: 0.5130545324340294
-
-Match: 20152016\20152016_Aston-Villa_AFC-Bournemouth.pcsp
+Match: 20152016\20152016_Aston Villa_AFC Bournemouth.pcsp
 Softmax Probability: 0.48908673351330706
+Match Url: https://www.premierleague.com/match/12428
 
-Match: 20152016\20152016_Everton_Norwich-City.pcsp
-Softmax Probability: 0.510913266486693
-
-Match: 20152016\20152016_Everton_Tottenham-Hotspur.pcsp
+Match: 20152016\20152016_Everton_Tottenham Hotspur.pcsp
 Softmax Probability: 0.5117053608757861
-
-Match: 20152016\20152016_AFC-Bournemouth_Manchester-United.pcsp
-Softmax Probability: 0.4882946391242139
+Match Url: https://www.premierleague.com/match/12314
 
 Match: 20152016\20152016_Southampton_Liverpool.pcsp
 Softmax Probability: 0.5060584534743081
+Match Url: https://www.premierleague.com/match/12416
 
-Match: 20152016\20152016_Manchester-United_Manchester-City.pcsp
-Softmax Probability: 0.49394154652569183
-
-Match: 20152016\20152016_Newcastle-United_West-Ham-United.pcsp
+Match: 20152016\20152016_Newcastle United_West Ham United.pcsp
 Softmax Probability: 0.4623948969885082
+Match Url: https://www.premierleague.com/match/12329
 
-Match: 20152016\20152016_West-Bromwich-Albion_Manchester-City.pcsp
-Softmax Probability: 0.5376051030114917
-
-Match: 20152016\20152016_Aston-Villa_Watford.pcsp
+Match: 20152016\20152016_Aston Villa_Watford.pcsp
 Softmax Probability: 0.4986112535711625
+Match Url: https://www.premierleague.com/match/12245
 
-Match: 20152016\20152016_West-Bromwich-Albion_Everton.pcsp
-Softmax Probability: 0.5013887464288375
-
-Match: 20152016\20152016_Manchester-United_Newcastle-United.pcsp
+Match: 20152016\20152016_Manchester United_Newcastle United.pcsp
 Softmax Probability: 0.49509140770110494
+Match Url: https://www.premierleague.com/match/12137
 
-Match: 20152016\20152016_Manchester-City_Manchester-United.pcsp
-Softmax Probability: 0.5049085922988951
-
-Match: 20152016\20152016_Manchester-City_Norwich-City.pcsp
+Match: 20152016\20152016_Manchester City_Norwich City.pcsp
 Softmax Probability: 0.5007024995377496
-
-Match: 20152016\20152016_Manchester-United_Norwich-City.pcsp
-Softmax Probability: 0.4992975004622505
+Match Url: https://www.premierleague.com/match/12217
 
 Match: 20152016\20152016_Sunderland_Arsenal.pcsp
 Softmax Probability: 0.48581006144997346
+Match Url: https://www.premierleague.com/match/12459
 
-Match: 20152016\20152016_Manchester-United_Southampton.pcsp
-Softmax Probability: 0.5141899385500266
-
-Match: 20152016\20152016_Liverpool_Crystal-Palace.pcsp
+Match: 20152016\20152016_Liverpool_Crystal Palace.pcsp
 Softmax Probability: 0.5019149906364071
+Match Url: https://www.premierleague.com/match/12234
 
-Match: 20152016\20152016_Stoke-City_West-Ham-United.pcsp
-Softmax Probability: 0.4980850093635929
-
-Match: 20152016\20152016_AFC-Bournemouth_Southampton.pcsp
+Match: 20152016\20152016_AFC Bournemouth_Southampton.pcsp
 Softmax Probability: 0.5061121955125539
-
-Match: 20152016\20152016_Arsenal_Norwich-City.pcsp
-Softmax Probability: 0.4938878044874461
+Match Url: https://www.premierleague.com/match/12384
 

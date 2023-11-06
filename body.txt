@@ -167,15 +167,7 @@ UpdatePos(p, e) = case {
 #define Goal3 danger <= 3;
 #define Goal4 danger <= 4;
 #define PenaltyGoal penaltyGoal == true;
-#assert AtkKep deadlockfree;
-#assert AtkKep |= F G Goal0 with prob;
-#assert AtkKep |= F G Goal1 with prob;
-#assert AtkKep |= F G Goal2 with prob;
-#assert AtkKep |= F G Goal3 with prob;
-#assert AtkKep |= F G Goal4 with prob;
-#assert AtkKep |= F G PenaltyGoal with prob;
 
 #define Goal goal == true;
-#assert AtkKep |= F G Goal with prob;
 
 #assert AtkKep |= F G (Goal || PenaltyGoal) with prob;
