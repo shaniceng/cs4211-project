@@ -52,7 +52,7 @@ var atkDefPos = [-1, -1, -1, -1, -1, -1, 1, 0, 1, 0, 1, 0, 1, -1, -1, -1, -1, -1
 var atkMidPos = [-1, -1, -1, -1, -1, -1, 1, 0, 1, 0, 1, 0, 1, -1, -1, -1, -1, -1, -1];
 var atkForPos = [-1, -1, -1, -1, -1, -1, 0, 0, 1, 0, 1, 0, 0, -1, -1, -1, -1, -1, -1];
 var defKepPos = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, -1, -1, -1, -1, -1, -1];
-AtkKep = [pos[C] == 1]Kep_1(62, 62, 21, C);
+AtkKep = [pos[C] == 1]Kep_1(62, 62, 46, C);
 AtkDef = [pos[R] == 1]Def(71, 61, 39, R) [] [pos[CR] == 1]Def(56, 49, 39, CR) [] [pos[CL] == 1]Def(60, 64, 39, CL) [] [pos[L] == 1]Def(69, 54, 39, L);
 AtkMid = [pos[R] == 1]Mid(77, 72, 71, 68, R) [] [pos[CR] == 1]Mid(84, 80, 70, 68, CR) [] [pos[CL] == 1]Mid(75, 72, 61, 68, CL) [] [pos[L] == 1]Mid(76, 73, 84, 68, L);
 AtkFor = [pos[CR] == 1]For(74, 62, 70, 64, 83, 83, 78, 74, CR) [] [pos[CL] == 1]For(76, 78, 66, 68, 83, 84, 78, 76, CL);
@@ -116,13 +116,13 @@ Mid(i, j, k, l, p) = [atkForPos[p-2] == 1 || atkForPos[p-1] == 1 || atkForPos[p]
 	j: pass{inAir = true;} -> UpdatePos(p, LP); AtkFor
 	l: tackled{danger = 3;} -> Skip
 } [] [defKepPos[C] == 1]longShot -> pcase {
-	k: shoot{goal = true;} -> UpdatePos(p, LS); DefKep
+	k: shoot -> UpdatePos(p, LS); DefKep
 	l: tackled{danger = 3;} -> Skip
 };
 
 For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 	// pass to atk_mid
-	i: shoot{goal = true;} -> UpdatePos(p, FI); DefKep
+	i: shoot -> UpdatePos(p, FI); DefKep
  	m: tackled -> pcase {
  		n: penalty -> pcase {
  			o: shoot{penaltyGoal = true;} -> UpdatePos(p, FI); DefKep
@@ -133,7 +133,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
  	}
 } [] [defKepPos[C] == 1]longShot -> pcase {
 	// pass to atk_mid
-	j: shoot{goal = true;} -> UpdatePos(p, LS); DefKep
+	j: shoot -> UpdatePos(p, LS); DefKep
 	m: tackled -> pcase {
  		n: penalty -> pcase {
  			o: shoot{penaltyGoal = true;} -> UpdatePos(p, FI); DefKep
@@ -144,7 +144,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 	 }
 } [] [defKepPos[C] == 1 && inAir == true]volley -> pcase {
 	// pass to atk_mid
-	k: shoot{goal = true;} -> UpdatePos(p, VO); DefKep
+	k: shoot -> UpdatePos(p, VO); DefKep
 	m: tackled -> pcase {
  		n: penalty -> pcase {
  			o: shoot{penaltyGoal = true;} -> UpdatePos(p, FI); DefKep
@@ -156,7 +156,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 } [] [defKepPos[C] == 1 && inAir == true]header -> pcase {
 	// pass to atk_mid
 	h: goodHeader -> pcase {
-		l: shoot{goal = true;} -> UpdatePos(p, HD); DefKep
+		l: shoot -> UpdatePos(p, HD); DefKep
 		m: tackled -> pcase {
 	 		n: penalty -> pcase {
 	 			o: shoot{penaltyGoal = true;} -> UpdatePos(p, FI); DefKep
@@ -171,7 +171,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 
 Kep_2(i, p) = attemptSave -> pcase {
 	i: save{danger = 1;} -> Skip
-	100-i: concede -> Skip
+	100-i: concede{goal = true;} -> Skip
 };
 
 UpdatePos(p, e) = case {
@@ -226,15 +226,7 @@ UpdatePos(p, e) = case {
 #define Goal3 danger <= 3;
 #define Goal4 danger <= 4;
 #define PenaltyGoal penaltyGoal == true;
-#assert AtkKep deadlockfree;
-#assert AtkKep |= F G Goal0 with prob;
-#assert AtkKep |= F G Goal1 with prob;
-#assert AtkKep |= F G Goal2 with prob;
-#assert AtkKep |= F G Goal3 with prob;
-#assert AtkKep |= F G Goal4 with prob;
-#assert AtkKep |= F G PenaltyGoal with prob;
 
 #define Goal goal == true;
-#assert AtkKep |= F G Goal with prob;
 
-#assert AtkKep |= F G (Goal || PenaltyGoal) with prob;
+#assert AtkKep |= F G Goal with prob;
