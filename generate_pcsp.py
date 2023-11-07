@@ -252,7 +252,6 @@ def cal_atkKep_values(atkKep_plyr_details, atkMidPos_plyr_details):
         # Add gk_kicking rating and then divide by 4 to give equal weighting, then divide by 4 again as a scale factor
         prob_pass_mid += int(atkKep_plyr_details['gk_kicking'].iloc[i])
         prob_pass_mid = round((prob_pass_mid / player_count) / 1.5)
-        print(prob_pass_mid)
 
         result += f"pos[{position}] == 1]Kep_1("
         result += f"{int(atkKep_plyr_details['gk_kicking'].iloc[i])}, "
