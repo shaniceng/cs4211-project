@@ -233,6 +233,8 @@ def cal_atkFor_values(atkForPos_player_details, homeDefPos_player_details, away_
 # Function to calculate the probabilities for each player in the atkKepPos
 def cal_atkKep_values(atkKep_plyr_details, atkMidPos_plyr_details):
     
+    # Initial goal keeper
+    player_count = 1
     atkKep_sequence_array = atkKep_plyr_details['pos']
     atkKepPos = process_sequence_to_formatted_array(atkKep_sequence_array)
 
@@ -242,13 +244,15 @@ def cal_atkKep_values(atkKep_plyr_details, atkMidPos_plyr_details):
     prob_pass_mid = 0
     # Get the midfielders' positioning ratings and add them
     for i, position in enumerate(atkMid_sequence_array):
+        player_count += 1
         prob_pass_mid += int(atkMidPos_plyr_details['mentality_positioning'].iloc[i])
 
     result = "AtkKep = ["
     for i, position in enumerate(atkKep_sequence_array):
         # Add gk_kicking rating and then divide by 4 to give equal weighting, then divide by 4 again as a scale factor
         prob_pass_mid += int(atkKep_plyr_details['gk_kicking'].iloc[i])
-        prob_pass_mid = round((prob_pass_mid / 4) / 4)
+        prob_pass_mid = round((prob_pass_mid / player_count) / 1.5)
+        print(prob_pass_mid)
 
         result += f"pos[{position}] == 1]Kep_1("
         result += f"{int(atkKep_plyr_details['gk_kicking'].iloc[i])}, "
