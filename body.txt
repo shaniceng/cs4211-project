@@ -112,7 +112,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 
 Kep_2(i, p) = attemptSave -> pcase {
 	i: save{danger = 1;} -> Skip
-	100-i: -> Skip
+	100-i: concede -> Skip
 };
 
 UpdatePos(p, e) = case {
