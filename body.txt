@@ -112,7 +112,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 
 Kep_2(i, p) = attemptSave -> pcase {
 	i: save{danger = 1;} -> Skip
-	100-i: concede{goal = true;} -> Skip
+	100-i: -> Skip
 };
 
 UpdatePos(p, e) = case {
@@ -168,6 +168,4 @@ UpdatePos(p, e) = case {
 #define Goal4 danger <= 4;
 #define PenaltyGoal penaltyGoal == true;
 
-#define Goal goal == true;
-
-#assert AtkKep |= F G Goal with prob;
+#assert AtkKep |= F G (Goal3 || PenaltyGoal) with prob;
