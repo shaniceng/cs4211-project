@@ -225,7 +225,6 @@ def cal_atkFor_values(atkForPos_player_details, homeDefPos_player_details, away_
     atkForPos_sequence_array = move_duplicates(atkForPos_sequence_array)
 
     atkForPos = process_sequence_to_formatted_array(atkForPos_sequence_array)
-    # print(atkForPos)
 
     position_switch = {
         "L": ["RL", "R"],
@@ -250,7 +249,7 @@ def cal_atkFor_values(atkForPos_player_details, homeDefPos_player_details, away_
         result += f"{atkForPos_player_details['attacking_volleys'].iloc[i]}, "
         result += f"{atkForPos_player_details['attacking_heading_accuracy'].iloc[i]}, "
         result += f"{round((homeDefPos_player_details['defending_marking'].max() + homeDefPos_player_details['defending_standing_tackle'].max() + homeDefPos_player_details['defending_sliding_tackle'].max())/3)}, "
-        result += f"{round(max_mentality_aggression)}, " #opponent_df['mentality_aggression'].max()
+        result += f"{round(max_mentality_aggression)}, " 
         result += f"{away_rows['mentality_penalties'].max()}, "
         result += f"{round(0.1 * atkForPos_player_details.iloc[i]['power_jumping'] + 0.6 * atkForPos_player_details.iloc[i]['attacking_heading_accuracy'] + 0.3 * round((atkForPos_player_details.iloc[i]['height_cm'] / max(away_rows['height_cm'].max(), home_rows['height_cm'].max())) * 100))}, "
         result += f"{position}"
@@ -332,8 +331,8 @@ def process_formation_to_dict(formation):
         atkForPos = int(positions[2])
     elif len(positions) == 4: #def mid for for
         atkDefPos = int(positions[0])
-        atkMidPos = int(positions[1])  
-        atkForPos = int(positions[2]) + int(positions[3]) 
+        atkMidPos = int(positions[1]) + int(positions[2]) 
+        atkForPos = int(positions[3]) 
     elif len(positions) == 5: #def mid mid for for 
         atkDefPos = int(positions[0])
         atkMidPos = int(positions[1]) + int(positions[2])

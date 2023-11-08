@@ -53,8 +53,8 @@ var atkMidPos = [-1, -1, -1, -1, -1, -1, 1, 0, 1, 0, 1, 0, 1, -1, -1, -1, -1, -1
 var atkForPos = [-1, -1, -1, -1, -1, -1, 0, 0, 1, 0, 1, 0, 0, -1, -1, -1, -1, -1, -1];
 var defKepPos = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, -1, -1, -1, -1, -1, -1];
 AtkKep = [pos[C] == 1]Kep_1(75, 75, 48, C);
-AtkDef = [pos[R] == 1]Def(71, 67, 60, R) [] [pos[CR] == 1]Def(60, 55, 60, CR) [] [pos[CL] == 1]Def(64, 62, 60, CL) [] [pos[L] == 1]Def(73, 69, 60, L);
-AtkMid = [pos[R] == 1]Mid(71, 74, 73, 75, R) [] [pos[CR] == 1]Mid(80, 79, 65, 75, CR) [] [pos[CL] == 1]Mid(71, 68, 74, 75, CL) [] [pos[L] == 1]Mid(76, 69, 71, 75, L);
+AtkDef = [pos[R] == 1]Def(71, 67, 53, R) [] [pos[CR] == 1]Def(60, 55, 53, CR) [] [pos[CL] == 1]Def(64, 62, 53, CL) [] [pos[L] == 1]Def(73, 69, 53, L);
+AtkMid = [pos[R] == 1]Mid(71, 74, 73, 64, R) [] [pos[CR] == 1]Mid(80, 79, 65, 64, CR) [] [pos[CL] == 1]Mid(71, 68, 74, 64, CL) [] [pos[L] == 1]Mid(76, 69, 71, 64, L);
 AtkFor = [pos[CR] == 1]For(77, 76, 76, 79, 58, 89, 81, 83, CR) [] [pos[CL] == 1]For(79, 72, 74, 86, 58, 87, 81, 88, CL);
 DefKep = [pos[C] == 1]Kep_2(80,C);
 
@@ -125,7 +125,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 	i: shoot -> UpdatePos(p, FI); DefKep
  	m: tackled -> pcase {
  		n: penalty -> pcase {
- 			o: shoot{penaltyGoal = true;} -> UpdatePos(p, FI); DefKep
+ 			o: shoot{penaltyGoal = true;} -> Skip
  		}
  		100-n: {
  			danger = 2;
@@ -136,7 +136,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 	j: shoot -> UpdatePos(p, LS); DefKep
 	m: tackled -> pcase {
  		n: penalty -> pcase {
- 			o: shoot{penaltyGoal = true;} -> UpdatePos(p, FI); DefKep
+ 			o: shoot{penaltyGoal = true;} -> Skip
  		}
  		100-n: {
  			danger = 2;
@@ -147,7 +147,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 	k: shoot -> UpdatePos(p, VO); DefKep
 	m: tackled -> pcase {
  		n: penalty -> pcase {
- 			o: shoot{penaltyGoal = true;} -> UpdatePos(p, FI); DefKep
+ 			o: shoot{penaltyGoal = true;} -> Skip
  		}
  		100-n: {
  			danger = 2;
@@ -159,7 +159,7 @@ For(i, j, k, l, m, n, o, h, p) = [defKepPos[C] == 1]finish -> pcase {
 		l: shoot -> UpdatePos(p, HD); DefKep
 		m: tackled -> pcase {
 	 		n: penalty -> pcase {
-	 			o: shoot{penaltyGoal = true;} -> UpdatePos(p, FI); DefKep
+	 			o: shoot{penaltyGoal = true;} -> Skip
 	 		}
 	 		100-n: {
 	 			danger = 2;
