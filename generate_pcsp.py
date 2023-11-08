@@ -188,13 +188,44 @@ def cal_atkMid_values(atkMidPos_player_details, oppAtkMidPos_player_details):
 
     return atkMidPos, result, Kov
 
+# Function to move duplicate positions to the next free space
+def move_duplicates(sequence_array):
+    position_switch = ["L", "LR", "CL", "C", "CR", "RL", "R"]
+    position_count = {position: 0 for position in position_switch}
+    sequence_array_copy = sequence_array.copy()
+
+    for i in range(len(sequence_array)):
+        position = sequence_array_copy[i]
+        position_count[position] += 1
+
+        if position_count[position] > 1:
+            next_index = (position_switch.index(position) + 1) % len(position_switch)
+            
+            # Find the next available position, either to the right or left
+            while position_count[position_switch[next_index]] > 0:
+                next_index = (next_index + 1) % len(position_switch)
+                if next_index == position_switch.index(position):
+                    # If no more right positions, move to the left
+                    next_index = (next_index - 2) % len(position_switch)
+            
+            # Replace the first occurrence of the position with the next available position in the copy
+            sequence_array_copy[i] = position_switch[next_index]
+            position_count[position_switch[next_index]] += 1
+
+    return sequence_array_copy
+
+
 # Function to calculate the probabilities for each player in the atkForPos
 def cal_atkFor_values(atkForPos_player_details, homeDefPos_player_details, away_rows, home_rows):
 
     atkForPos_sequence_array = atkForPos_player_details['pos']
     homeDefPos_sequence_array = homeDefPos_player_details['pos']
 
+    # Move duplicates in atkForPos_sequence_array
+    atkForPos_sequence_array = move_duplicates(atkForPos_sequence_array)
+
     atkForPos = process_sequence_to_formatted_array(atkForPos_sequence_array)
+    # print(atkForPos)
 
     position_switch = {
         "L": ["RL", "R"],
