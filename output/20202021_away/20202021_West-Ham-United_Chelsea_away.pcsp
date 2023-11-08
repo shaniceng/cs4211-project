@@ -55,7 +55,7 @@ var defKepPos = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, -1, -1, -1, -1, -1
 AtkKep = [pos[C] == 1]Kep_1(75, 75, 48, C);
 AtkDef = [pos[RL] == 1]Def(79, 71, 48, RL) [] [pos[C] == 1]Def(80, 80, 48, C) [] [pos[LR] == 1]Def(75, 72, 48, LR);
 AtkMid = [pos[R] == 1]Mid(78, 80, 60, 76, R) [] [pos[CR] == 1]Mid(85, 79, 65, 76, CR) [] [pos[CL] == 1]Mid(89, 88, 62, 76, CL) [] [pos[L] == 1]Mid(76, 70, 40, 76, L) [] [pos[CR] == 1]Mid(81, 74, 79, 76, CR) [] [pos[CL] == 1]Mid(77, 59, 58, 76, CL);
-AtkFor = [pos[C] == 1]For(88, 78, 86, 78, 54, 74, 91, 82, C);
+AtkFor = [pos[C] == 1]For(88, 78, 86, 78, 70, 74, 91, 82, C);
 DefKep = [pos[C] == 1]Kep_2(79,C);
 
 ///////////// Individual Positions /////////////

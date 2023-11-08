@@ -55,8 +55,8 @@ var defKepPos = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, -1, -1, -1, -1, -1
 AtkKep = [pos[C] == 1]Kep_1(86, 86, 52, C);
 AtkDef = [pos[R] == 1]Def(60, 58, 49, R) [] [pos[CR] == 1]Def(68, 56, 49, CR) [] [pos[CL] == 1]Def(83, 76, 49, CL) [] [pos[L] == 1]Def(74, 68, 49, L);
 AtkMid = [pos[CR] == 1]Mid(83, 83, 56, 65, CR) [] [pos[CL] == 1]Mid(87, 87, 81, 65, CL) [] [pos[RL] == 1]Mid(86, 78, 72, 65, RL) [] [pos[C] == 1]Mid(79, 73, 72, 65, C) [] [pos[LR] == 1]Mid(72, 65, 54, 65, LR);
-AtkFor = [pos[C] == 1]For(81, 68, 74, 72, 85, 78, 83, 52, C);
-DefKep = [pos[C] == 1]Kep_2(1,C);
+AtkFor = [pos[C] == 1]For(81, 68, 74, 72, 85, 78, 83, 59, C);
+DefKep = [pos[C] == 1]Kep_2(50,C);
 
 ///////////// Individual Positions /////////////
 // There is a guard to every action (e.g., shortPass) a player can take

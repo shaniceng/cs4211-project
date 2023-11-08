@@ -18,9 +18,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:39151
-Time Used:0.4404221s
-Estimated Memory Used:79472.8KB
+MDP Iterations:38955
+Time Used:0.4639876s
+Estimated Memory Used:79560.648KB
 
 
 ***************************END*************************
@@ -46,8 +46,8 @@ Maximum difference threshold : 1E-06
 Visited States:23960
 Total Transitions:30258
 MDP Iterations:36107
-Time Used:0.4249817s
-Estimated Memory Used:82040.248KB
+Time Used:0.4207075s
+Estimated Memory Used:82040.376KB
 
 
 ***************************END*************************
@@ -72,9 +72,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:45326
-Time Used:0.4564175s
-Estimated Memory Used:78959.256KB
+MDP Iterations:44293
+Time Used:0.4414028s
+Estimated Memory Used:78952.224KB
 
 
 ***************************END*************************
@@ -99,9 +99,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:49515
-Time Used:0.4061932s
-Estimated Memory Used:75567.472KB
+MDP Iterations:47888
+Time Used:0.4223039s
+Estimated Memory Used:75405.544KB
 
 
 ***************************END*************************
@@ -127,8 +127,8 @@ Maximum difference threshold : 1E-06
 Visited States:14036
 Total Transitions:18086
 MDP Iterations:23618
-Time Used:0.3012s
-Estimated Memory Used:74072.648KB
+Time Used:0.304342s
+Estimated Memory Used:74064.168KB
 
 
 ***************************END*************************
@@ -154,8 +154,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:34867
-Time Used:0.3589532s
-Estimated Memory Used:78935.824KB
+Time Used:0.3676119s
+Estimated Memory Used:78634.472KB
 
 
 ***************************END*************************
@@ -180,9 +180,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:39735
-Time Used:0.3941521s
-Estimated Memory Used:79737.848KB
+MDP Iterations:40737
+Time Used:0.4560009s
+Estimated Memory Used:79304.632KB
 
 
 ***************************END*************************
@@ -207,9 +207,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:41303
-Time Used:0.3953911s
-Estimated Memory Used:78270.472KB
+MDP Iterations:40888
+Time Used:0.4007789s
+Estimated Memory Used:78176.016KB
 
 
 ***************************END*************************
@@ -234,9 +234,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:34435
-Time Used:0.3446537s
-Estimated Memory Used:78862.488KB
+MDP Iterations:34168
+Time Used:0.3379957s
+Estimated Memory Used:78745.944KB
 
 
 ***************************END*************************
@@ -262,8 +262,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:35113
-Time Used:0.3688294s
-Estimated Memory Used:74418.584KB
+Time Used:0.3780514s
+Estimated Memory Used:74403.36KB
 
 
 ***************************END*************************
@@ -288,9 +288,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40467
-Time Used:0.3652526s
-Estimated Memory Used:79460.528KB
+MDP Iterations:40838
+Time Used:0.3918505s
+Estimated Memory Used:79361.936KB
 
 
 ***************************END*************************
@@ -316,8 +316,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43327
-Time Used:0.4192756s
-Estimated Memory Used:79273.912KB
+Time Used:0.4200564s
+Estimated Memory Used:79652.728KB
 
 
 ***************************END*************************
@@ -342,9 +342,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:37306
-Time Used:0.3841887s
-Estimated Memory Used:74318.712KB
+MDP Iterations:35192
+Time Used:0.3923824s
+Estimated Memory Used:74157.864KB
 
 
 ***************************END*************************
@@ -369,9 +369,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21906
 Total Transitions:27400
-MDP Iterations:40284
-Time Used:0.4156447s
-Estimated Memory Used:76175.976KB
+MDP Iterations:40036
+Time Used:0.4181606s
+Estimated Memory Used:75780.304KB
 
 
 ***************************END*************************
@@ -396,9 +396,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43892
-Time Used:0.3848141s
-Estimated Memory Used:77605.704KB
+MDP Iterations:42452
+Time Used:0.3908594s
+Estimated Memory Used:78652.864KB
 
 
 ***************************END*************************
@@ -423,9 +423,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:35822
-Time Used:0.3391247s
-Estimated Memory Used:78899.728KB
+MDP Iterations:34362
+Time Used:0.3447387s
+Estimated Memory Used:78767.28KB
 
 
 ***************************END*************************
@@ -451,8 +451,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43301
-Time Used:0.3878991s
-Estimated Memory Used:79289.104KB
+Time Used:0.3794221s
+Estimated Memory Used:79563.76KB
 
 
 ***************************END*************************
@@ -477,9 +477,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:33166
-Time Used:0.3931242s
-Estimated Memory Used:76384.4KB
+MDP Iterations:35571
+Time Used:0.3951301s
+Estimated Memory Used:74330.76KB
 
 
 ***************************END*************************
@@ -504,9 +504,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:24104
 Total Transitions:30474
-MDP Iterations:37964
-Time Used:0.4583638s
-Estimated Memory Used:77562.424KB
+MDP Iterations:38807
+Time Used:0.4607692s
+Estimated Memory Used:77596.752KB
 
 
 ***************************END*************************
@@ -532,8 +532,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:43824
-Time Used:0.4298397s
-Estimated Memory Used:77731.856KB
+Time Used:0.420294s
+Estimated Memory Used:78075.744KB
 
 
 ***************************END*************************
@@ -558,9 +558,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:33904
-Time Used:0.3628995s
-Estimated Memory Used:78897.864KB
+MDP Iterations:32708
+Time Used:0.35527s
+Estimated Memory Used:78659.064KB
 
 
 ***************************END*************************
@@ -585,9 +585,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18542
 Total Transitions:23372
-MDP Iterations:34509
-Time Used:0.3685875s
-Estimated Memory Used:76785.984KB
+MDP Iterations:37334
+Time Used:0.3794235s
+Estimated Memory Used:76721.848KB
 
 
 ***************************END*************************
@@ -612,9 +612,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:44304
-Time Used:0.4348023s
-Estimated Memory Used:75519.976KB
+MDP Iterations:45152
+Time Used:0.4443669s
+Estimated Memory Used:75432.832KB
 
 
 ***************************END*************************
@@ -640,8 +640,8 @@ Maximum difference threshold : 1E-06
 Visited States:14036
 Total Transitions:18086
 MDP Iterations:22249
-Time Used:0.26304s
-Estimated Memory Used:73812.56KB
+Time Used:0.2732221s
+Estimated Memory Used:73829.616KB
 
 
 ***************************END*************************
@@ -666,9 +666,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:36226
-Time Used:0.3812829s
-Estimated Memory Used:76247.832KB
+MDP Iterations:39423
+Time Used:0.3874012s
+Estimated Memory Used:76651.312KB
 
 
 ***************************END*************************
@@ -694,8 +694,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:39584
-Time Used:0.4397386s
-Estimated Memory Used:81163.168KB
+Time Used:0.426881s
+Estimated Memory Used:78718.52KB
 
 
 ***************************END*************************
@@ -720,9 +720,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:24104
 Total Transitions:30474
-MDP Iterations:40034
-Time Used:0.4066161s
-Estimated Memory Used:77638.2KB
+MDP Iterations:40792
+Time Used:0.4269685s
+Estimated Memory Used:77635.608KB
 
 
 ***************************END*************************
@@ -748,8 +748,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:31785
-Time Used:0.3529527s
-Estimated Memory Used:74210.872KB
+Time Used:0.3414129s
+Estimated Memory Used:74189.72KB
 
 
 ***************************END*************************
@@ -775,8 +775,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40160
-Time Used:0.372291s
-Estimated Memory Used:79203.336KB
+Time Used:0.409871s
+Estimated Memory Used:79405.656KB
 
 
 ***************************END*************************
@@ -802,8 +802,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40388
-Time Used:0.4448567s
-Estimated Memory Used:79076.432KB
+Time Used:0.4376417s
+Estimated Memory Used:79076.304KB
 
 
 ***************************END*************************
@@ -829,8 +829,8 @@ Maximum difference threshold : 1E-06
 Visited States:19088
 Total Transitions:23808
 MDP Iterations:33637
-Time Used:0.4154779s
-Estimated Memory Used:75104.088KB
+Time Used:0.4025452s
+Estimated Memory Used:77417.28KB
 
 
 ***************************END*************************
@@ -856,8 +856,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:34774
-Time Used:0.3794358s
-Estimated Memory Used:76446.296KB
+Time Used:0.3791s
+Estimated Memory Used:76411.064KB
 
 
 ***************************END*************************
@@ -883,8 +883,8 @@ Maximum difference threshold : 1E-06
 Visited States:22122
 Total Transitions:27724
 MDP Iterations:38463
-Time Used:0.4343518s
-Estimated Memory Used:78013.736KB
+Time Used:0.4129722s
+Estimated Memory Used:78071.672KB
 
 
 ***************************END*************************
@@ -910,8 +910,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:40274
-Time Used:0.4060118s
-Estimated Memory Used:78754.056KB
+Time Used:0.4236254s
+Estimated Memory Used:78596.12KB
 
 
 ***************************END*************************
@@ -937,8 +937,8 @@ Maximum difference threshold : 1E-06
 Visited States:10950
 Total Transitions:14414
 MDP Iterations:23704
-Time Used:0.2446948s
-Estimated Memory Used:72582.32KB
+Time Used:0.2668865s
+Estimated Memory Used:73946.992KB
 
 
 ***************************END*************************
@@ -964,8 +964,8 @@ Maximum difference threshold : 1E-06
 Visited States:10816
 Total Transitions:14146
 MDP Iterations:22426
-Time Used:0.2769217s
-Estimated Memory Used:72447.784KB
+Time Used:0.2485959s
+Estimated Memory Used:74654.336KB
 
 
 ***************************END*************************
@@ -990,9 +990,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43326
-Time Used:0.4421536s
-Estimated Memory Used:81320.832KB
+MDP Iterations:43433
+Time Used:0.4171118s
+Estimated Memory Used:81329.384KB
 
 
 ***************************END*************************
@@ -1018,8 +1018,8 @@ Maximum difference threshold : 1E-06
 Visited States:23960
 Total Transitions:30258
 MDP Iterations:38006
-Time Used:0.4413772s
-Estimated Memory Used:81846.472KB
+Time Used:0.4290428s
+Estimated Memory Used:79533.552KB
 
 
 ***************************END*************************
@@ -1044,9 +1044,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34028
-Time Used:0.3808618s
-Estimated Memory Used:76131.32KB
+MDP Iterations:35268
+Time Used:0.4728462s
+Estimated Memory Used:75934.648KB
 
 
 ***************************END*************************
@@ -1071,9 +1071,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:38934
-Time Used:0.4358087s
-Estimated Memory Used:79833.376KB
+MDP Iterations:39681
+Time Used:0.406335s
+Estimated Memory Used:80748.312KB
 
 
 ***************************END*************************
@@ -1098,9 +1098,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:50637
-Time Used:0.3688669s
-Estimated Memory Used:75369.416KB
+MDP Iterations:48654
+Time Used:0.437272s
+Estimated Memory Used:75619.088KB
 
 
 ***************************END*************************
@@ -1126,8 +1126,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:43736
-Time Used:0.4019002s
-Estimated Memory Used:77578.536KB
+Time Used:0.43232s
+Estimated Memory Used:77581.368KB
 
 
 ***************************END*************************
@@ -1152,9 +1152,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:35182
-Time Used:0.3716498s
-Estimated Memory Used:78859.728KB
+MDP Iterations:34424
+Time Used:0.3564499s
+Estimated Memory Used:78766.912KB
 
 
 ***************************END*************************
@@ -1180,8 +1180,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:34307
-Time Used:0.3697404s
-Estimated Memory Used:74377.92KB
+Time Used:0.3573756s
+Estimated Memory Used:75854.136KB
 
 
 ***************************END*************************
@@ -1206,9 +1206,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40399
-Time Used:0.4081304s
-Estimated Memory Used:77428.888KB
+MDP Iterations:41017
+Time Used:0.4422464s
+Estimated Memory Used:79129.496KB
 
 
 ***************************END*************************
@@ -1233,9 +1233,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18542
 Total Transitions:23372
-MDP Iterations:37310
-Time Used:0.3758761s
-Estimated Memory Used:76887.52KB
+MDP Iterations:37585
+Time Used:0.3955214s
+Estimated Memory Used:76980.848KB
 
 
 ***************************END*************************
@@ -1261,8 +1261,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:35317
-Time Used:0.3742187s
-Estimated Memory Used:78828.728KB
+Time Used:0.3653243s
+Estimated Memory Used:78844.456KB
 
 
 ***************************END*************************
@@ -1287,9 +1287,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:34732
-Time Used:0.346157s
-Estimated Memory Used:74442.536KB
+MDP Iterations:34764
+Time Used:0.3575775s
+Estimated Memory Used:74368.344KB
 
 
 ***************************END*************************
@@ -1314,9 +1314,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40556
-Time Used:0.4065983s
-Estimated Memory Used:79617.792KB
+MDP Iterations:41977
+Time Used:0.4308729s
+Estimated Memory Used:79443.792KB
 
 
 ***************************END*************************
@@ -1341,9 +1341,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19088
 Total Transitions:23808
-MDP Iterations:33515
-Time Used:0.3663564s
-Estimated Memory Used:74802.992KB
+MDP Iterations:31891
+Time Used:0.4041109s
+Estimated Memory Used:77662.384KB
 
 
 ***************************END*************************
@@ -1369,8 +1369,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:45362
-Time Used:0.4330882s
-Estimated Memory Used:79769.36KB
+Time Used:0.3645975s
+Estimated Memory Used:79684.216KB
 
 
 ***************************END*************************
@@ -1396,8 +1396,8 @@ Maximum difference threshold : 1E-06
 Visited States:22122
 Total Transitions:27724
 MDP Iterations:37372
-Time Used:0.4372052s
-Estimated Memory Used:77973.92KB
+Time Used:0.4464229s
+Estimated Memory Used:77947.392KB
 
 
 ***************************END*************************
@@ -1422,9 +1422,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:45004
-Time Used:0.4387211s
-Estimated Memory Used:75583.896KB
+MDP Iterations:42229
+Time Used:0.4384505s
+Estimated Memory Used:75395.08KB
 
 
 ***************************END*************************
@@ -1449,9 +1449,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44113
-Time Used:0.3957562s
-Estimated Memory Used:79443.792KB
+MDP Iterations:42595
+Time Used:0.3823388s
+Estimated Memory Used:79391.192KB
 
 
 ***************************END*************************
@@ -1477,8 +1477,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:45303
-Time Used:0.4341902s
-Estimated Memory Used:79296.28KB
+Time Used:0.4146819s
+Estimated Memory Used:79443.536KB
 
 
 ***************************END*************************
@@ -1504,8 +1504,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:36271
-Time Used:0.3963552s
-Estimated Memory Used:76345.92KB
+Time Used:0.3794101s
+Estimated Memory Used:74434.776KB
 
 
 ***************************END*************************
@@ -1530,9 +1530,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:40914
-Time Used:0.4272812s
-Estimated Memory Used:78251.776KB
+MDP Iterations:40924
+Time Used:0.4090415s
+Estimated Memory Used:78179.4KB
 
 
 ***************************END*************************
@@ -1557,9 +1557,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:45497
-Time Used:0.4318717s
-Estimated Memory Used:75459.36KB
+MDP Iterations:45844
+Time Used:0.4410976s
+Estimated Memory Used:79970.912KB
 
 
 ***************************END*************************
@@ -1584,9 +1584,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:33575
-Time Used:0.3465871s
-Estimated Memory Used:79123.68KB
+MDP Iterations:33033
+Time Used:0.4023179s
+Estimated Memory Used:78918.744KB
 
 
 ***************************END*************************
@@ -1611,9 +1611,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:39185
-Time Used:0.4062132s
-Estimated Memory Used:79684.392KB
+MDP Iterations:39013
+Time Used:0.4162179s
+Estimated Memory Used:79595.696KB
 
 
 ***************************END*************************
@@ -1638,9 +1638,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:46360
-Time Used:0.4025247s
-Estimated Memory Used:77838.112KB
+MDP Iterations:46602
+Time Used:0.4259014s
+Estimated Memory Used:75390.72KB
 
 
 ***************************END*************************
@@ -1665,9 +1665,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:38200
-Time Used:0.3702571s
-Estimated Memory Used:79086.344KB
+MDP Iterations:35971
+Time Used:0.3458077s
+Estimated Memory Used:78792.4KB
 
 
 ***************************END*************************
@@ -1693,8 +1693,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:32694
-Time Used:0.3716584s
-Estimated Memory Used:74198.912KB
+Time Used:0.3606812s
+Estimated Memory Used:76129.52KB
 
 
 ***************************END*************************
@@ -1720,8 +1720,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:44915
-Time Used:0.4135401s
-Estimated Memory Used:79669.856KB
+Time Used:0.4020141s
+Estimated Memory Used:79754.664KB
 
 
 ***************************END*************************
@@ -1746,9 +1746,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34901
-Time Used:0.3632754s
-Estimated Memory Used:76058.4KB
+MDP Iterations:34028
+Time Used:0.3910988s
+Estimated Memory Used:74132.528KB
 
 
 ***************************END*************************
@@ -1773,9 +1773,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:31419
-Time Used:0.337353s
-Estimated Memory Used:78869.952KB
+MDP Iterations:30512
+Time Used:0.3424512s
+Estimated Memory Used:78420.024KB
 
 
 ***************************END*************************
@@ -1801,8 +1801,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:31736
-Time Used:0.3436209s
-Estimated Memory Used:78884.872KB
+Time Used:0.3514445s
+Estimated Memory Used:78509.096KB
 
 
 ***************************END*************************
@@ -1828,8 +1828,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:41641
-Time Used:0.4350715s
-Estimated Memory Used:79429.224KB
+Time Used:0.4111107s
+Estimated Memory Used:79703.624KB
 
 
 ***************************END*************************
@@ -1855,8 +1855,8 @@ Maximum difference threshold : 1E-06
 Visited States:22122
 Total Transitions:27724
 MDP Iterations:38428
-Time Used:0.3762464s
-Estimated Memory Used:78237.608KB
+Time Used:0.4121038s
+Estimated Memory Used:78247.92KB
 
 
 ***************************END*************************
@@ -1882,8 +1882,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:45318
-Time Used:0.3724993s
-Estimated Memory Used:76926.096KB
+Time Used:0.4108754s
+Estimated Memory Used:79769.432KB
 
 
 ***************************END*************************
@@ -1908,9 +1908,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:38350
-Time Used:0.3671452s
-Estimated Memory Used:77942.696KB
+MDP Iterations:39043
+Time Used:0.439743s
+Estimated Memory Used:78035.944KB
 
 
 ***************************END*************************
@@ -1936,8 +1936,8 @@ Maximum difference threshold : 1E-06
 Visited States:10950
 Total Transitions:14414
 MDP Iterations:23803
-Time Used:0.2475305s
-Estimated Memory Used:73806.6KB
+Time Used:0.3000135s
+Estimated Memory Used:73906.688KB
 
 
 ***************************END*************************
@@ -1963,8 +1963,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43381
-Time Used:0.3999114s
-Estimated Memory Used:77158.728KB
+Time Used:0.4155768s
+Estimated Memory Used:79493.848KB
 
 
 ***************************END*************************
@@ -1989,9 +1989,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44415
-Time Used:0.4195691s
-Estimated Memory Used:78308.328KB
+MDP Iterations:44211
+Time Used:0.394353s
+Estimated Memory Used:79604.296KB
 
 
 ***************************END*************************
@@ -2017,8 +2017,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:33763
-Time Used:0.364668s
-Estimated Memory Used:74265.936KB
+Time Used:0.3678533s
+Estimated Memory Used:76340.48KB
 
 
 ***************************END*************************
@@ -2044,8 +2044,8 @@ Maximum difference threshold : 1E-06
 Visited States:23960
 Total Transitions:30258
 MDP Iterations:38744
-Time Used:0.4256162s
-Estimated Memory Used:79788.208KB
+Time Used:0.4475569s
+Estimated Memory Used:80832.168KB
 
 
 ***************************END*************************
@@ -2070,9 +2070,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:35963
-Time Used:0.3424394s
-Estimated Memory Used:78937.584KB
+MDP Iterations:36504
+Time Used:0.3929659s
+Estimated Memory Used:78828.904KB
 
 
 ***************************END*************************
@@ -2097,9 +2097,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:37707
-Time Used:0.4163644s
-Estimated Memory Used:79099.608KB
+MDP Iterations:39264
+Time Used:0.4538489s
+Estimated Memory Used:79404.024KB
 
 
 ***************************END*************************
@@ -2124,9 +2124,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:37840
-Time Used:0.4387841s
-Estimated Memory Used:79777.064KB
+MDP Iterations:39524
+Time Used:0.4648758s
+Estimated Memory Used:80732.928KB
 
 
 ***************************END*************************
@@ -2151,9 +2151,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:42605
-Time Used:0.3896011s
-Estimated Memory Used:78416.8KB
+MDP Iterations:40422
+Time Used:0.4533225s
+Estimated Memory Used:78156.896KB
 
 
 ***************************END*************************
@@ -2179,8 +2179,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43152
-Time Used:0.4137857s
-Estimated Memory Used:79181.592KB
+Time Used:0.4443327s
+Estimated Memory Used:77211.52KB
 
 
 ***************************END*************************
@@ -2205,9 +2205,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:38978
-Time Used:0.3591496s
-Estimated Memory Used:76374.744KB
+MDP Iterations:35445
+Time Used:0.3956093s
+Estimated Memory Used:76248.016KB
 
 
 ***************************END*************************
@@ -2233,8 +2233,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40972
-Time Used:0.4047837s
-Estimated Memory Used:78016.36KB
+Time Used:0.42196s
+Estimated Memory Used:79776.648KB
 
 
 ***************************END*************************
@@ -2259,9 +2259,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:37001
-Time Used:0.4141863s
-Estimated Memory Used:76224.584KB
+MDP Iterations:36625
+Time Used:0.4240488s
+Estimated Memory Used:74168.552KB
 
 
 ***************************END*************************
@@ -2287,8 +2287,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:31602
-Time Used:0.3685902s
-Estimated Memory Used:74264.16KB
+Time Used:0.3539264s
+Estimated Memory Used:74306.424KB
 
 
 ***************************END*************************
@@ -2313,9 +2313,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:37222
-Time Used:0.344852s
-Estimated Memory Used:74691.128KB
+MDP Iterations:35978
+Time Used:0.3797609s
+Estimated Memory Used:74523.712KB
 
 
 ***************************END*************************
@@ -2341,8 +2341,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40949
-Time Used:0.3647154s
-Estimated Memory Used:79459.504KB
+Time Used:0.3967951s
+Estimated Memory Used:79503.168KB
 
 
 ***************************END*************************
@@ -2368,8 +2368,8 @@ Maximum difference threshold : 1E-06
 Visited States:19088
 Total Transitions:23808
 MDP Iterations:33684
-Time Used:0.3564254s
-Estimated Memory Used:77426.04KB
+Time Used:0.4075287s
+Estimated Memory Used:77500.704KB
 
 
 ***************************END*************************
@@ -2395,8 +2395,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43558
-Time Used:0.3683527s
-Estimated Memory Used:79621.792KB
+Time Used:0.3855116s
+Estimated Memory Used:79706.96KB
 
 
 ***************************END*************************
@@ -2421,9 +2421,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:41033
-Time Used:0.4122661s
-Estimated Memory Used:78344.36KB
+MDP Iterations:41827
+Time Used:0.4446914s
+Estimated Memory Used:78232.192KB
 
 
 ***************************END*************************
@@ -2449,8 +2449,8 @@ Maximum difference threshold : 1E-06
 Visited States:14036
 Total Transitions:18086
 MDP Iterations:24456
-Time Used:0.2250523s
-Estimated Memory Used:144448.864KB
+Time Used:0.2533651s
+Estimated Memory Used:144572.112KB
 
 
 ***************************END*************************
@@ -2475,9 +2475,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:14036
 Total Transitions:18086
-MDP Iterations:24747
-Time Used:0.2306774s
-Estimated Memory Used:144419.168KB
+MDP Iterations:25140
+Time Used:0.2650314s
+Estimated Memory Used:144574.656KB
 
 
 ***************************END*************************
@@ -2502,9 +2502,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:47021
-Time Used:0.4487719s
-Estimated Memory Used:75560.6KB
+MDP Iterations:49697
+Time Used:0.4285552s
+Estimated Memory Used:75456.568KB
 
 
 ***************************END*************************
@@ -2530,8 +2530,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:35329
-Time Used:0.3782938s
-Estimated Memory Used:76351.744KB
+Time Used:0.3867749s
+Estimated Memory Used:76264.504KB
 
 
 ***************************END*************************
@@ -2556,9 +2556,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:37775
-Time Used:0.4147853s
-Estimated Memory Used:79666.4KB
+MDP Iterations:38823
+Time Used:0.4329427s
+Estimated Memory Used:79809.472KB
 
 
 ***************************END*************************
@@ -2583,9 +2583,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34601
-Time Used:0.3599694s
-Estimated Memory Used:76096.92KB
+MDP Iterations:33667
+Time Used:0.4473427s
+Estimated Memory Used:76210.16KB
 
 
 ***************************END*************************
@@ -2610,9 +2610,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:39213
-Time Used:0.4248193s
-Estimated Memory Used:79049.216KB
+MDP Iterations:38294
+Time Used:0.4259818s
+Estimated Memory Used:79052.392KB
 
 
 ***************************END*************************
@@ -2637,9 +2637,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:33587
-Time Used:0.3635279s
-Estimated Memory Used:74250.784KB
+MDP Iterations:34204
+Time Used:0.4037986s
+Estimated Memory Used:74350.752KB
 
 
 ***************************END*************************
@@ -2664,9 +2664,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:16828
 Total Transitions:21298
-MDP Iterations:29505
-Time Used:0.2958233s
-Estimated Memory Used:74591.568KB
+MDP Iterations:31498
+Time Used:0.3709314s
+Estimated Memory Used:75021.792KB
 
 
 ***************************END*************************
@@ -2691,9 +2691,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:36036
-Time Used:0.3744861s
-Estimated Memory Used:74380.128KB
+MDP Iterations:36260
+Time Used:0.4089999s
+Estimated Memory Used:76351.304KB
 
 
 ***************************END*************************
@@ -2718,9 +2718,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:35955
-Time Used:0.3644205s
-Estimated Memory Used:76176.648KB
+MDP Iterations:33652
+Time Used:0.4301766s
+Estimated Memory Used:76359.072KB
 
 
 ***************************END*************************
@@ -2745,9 +2745,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:44959
-Time Used:0.4371153s
-Estimated Memory Used:75434.416KB
+MDP Iterations:44190
+Time Used:0.4887439s
+Estimated Memory Used:75516.976KB
 
 
 ***************************END*************************
@@ -2773,8 +2773,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:33134
-Time Used:0.3567522s
-Estimated Memory Used:76028.088KB
+Time Used:0.4147059s
+Estimated Memory Used:74492.048KB
 
 
 ***************************END*************************
@@ -2799,9 +2799,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:36823
-Time Used:0.4026943s
-Estimated Memory Used:74540.224KB
+MDP Iterations:35464
+Time Used:0.3817683s
+Estimated Memory Used:74285.456KB
 
 
 ***************************END*************************
@@ -2826,9 +2826,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:33869
-Time Used:0.3290335s
-Estimated Memory Used:78806.464KB
+MDP Iterations:32809
+Time Used:0.3718774s
+Estimated Memory Used:78884.048KB
 
 
 ***************************END*************************
@@ -2853,9 +2853,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:37197
-Time Used:0.4011795s
-Estimated Memory Used:78168.48KB
+MDP Iterations:38665
+Time Used:0.4286279s
+Estimated Memory Used:78297.96KB
 
 
 ***************************END*************************
@@ -2880,9 +2880,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19088
 Total Transitions:23808
-MDP Iterations:36815
-Time Used:0.3696641s
-Estimated Memory Used:77500.688KB
+MDP Iterations:33357
+Time Used:0.3899664s
+Estimated Memory Used:77851.824KB
 
 
 ***************************END*************************
@@ -2907,9 +2907,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:33327
-Time Used:0.3854367s
-Estimated Memory Used:74305.704KB
+MDP Iterations:32614
+Time Used:0.4078598s
+Estimated Memory Used:74265.248KB
 
 
 ***************************END*************************
@@ -2934,9 +2934,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:38350
-Time Used:0.4683973s
-Estimated Memory Used:77954.904KB
+MDP Iterations:37731
+Time Used:0.4302334s
+Estimated Memory Used:77987.472KB
 
 
 ***************************END*************************
@@ -2962,8 +2962,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:44512
-Time Used:0.4091161s
-Estimated Memory Used:81367.736KB
+Time Used:0.4585739s
+Estimated Memory Used:78927.624KB
 
 
 ***************************END*************************
@@ -2989,8 +2989,8 @@ Maximum difference threshold : 1E-06
 Visited States:19088
 Total Transitions:23808
 MDP Iterations:33470
-Time Used:0.3528482s
-Estimated Memory Used:77711.944KB
+Time Used:0.4010047s
+Estimated Memory Used:77936.464KB
 
 
 ***************************END*************************
@@ -3016,8 +3016,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:35003
-Time Used:0.3448498s
-Estimated Memory Used:76061.016KB
+Time Used:0.4300313s
+Estimated Memory Used:76298.2KB
 
 
 ***************************END*************************
@@ -3042,9 +3042,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:33389
-Time Used:0.3589449s
-Estimated Memory Used:76124.496KB
+MDP Iterations:34186
+Time Used:0.4224645s
+Estimated Memory Used:76239.368KB
 
 
 ***************************END*************************
@@ -3069,9 +3069,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:24104
 Total Transitions:30474
-MDP Iterations:38321
-Time Used:0.4143168s
-Estimated Memory Used:77561.672KB
+MDP Iterations:38511
+Time Used:0.4509429s
+Estimated Memory Used:77607.336KB
 
 
 ***************************END*************************
@@ -3097,8 +3097,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:43489
-Time Used:0.4595799s
-Estimated Memory Used:81095.024KB
+Time Used:0.4142496s
+Estimated Memory Used:78772.976KB
 
 
 ***************************END*************************
@@ -3123,9 +3123,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:38913
-Time Used:0.4003179s
-Estimated Memory Used:79049.12KB
+MDP Iterations:39126
+Time Used:0.4325054s
+Estimated Memory Used:79094.328KB
 
 
 ***************************END*************************
@@ -3150,9 +3150,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:33721
-Time Used:0.3406587s
-Estimated Memory Used:78765.952KB
+MDP Iterations:34123
+Time Used:0.4021262s
+Estimated Memory Used:78678.648KB
 
 
 ***************************END*************************
@@ -3178,8 +3178,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:42712
-Time Used:0.3951741s
-Estimated Memory Used:77178.784KB
+Time Used:0.4267539s
+Estimated Memory Used:77175.336KB
 
 
 ***************************END*************************
@@ -3204,9 +3204,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:35156
-Time Used:0.353751s
-Estimated Memory Used:76291.408KB
+MDP Iterations:33602
+Time Used:0.4105203s
+Estimated Memory Used:76065.424KB
 
 
 ***************************END*************************
@@ -3232,8 +3232,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:32294
-Time Used:0.3390719s
-Estimated Memory Used:78650.368KB
+Time Used:0.3769662s
+Estimated Memory Used:78789.24KB
 
 
 ***************************END*************************
@@ -3258,9 +3258,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40634
-Time Used:0.4033978s
-Estimated Memory Used:79083.096KB
+MDP Iterations:40041
+Time Used:0.4333325s
+Estimated Memory Used:79599.216KB
 
 
 ***************************END*************************
@@ -3286,8 +3286,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:37506
-Time Used:0.3561818s
-Estimated Memory Used:74308.296KB
+Time Used:0.4354712s
+Estimated Memory Used:75882.656KB
 
 
 ***************************END*************************
@@ -3312,9 +3312,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:33375
-Time Used:0.341632s
-Estimated Memory Used:78746.424KB
+MDP Iterations:35863
+Time Used:0.3896638s
+Estimated Memory Used:78869.04KB
 
 
 ***************************END*************************
@@ -3339,9 +3339,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:34033
-Time Used:0.3429984s
-Estimated Memory Used:78821.224KB
+MDP Iterations:34506
+Time Used:0.370467s
+Estimated Memory Used:78636.048KB
 
 
 ***************************END*************************
@@ -3367,8 +3367,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:41698
-Time Used:0.3882768s
-Estimated Memory Used:79165.96KB
+Time Used:0.4543303s
+Estimated Memory Used:79332.568KB
 
 
 ***************************END*************************
@@ -3394,8 +3394,8 @@ Maximum difference threshold : 1E-06
 Visited States:19088
 Total Transitions:23808
 MDP Iterations:35176
-Time Used:0.3804625s
-Estimated Memory Used:77876.08KB
+Time Used:0.3826584s
+Estimated Memory Used:76156.04KB
 
 
 ***************************END*************************
@@ -3421,8 +3421,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43855
-Time Used:0.4342217s
-Estimated Memory Used:76911.256KB
+Time Used:0.4388725s
+Estimated Memory Used:79318.088KB
 
 
 ***************************END*************************
@@ -3447,9 +3447,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:41169
-Time Used:0.427896s
-Estimated Memory Used:78104.192KB
+MDP Iterations:44056
+Time Used:0.4316916s
+Estimated Memory Used:78229.472KB
 
 
 ***************************END*************************
@@ -3474,9 +3474,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43692
-Time Used:0.3974616s
-Estimated Memory Used:78868.544KB
+MDP Iterations:46448
+Time Used:0.4562944s
+Estimated Memory Used:78999.304KB
 
 
 ***************************END*************************
@@ -3501,9 +3501,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:42449
-Time Used:0.3720085s
-Estimated Memory Used:79517.024KB
+MDP Iterations:43961
+Time Used:0.4622266s
+Estimated Memory Used:79566.024KB
 
 
 ***************************END*************************
@@ -3529,8 +3529,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:44666
-Time Used:0.3759535s
-Estimated Memory Used:79281.224KB
+Time Used:0.4811518s
+Estimated Memory Used:77346.888KB
 
 
 ***************************END*************************
@@ -3555,9 +3555,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:42752
-Time Used:0.5163033s
-Estimated Memory Used:75376.712KB
+MDP Iterations:44045
+Time Used:0.4549752s
+Estimated Memory Used:78802.2KB
 
 
 ***************************END*************************
@@ -3582,9 +3582,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:39060
-Time Used:0.4326473s
-Estimated Memory Used:79777.816KB
+MDP Iterations:39070
+Time Used:0.4702286s
+Estimated Memory Used:81059.672KB
 
 
 ***************************END*************************
@@ -3610,8 +3610,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:44836
-Time Used:0.3669594s
-Estimated Memory Used:77654.024KB
+Time Used:0.4117143s
+Estimated Memory Used:77764.104KB
 
 
 ***************************END*************************
@@ -3636,9 +3636,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:39629
-Time Used:0.3649555s
-Estimated Memory Used:79419.656KB
+MDP Iterations:40190
+Time Used:0.4250739s
+Estimated Memory Used:79368.28KB
 
 
 ***************************END*************************
@@ -3663,9 +3663,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:36609
-Time Used:0.3508653s
-Estimated Memory Used:74572.432KB
+MDP Iterations:36081
+Time Used:0.3602482s
+Estimated Memory Used:80469.952KB
 
 
 ***************************END*************************
@@ -3690,9 +3690,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:24104
 Total Transitions:30474
-MDP Iterations:38666
-Time Used:0.4060491s
-Estimated Memory Used:77499.488KB
+MDP Iterations:38477
+Time Used:0.4359853s
+Estimated Memory Used:77304.296KB
 
 
 ***************************END*************************
@@ -3717,9 +3717,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22470
 Total Transitions:28122
-MDP Iterations:50376
-Time Used:0.4089912s
-Estimated Memory Used:80221.776KB
+MDP Iterations:47069
+Time Used:0.4045982s
+Estimated Memory Used:75616.008KB
 
 
 ***************************END*************************
@@ -3744,9 +3744,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:45230
-Time Used:0.4461905s
-Estimated Memory Used:77251.008KB
+MDP Iterations:44364
+Time Used:0.4334777s
+Estimated Memory Used:79721.336KB
 
 
 ***************************END*************************
@@ -3772,8 +3772,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:36823
-Time Used:0.3640597s
-Estimated Memory Used:74147.44KB
+Time Used:0.4036454s
+Estimated Memory Used:74356.656KB
 
 
 ***************************END*************************
@@ -3799,8 +3799,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:35372
-Time Used:0.3542631s
-Estimated Memory Used:74209.968KB
+Time Used:0.4224745s
+Estimated Memory Used:76199.672KB
 
 
 ***************************END*************************
@@ -3825,9 +3825,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:34221
-Time Used:0.3567772s
-Estimated Memory Used:74625.16KB
+MDP Iterations:33319
+Time Used:0.3993109s
+Estimated Memory Used:74795.808KB
 
 
 ***************************END*************************
@@ -3853,8 +3853,8 @@ Maximum difference threshold : 1E-06
 Visited States:18706
 Total Transitions:23396
 MDP Iterations:33606
-Time Used:0.3589333s
-Estimated Memory Used:77228.736KB
+Time Used:0.3742346s
+Estimated Memory Used:77298.952KB
 
 
 ***************************END*************************
@@ -3879,9 +3879,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18542
 Total Transitions:23372
-MDP Iterations:32404
-Time Used:0.3773612s
-Estimated Memory Used:76629.328KB
+MDP Iterations:31537
+Time Used:0.4181711s
+Estimated Memory Used:76400.256KB
 
 
 ***************************END*************************
@@ -3906,9 +3906,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19088
 Total Transitions:23808
-MDP Iterations:40119
-Time Used:0.4184804s
-Estimated Memory Used:77909.88KB
+MDP Iterations:36828
+Time Used:0.3755215s
+Estimated Memory Used:77848.368KB
 
 
 ***************************END*************************
@@ -3934,8 +3934,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:44938
-Time Used:0.4031537s
-Estimated Memory Used:79304.12KB
+Time Used:0.4150045s
+Estimated Memory Used:79777.088KB
 
 
 ***************************END*************************
@@ -3960,9 +3960,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:42253
-Time Used:0.4074628s
-Estimated Memory Used:78348.232KB
+MDP Iterations:41459
+Time Used:0.4426758s
+Estimated Memory Used:78277.168KB
 
 
 ***************************END*************************
@@ -3987,9 +3987,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:40507
-Time Used:0.4219403s
-Estimated Memory Used:81290.304KB
+MDP Iterations:43444
+Time Used:0.4530282s
+Estimated Memory Used:78849.112KB
 
 
 ***************************END*************************
@@ -4015,8 +4015,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40340
-Time Used:0.4165326s
-Estimated Memory Used:79327.72KB
+Time Used:0.4071195s
+Estimated Memory Used:79451.448KB
 
 
 ***************************END*************************
@@ -4042,8 +4042,8 @@ Maximum difference threshold : 1E-06
 Visited States:10950
 Total Transitions:14414
 MDP Iterations:23072
-Time Used:0.2357023s
-Estimated Memory Used:73778.192KB
+Time Used:0.2682268s
+Estimated Memory Used:73853.168KB
 
 
 ***************************END*************************
@@ -4069,8 +4069,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:35182
-Time Used:0.3825888s
-Estimated Memory Used:74341.496KB
+Time Used:0.3782059s
+Estimated Memory Used:76061.2KB
 
 
 ***************************END*************************
@@ -4096,8 +4096,8 @@ Maximum difference threshold : 1E-06
 Visited States:22122
 Total Transitions:27724
 MDP Iterations:39264
-Time Used:0.4411647s
-Estimated Memory Used:78075.088KB
+Time Used:0.4595729s
+Estimated Memory Used:78142.808KB
 
 
 ***************************END*************************
@@ -4122,9 +4122,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:46847
-Time Used:0.4223963s
-Estimated Memory Used:75513.424KB
+MDP Iterations:45174
+Time Used:0.4401014s
+Estimated Memory Used:75578.32KB
 
 
 ***************************END*************************
@@ -4149,9 +4149,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:36667
-Time Used:0.3984319s
-Estimated Memory Used:76369.992KB
+MDP Iterations:36331
+Time Used:0.4157227s
+Estimated Memory Used:77962.944KB
 
 
 ***************************END*************************
@@ -4176,9 +4176,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:33947
-Time Used:0.3829032s
-Estimated Memory Used:74312.168KB
+MDP Iterations:34751
+Time Used:0.4154651s
+Estimated Memory Used:76290.36KB
 
 
 ***************************END*************************
@@ -4204,8 +4204,8 @@ Maximum difference threshold : 1E-06
 Visited States:10816
 Total Transitions:14146
 MDP Iterations:23340
-Time Used:0.2455507s
-Estimated Memory Used:72529.4KB
+Time Used:0.2710372s
+Estimated Memory Used:72446.184KB
 
 
 ***************************END*************************
@@ -4230,9 +4230,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:45033
-Time Used:0.4409308s
-Estimated Memory Used:78771.32KB
+MDP Iterations:47908
+Time Used:0.4465892s
+Estimated Memory Used:79009.192KB
 
 
 ***************************END*************************
@@ -4258,8 +4258,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43801
-Time Used:0.3574019s
-Estimated Memory Used:79644.984KB
+Time Used:0.3955088s
+Estimated Memory Used:79478.944KB
 
 
 ***************************END*************************
@@ -4284,9 +4284,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34136
-Time Used:0.3430479s
-Estimated Memory Used:75991.192KB
+MDP Iterations:32934
+Time Used:0.412641s
+Estimated Memory Used:76127.424KB
 
 
 ***************************END*************************
@@ -4312,8 +4312,8 @@ Maximum difference threshold : 1E-06
 Visited States:23960
 Total Transitions:30258
 MDP Iterations:37008
-Time Used:0.4185544s
-Estimated Memory Used:79626.624KB
+Time Used:0.424463s
+Estimated Memory Used:81706.616KB
 
 
 ***************************END*************************
@@ -4338,9 +4338,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:32014
-Time Used:0.3626746s
-Estimated Memory Used:78703.504KB
+MDP Iterations:33176
+Time Used:0.3507022s
+Estimated Memory Used:78946.312KB
 
 
 ***************************END*************************
@@ -4365,9 +4365,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:35853
-Time Used:0.4100644s
-Estimated Memory Used:74608.472KB
+MDP Iterations:34965
+Time Used:0.3864339s
+Estimated Memory Used:74754.144KB
 
 
 ***************************END*************************
@@ -4392,9 +4392,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40233
-Time Used:0.370755s
-Estimated Memory Used:79432.448KB
+MDP Iterations:41464
+Time Used:0.3836279s
+Estimated Memory Used:79522.528KB
 
 
 ***************************END*************************
@@ -4419,9 +4419,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40851
-Time Used:0.4252678s
-Estimated Memory Used:79188.272KB
+MDP Iterations:39637
+Time Used:0.4405415s
+Estimated Memory Used:79252.288KB
 
 
 ***************************END*************************
@@ -4446,9 +4446,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:45083
-Time Used:0.4172666s
-Estimated Memory Used:77189.872KB
+MDP Iterations:43201
+Time Used:0.4115204s
+Estimated Memory Used:79654.56KB
 
 
 ***************************END*************************
@@ -4473,9 +4473,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21906
 Total Transitions:27400
-MDP Iterations:40441
-Time Used:0.3755427s
-Estimated Memory Used:75733.72KB
+MDP Iterations:39606
+Time Used:0.4287536s
+Estimated Memory Used:75650.888KB
 
 
 ***************************END*************************
@@ -4500,9 +4500,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43133
-Time Used:0.3954454s
-Estimated Memory Used:78862.776KB
+MDP Iterations:42285
+Time Used:0.4139469s
+Estimated Memory Used:77770.04KB
 
 
 ***************************END*************************
@@ -4527,9 +4527,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18542
 Total Transitions:23372
-MDP Iterations:31641
-Time Used:0.4181724s
-Estimated Memory Used:76451.096KB
+MDP Iterations:32935
+Time Used:0.4111759s
+Estimated Memory Used:76575.528KB
 
 
 ***************************END*************************
@@ -4554,9 +4554,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:44792
-Time Used:0.4408478s
-Estimated Memory Used:78888.672KB
+MDP Iterations:46352
+Time Used:0.4751821s
+Estimated Memory Used:75635.664KB
 
 
 ***************************END*************************
@@ -4581,9 +4581,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:20800
 Total Transitions:25806
-MDP Iterations:39246
-Time Used:0.3722536s
-Estimated Memory Used:76541.216KB
+MDP Iterations:39738
+Time Used:0.4186487s
+Estimated Memory Used:76711.56KB
 
 
 ***************************END*************************
@@ -4608,9 +4608,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:37337
-Time Used:0.3797007s
-Estimated Memory Used:78028.224KB
+MDP Iterations:39177
+Time Used:0.4353965s
+Estimated Memory Used:78211.208KB
 
 
 ***************************END*************************
@@ -4635,9 +4635,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:37493
-Time Used:0.3811948s
-Estimated Memory Used:74386.488KB
+MDP Iterations:33813
+Time Used:0.442788s
+Estimated Memory Used:76262.584KB
 
 
 ***************************END*************************
@@ -4662,9 +4662,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18542
 Total Transitions:23372
-MDP Iterations:30812
-Time Used:0.3941148s
-Estimated Memory Used:76435.456KB
+MDP Iterations:31770
+Time Used:0.3994007s
+Estimated Memory Used:76572.104KB
 
 
 ***************************END*************************
@@ -4689,9 +4689,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34283
-Time Used:0.3794342s
-Estimated Memory Used:75822.808KB
+MDP Iterations:37529
+Time Used:0.4365127s
+Estimated Memory Used:76400.648KB
 
 
 ***************************END*************************
@@ -4716,9 +4716,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:42729
-Time Used:0.4129532s
-Estimated Memory Used:77529.216KB
+MDP Iterations:44241
+Time Used:0.4487402s
+Estimated Memory Used:78550.176KB
 
 
 ***************************END*************************
@@ -4743,9 +4743,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:42141
-Time Used:0.4327109s
-Estimated Memory Used:75535.296KB
+MDP Iterations:43049
+Time Used:0.4748656s
+Estimated Memory Used:75528.04KB
 
 
 ***************************END*************************
@@ -4770,9 +4770,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:14036
 Total Transitions:18086
-MDP Iterations:24875
-Time Used:0.2750817s
-Estimated Memory Used:74161.92KB
+MDP Iterations:23442
+Time Used:0.3120422s
+Estimated Memory Used:74197.976KB
 
 
 ***************************END*************************
@@ -4797,9 +4797,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:38788
-Time Used:0.3646422s
-Estimated Memory Used:74472.92KB
+MDP Iterations:37123
+Time Used:0.4351379s
+Estimated Memory Used:76447.536KB
 
 
 ***************************END*************************
@@ -4824,9 +4824,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19088
 Total Transitions:23808
-MDP Iterations:32625
-Time Used:0.3748989s
-Estimated Memory Used:77352.52KB
+MDP Iterations:35146
+Time Used:0.3957623s
+Estimated Memory Used:77933.128KB
 
 
 ***************************END*************************
@@ -4851,9 +4851,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:39113
-Time Used:0.3461482s
-Estimated Memory Used:76705.512KB
+MDP Iterations:36428
+Time Used:0.4169375s
+Estimated Memory Used:74268.328KB
 
 
 ***************************END*************************
@@ -4879,8 +4879,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43796
-Time Used:0.3658735s
-Estimated Memory Used:79173.768KB
+Time Used:0.4116308s
+Estimated Memory Used:79746.48KB
 
 
 ***************************END*************************
@@ -4905,9 +4905,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:41610
-Time Used:0.4203564s
-Estimated Memory Used:78198.72KB
+MDP Iterations:43141
+Time Used:0.4925334s
+Estimated Memory Used:78400.096KB
 
 
 ***************************END*************************
@@ -4933,8 +4933,8 @@ Maximum difference threshold : 1E-06
 Visited States:19088
 Total Transitions:23808
 MDP Iterations:30432
-Time Used:0.3551708s
-Estimated Memory Used:77547.016KB
+Time Used:0.4228198s
+Estimated Memory Used:77304.592KB
 
 
 ***************************END*************************
@@ -4959,9 +4959,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44404
-Time Used:0.4336271s
-Estimated Memory Used:79754.816KB
+MDP Iterations:45507
+Time Used:0.4515158s
+Estimated Memory Used:77267.832KB
 
 
 ***************************END*************************
@@ -4987,8 +4987,8 @@ Maximum difference threshold : 1E-06
 Visited States:22122
 Total Transitions:27724
 MDP Iterations:40448
-Time Used:0.451006s
-Estimated Memory Used:78071.152KB
+Time Used:0.4407938s
+Estimated Memory Used:78109.352KB
 
 
 ***************************END*************************
@@ -5013,9 +5013,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:39994
-Time Used:0.4363292s
-Estimated Memory Used:78684.224KB
+MDP Iterations:39712
+Time Used:0.4466886s
+Estimated Memory Used:79759.896KB
 
 
 ***************************END*************************
@@ -5041,8 +5041,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:35014
-Time Used:0.3623418s
-Estimated Memory Used:78844.632KB
+Time Used:0.4109087s
+Estimated Memory Used:76656.616KB
 
 
 ***************************END*************************
@@ -5067,9 +5067,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:42563
-Time Used:0.3923122s
-Estimated Memory Used:79713.144KB
+MDP Iterations:42691
+Time Used:0.4338232s
+Estimated Memory Used:79713.312KB
 
 
 ***************************END*************************
@@ -5094,9 +5094,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44221
-Time Used:0.4179232s
-Estimated Memory Used:79280.736KB
+MDP Iterations:42616
+Time Used:0.4394631s
+Estimated Memory Used:77150KB
 
 
 ***************************END*************************
@@ -5121,9 +5121,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:41741
-Time Used:0.3897787s
-Estimated Memory Used:78189.504KB
+MDP Iterations:41340
+Time Used:0.4310465s
+Estimated Memory Used:78284.16KB
 
 
 ***************************END*************************
@@ -5148,9 +5148,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34573
-Time Used:0.3652484s
-Estimated Memory Used:74175.816KB
+MDP Iterations:33388
+Time Used:0.3934767s
+Estimated Memory Used:76039KB
 
 
 ***************************END*************************
@@ -5175,9 +5175,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44871
-Time Used:0.3782193s
-Estimated Memory Used:77331.936KB
+MDP Iterations:43614
+Time Used:0.3855805s
+Estimated Memory Used:79533.584KB
 
 
 ***************************END*************************
@@ -5202,9 +5202,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34038
-Time Used:0.36285s
-Estimated Memory Used:74328.424KB
+MDP Iterations:34751
+Time Used:0.4242014s
+Estimated Memory Used:74255.472KB
 
 
 ***************************END*************************
@@ -5229,9 +5229,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:39437
-Time Used:0.4139181s
-Estimated Memory Used:82075.936KB
+MDP Iterations:41095
+Time Used:0.4527266s
+Estimated Memory Used:80764.856KB
 
 
 ***************************END*************************
@@ -5256,9 +5256,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:42852
-Time Used:0.4080927s
-Estimated Memory Used:77714.584KB
+MDP Iterations:44289
+Time Used:0.477131s
+Estimated Memory Used:75484.744KB
 
 
 ***************************END*************************
@@ -5283,9 +5283,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:33057
-Time Used:0.348716s
-Estimated Memory Used:78801.128KB
+MDP Iterations:32451
+Time Used:0.3590028s
+Estimated Memory Used:78531.84KB
 
 
 ***************************END*************************
@@ -5311,8 +5311,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:33245
-Time Used:0.3795585s
-Estimated Memory Used:76388.08KB
+Time Used:0.390543s
+Estimated Memory Used:76150.648KB
 
 
 ***************************END*************************
@@ -5337,9 +5337,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21906
 Total Transitions:27400
-MDP Iterations:38088
-Time Used:0.4098804s
-Estimated Memory Used:75755.24KB
+MDP Iterations:39503
+Time Used:0.4438157s
+Estimated Memory Used:76159.8KB
 
 
 ***************************END*************************
@@ -5365,8 +5365,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:34017
-Time Used:0.3538121s
-Estimated Memory Used:76213.136KB
+Time Used:0.4120831s
+Estimated Memory Used:76196.272KB
 
 
 ***************************END*************************
@@ -5391,9 +5391,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:31198
-Time Used:0.3466891s
-Estimated Memory Used:78622.072KB
+MDP Iterations:32543
+Time Used:0.3848546s
+Estimated Memory Used:78631.72KB
 
 
 ***************************END*************************
@@ -5419,8 +5419,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40469
-Time Used:0.3617965s
-Estimated Memory Used:79619.776KB
+Time Used:0.4213845s
+Estimated Memory Used:79232.048KB
 
 
 ***************************END*************************
@@ -5446,8 +5446,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:31870
-Time Used:0.3463711s
-Estimated Memory Used:75746.552KB
+Time Used:0.4189247s
+Estimated Memory Used:75826.92KB
 
 
 ***************************END*************************
@@ -5472,9 +5472,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:43264
-Time Used:0.4198079s
-Estimated Memory Used:79620.12KB
+MDP Iterations:45190
+Time Used:0.4169301s
+Estimated Memory Used:77234.936KB
 
 
 ***************************END*************************
@@ -5499,9 +5499,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:43720
-Time Used:0.4215718s
-Estimated Memory Used:78304.12KB
+MDP Iterations:41029
+Time Used:0.4167528s
+Estimated Memory Used:78268.864KB
 
 
 ***************************END*************************
@@ -5526,9 +5526,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:20800
 Total Transitions:25806
-MDP Iterations:37333
-Time Used:0.4056732s
-Estimated Memory Used:76688.888KB
+MDP Iterations:37657
+Time Used:0.4424067s
+Estimated Memory Used:77368.888KB
 
 
 ***************************END*************************
@@ -5554,8 +5554,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:44113
-Time Used:0.4010407s
-Estimated Memory Used:79312.52KB
+Time Used:0.4405885s
+Estimated Memory Used:77199.096KB
 
 
 ***************************END*************************
@@ -5580,9 +5580,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:37302
-Time Used:0.3556602s
-Estimated Memory Used:76299.088KB
+MDP Iterations:36013
+Time Used:0.4032413s
+Estimated Memory Used:76465.808KB
 
 
 ***************************END*************************
@@ -5607,9 +5607,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:20800
 Total Transitions:25806
-MDP Iterations:41394
-Time Used:0.410578s
-Estimated Memory Used:77218.336KB
+MDP Iterations:40831
+Time Used:0.4311809s
+Estimated Memory Used:77039.936KB
 
 
 ***************************END*************************
@@ -5634,9 +5634,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:37337
-Time Used:0.3627784s
-Estimated Memory Used:77917.328KB
+MDP Iterations:39138
+Time Used:0.4981843s
+Estimated Memory Used:78167.568KB
 
 
 ***************************END*************************
@@ -5661,9 +5661,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:39873
-Time Used:0.406032s
-Estimated Memory Used:81131.856KB
+MDP Iterations:38910
+Time Used:0.5071795s
+Estimated Memory Used:78721.528KB
 
 
 ***************************END*************************
@@ -5688,9 +5688,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:30460
-Time Used:0.3412526s
-Estimated Memory Used:78805.84KB
+MDP Iterations:31137
+Time Used:0.4183818s
+Estimated Memory Used:78944.44KB
 
 
 ***************************END*************************
@@ -5715,9 +5715,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:36070
-Time Used:0.3366517s
-Estimated Memory Used:78900.28KB
+MDP Iterations:34794
+Time Used:0.4206567s
+Estimated Memory Used:78916.864KB
 
 
 ***************************END*************************
@@ -5742,9 +5742,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:41538
-Time Used:0.4469739s
-Estimated Memory Used:78567.896KB
+MDP Iterations:41933
+Time Used:0.4784062s
+Estimated Memory Used:81251.448KB
 
 
 ***************************END*************************
@@ -5770,8 +5770,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:47906
-Time Used:0.4796115s
-Estimated Memory Used:75582.488KB
+Time Used:0.4296887s
+Estimated Memory Used:75334.368KB
 
 
 ***************************END*************************
@@ -5796,9 +5796,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:43695
-Time Used:0.3888263s
-Estimated Memory Used:79559.008KB
+MDP Iterations:43102
+Time Used:0.58144s
+Estimated Memory Used:77281.36KB
 
 
 ***************************END*************************
@@ -5823,9 +5823,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34297
-Time Used:0.3938305s
-Estimated Memory Used:76199.152KB
+MDP Iterations:33463
+Time Used:0.4359805s
+Estimated Memory Used:76218.288KB
 
 
 ***************************END*************************
@@ -5850,9 +5850,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:42508
-Time Used:0.4068304s
-Estimated Memory Used:78834.544KB
+MDP Iterations:43843
+Time Used:0.467372s
+Estimated Memory Used:81315.512KB
 
 
 ***************************END*************************
@@ -5877,9 +5877,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:36723
-Time Used:0.3701764s
-Estimated Memory Used:76252.576KB
+MDP Iterations:32790
+Time Used:0.3876702s
+Estimated Memory Used:76150.328KB
 
 
 ***************************END*************************
@@ -5905,8 +5905,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:33307
-Time Used:0.3424768s
-Estimated Memory Used:74290.928KB
+Time Used:0.3632869s
+Estimated Memory Used:74291.792KB
 
 
 ***************************END*************************
@@ -5932,8 +5932,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:34886
-Time Used:0.3519349s
-Estimated Memory Used:74446.104KB
+Time Used:0.3497628s
+Estimated Memory Used:74400.48KB
 
 
 ***************************END*************************
@@ -5958,9 +5958,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:38372
-Time Used:0.3738851s
-Estimated Memory Used:78093.088KB
+MDP Iterations:38036
+Time Used:0.4294798s
+Estimated Memory Used:78196.48KB
 
 
 ***************************END*************************
@@ -5985,9 +5985,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44582
-Time Used:0.4266879s
-Estimated Memory Used:79379.472KB
+MDP Iterations:44021
+Time Used:0.417405s
+Estimated Memory Used:79745.984KB
 
 
 ***************************END*************************
@@ -6012,9 +6012,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:43603
-Time Used:0.4213123s
-Estimated Memory Used:78434.928KB
+MDP Iterations:41136
+Time Used:0.4486918s
+Estimated Memory Used:78245.68KB
 
 
 ***************************END*************************
@@ -6039,9 +6039,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:39914
-Time Used:0.4657492s
-Estimated Memory Used:81326.952KB
+MDP Iterations:39707
+Time Used:0.4544218s
+Estimated Memory Used:81227.232KB
 
 
 ***************************END*************************
@@ -6066,9 +6066,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:39507
-Time Used:0.381624s
-Estimated Memory Used:79392.936KB
+MDP Iterations:38926
+Time Used:0.4602615s
+Estimated Memory Used:79567.32KB
 
 
 ***************************END*************************
@@ -6093,9 +6093,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:43301
-Time Used:0.3950331s
-Estimated Memory Used:79313.416KB
+MDP Iterations:43946
+Time Used:0.3958144s
+Estimated Memory Used:79746.08KB
 
 
 ***************************END*************************
@@ -6121,8 +6121,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43229
-Time Used:0.427186s
-Estimated Memory Used:77158.192KB
+Time Used:0.4422394s
+Estimated Memory Used:77275.648KB
 
 
 ***************************END*************************
@@ -6147,9 +6147,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:37273
-Time Used:0.441309s
-Estimated Memory Used:79739.408KB
+MDP Iterations:37498
+Time Used:0.4183823s
+Estimated Memory Used:80768.416KB
 
 
 ***************************END*************************
@@ -6174,9 +6174,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22470
 Total Transitions:28122
-MDP Iterations:45351
-Time Used:0.4186975s
-Estimated Memory Used:79622.944KB
+MDP Iterations:45508
+Time Used:0.4675313s
+Estimated Memory Used:77428.024KB
 
 
 ***************************END*************************
@@ -6202,8 +6202,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40287
-Time Used:0.4342577s
-Estimated Memory Used:79135.328KB
+Time Used:0.3998466s
+Estimated Memory Used:79580.048KB
 
 
 ***************************END*************************
@@ -6228,9 +6228,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:34555
-Time Used:0.341437s
-Estimated Memory Used:78823.6KB
+MDP Iterations:34117
+Time Used:0.3778573s
+Estimated Memory Used:78831.72KB
 
 
 ***************************END*************************
@@ -6255,9 +6255,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:24104
 Total Transitions:30474
-MDP Iterations:38089
-Time Used:0.4462004s
-Estimated Memory Used:77576.216KB
+MDP Iterations:39442
+Time Used:0.4373047s
+Estimated Memory Used:77589.352KB
 
 
 ***************************END*************************
@@ -6282,9 +6282,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:46693
-Time Used:0.4507969s
-Estimated Memory Used:75600.472KB
+MDP Iterations:46968
+Time Used:0.457718s
+Estimated Memory Used:75539.192KB
 
 
 ***************************END*************************
@@ -6309,9 +6309,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:38829
-Time Used:0.3536598s
-Estimated Memory Used:74730.624KB
+MDP Iterations:34894
+Time Used:0.3814482s
+Estimated Memory Used:74870.432KB
 
 
 ***************************END*************************
@@ -6336,9 +6336,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:35965
-Time Used:0.3489957s
-Estimated Memory Used:74666.016KB
+MDP Iterations:35985
+Time Used:0.416204s
+Estimated Memory Used:75003.32KB
 
 
 ***************************END*************************
@@ -6363,9 +6363,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43428
-Time Used:0.3908804s
-Estimated Memory Used:81300.752KB
+MDP Iterations:43950
+Time Used:0.4081595s
+Estimated Memory Used:77659.544KB
 
 
 ***************************END*************************
@@ -6390,9 +6390,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:40496
-Time Used:0.3791637s
-Estimated Memory Used:78248.024KB
+MDP Iterations:39848
+Time Used:0.4041648s
+Estimated Memory Used:78144.032KB
 
 
 ***************************END*************************
@@ -6418,8 +6418,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:31732
-Time Used:0.3611006s
-Estimated Memory Used:74224.344KB
+Time Used:0.3941488s
+Estimated Memory Used:74205.824KB
 
 
 ***************************END*************************
@@ -6444,9 +6444,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:30993
-Time Used:0.335954s
-Estimated Memory Used:77722.872KB
+MDP Iterations:30565
+Time Used:0.4052994s
+Estimated Memory Used:74573.912KB
 
 
 ***************************END*************************
@@ -6472,8 +6472,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:41880
-Time Used:0.3664579s
-Estimated Memory Used:79413.008KB
+Time Used:0.4264564s
+Estimated Memory Used:79690.032KB
 
 
 ***************************END*************************
@@ -6498,9 +6498,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44175
-Time Used:0.3750954s
-Estimated Memory Used:79695.536KB
+MDP Iterations:45362
+Time Used:0.4432412s
+Estimated Memory Used:77233.496KB
 
 
 ***************************END*************************
@@ -6525,9 +6525,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:38064
-Time Used:0.3843645s
-Estimated Memory Used:77945.208KB
+MDP Iterations:38400
+Time Used:0.4301626s
+Estimated Memory Used:78058.704KB
 
 
 ***************************END*************************
@@ -6553,8 +6553,8 @@ Maximum difference threshold : 1E-06
 Visited States:22470
 Total Transitions:28122
 MDP Iterations:43397
-Time Used:0.4408937s
-Estimated Memory Used:77173.6KB
+Time Used:0.4491926s
+Estimated Memory Used:77202.376KB
 
 
 ***************************END*************************
@@ -6579,9 +6579,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:34831
-Time Used:0.3577512s
-Estimated Memory Used:78964.6KB
+MDP Iterations:37855
+Time Used:0.3743516s
+Estimated Memory Used:79013.152KB
 
 
 ***************************END*************************
@@ -6607,8 +6607,8 @@ Maximum difference threshold : 1E-06
 Visited States:14036
 Total Transitions:18086
 MDP Iterations:23392
-Time Used:0.2395684s
-Estimated Memory Used:144469.6KB
+Time Used:0.2941214s
+Estimated Memory Used:73930.336KB
 
 
 ***************************END*************************
@@ -6633,9 +6633,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:43372
-Time Used:0.3699046s
-Estimated Memory Used:79232.072KB
+MDP Iterations:45374
+Time Used:0.4476519s
+Estimated Memory Used:77227.768KB
 
 
 ***************************END*************************
@@ -6660,9 +6660,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21906
 Total Transitions:27400
-MDP Iterations:40692
-Time Used:0.4246751s
-Estimated Memory Used:75931.104KB
+MDP Iterations:37537
+Time Used:0.4507148s
+Estimated Memory Used:75600.352KB
 
 
 ***************************END*************************
@@ -6687,9 +6687,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:35968
-Time Used:0.3460351s
-Estimated Memory Used:78953.88KB
+MDP Iterations:35958
+Time Used:0.3570575s
+Estimated Memory Used:79286.528KB
 
 
 ***************************END*************************
@@ -6714,9 +6714,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:42323
-Time Used:0.3954442s
-Estimated Memory Used:79752.256KB
+MDP Iterations:42443
+Time Used:0.4511895s
+Estimated Memory Used:79720.816KB
 
 
 ***************************END*************************
@@ -6742,8 +6742,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:33820
-Time Used:0.342359s
-Estimated Memory Used:78664.784KB
+Time Used:0.3644071s
+Estimated Memory Used:78670.696KB
 
 
 ***************************END*************************
@@ -6768,9 +6768,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:10950
 Total Transitions:14414
-MDP Iterations:24036
-Time Used:0.2391499s
-Estimated Memory Used:74006.304KB
+MDP Iterations:24283
+Time Used:0.2779483s
+Estimated Memory Used:73914.184KB
 
 
 ***************************END*************************
@@ -6795,9 +6795,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43064
-Time Used:0.4178958s
-Estimated Memory Used:77555.52KB
+MDP Iterations:45213
+Time Used:0.4262386s
+Estimated Memory Used:75353.424KB
 
 
 ***************************END*************************
@@ -6822,9 +6822,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:35789
-Time Used:0.3331607s
-Estimated Memory Used:78799.064KB
+MDP Iterations:35664
+Time Used:0.3632933s
+Estimated Memory Used:78742.728KB
 
 
 ***************************END*************************
@@ -6849,9 +6849,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:38046
-Time Used:0.3757448s
-Estimated Memory Used:76303.128KB
+MDP Iterations:35162
+Time Used:0.3880081s
+Estimated Memory Used:76168.488KB
 
 
 ***************************END*************************
@@ -6876,9 +6876,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:44603
-Time Used:0.4237295s
-Estimated Memory Used:75482.384KB
+MDP Iterations:45481
+Time Used:0.4594271s
+Estimated Memory Used:75399.872KB
 
 
 ***************************END*************************
@@ -6903,9 +6903,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:38564
-Time Used:0.3745102s
-Estimated Memory Used:76321.208KB
+MDP Iterations:35742
+Time Used:0.4296518s
+Estimated Memory Used:76385.728KB
 
 
 ***************************END*************************
@@ -6930,9 +6930,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:35270
-Time Used:0.3628467s
-Estimated Memory Used:78962.416KB
+MDP Iterations:32934
+Time Used:0.3757904s
+Estimated Memory Used:78633.888KB
 
 
 ***************************END*************************
@@ -6958,8 +6958,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:45188
-Time Used:0.3945814s
-Estimated Memory Used:77263.84KB
+Time Used:0.4493815s
+Estimated Memory Used:77583.4KB
 
 
 ***************************END*************************
@@ -6985,8 +6985,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40838
-Time Used:0.4160696s
-Estimated Memory Used:79118.872KB
+Time Used:0.4053924s
+Estimated Memory Used:79536.8KB
 
 
 ***************************END*************************
@@ -7011,9 +7011,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:39205
-Time Used:0.405894s
-Estimated Memory Used:78068.944KB
+MDP Iterations:38369
+Time Used:0.4024661s
+Estimated Memory Used:78025.016KB
 
 
 ***************************END*************************
@@ -7038,9 +7038,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:44342
-Time Used:0.4002838s
-Estimated Memory Used:78387.56KB
+MDP Iterations:42305
+Time Used:0.4369738s
+Estimated Memory Used:78335.544KB
 
 
 ***************************END*************************
@@ -7065,9 +7065,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:45580
-Time Used:0.4072789s
-Estimated Memory Used:81352.256KB
+MDP Iterations:45136
+Time Used:0.4564876s
+Estimated Memory Used:75611.176KB
 
 
 ***************************END*************************
@@ -7093,8 +7093,8 @@ Maximum difference threshold : 1E-06
 Visited States:22122
 Total Transitions:27724
 MDP Iterations:39490
-Time Used:0.4083058s
-Estimated Memory Used:78125.304KB
+Time Used:0.3909618s
+Estimated Memory Used:78125.328KB
 
 
 ***************************END*************************
@@ -7119,9 +7119,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:20800
 Total Transitions:25806
-MDP Iterations:40849
-Time Used:0.4450244s
-Estimated Memory Used:76867.104KB
+MDP Iterations:39797
+Time Used:0.4073246s
+Estimated Memory Used:76663.112KB
 
 
 ***************************END*************************
@@ -7147,8 +7147,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:44061
-Time Used:0.3775955s
-Estimated Memory Used:79582.304KB
+Time Used:0.4405515s
+Estimated Memory Used:77212.416KB
 
 
 ***************************END*************************
@@ -7174,8 +7174,8 @@ Maximum difference threshold : 1E-06
 Visited States:23960
 Total Transitions:30258
 MDP Iterations:39070
-Time Used:0.4319845s
-Estimated Memory Used:79897.472KB
+Time Used:0.450367s
+Estimated Memory Used:79778.056KB
 
 
 ***************************END*************************
@@ -7200,9 +7200,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:34470
-Time Used:0.3578637s
-Estimated Memory Used:75936.616KB
+MDP Iterations:36353
+Time Used:0.4283675s
+Estimated Memory Used:76282.968KB
 
 
 ***************************END*************************
@@ -7228,8 +7228,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:44051
-Time Used:0.4108303s
-Estimated Memory Used:79385.976KB
+Time Used:0.4172267s
+Estimated Memory Used:79312.528KB
 
 
 ***************************END*************************
@@ -7254,9 +7254,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:33116
-Time Used:0.3323627s
-Estimated Memory Used:74372.144KB
+MDP Iterations:32714
+Time Used:0.3596198s
+Estimated Memory Used:74344.28KB
 
 
 ***************************END*************************
@@ -7281,9 +7281,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:20800
 Total Transitions:25806
-MDP Iterations:43770
-Time Used:0.3693897s
-Estimated Memory Used:76891.096KB
+MDP Iterations:41832
+Time Used:0.3702112s
+Estimated Memory Used:76552.608KB
 
 
 ***************************END*************************
@@ -7308,9 +7308,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:44447
-Time Used:0.4108852s
-Estimated Memory Used:78847.264KB
+MDP Iterations:41131
+Time Used:0.4194864s
+Estimated Memory Used:79744.792KB
 
 
 ***************************END*************************
@@ -7335,9 +7335,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:32855
-Time Used:0.3403989s
-Estimated Memory Used:74379.064KB
+MDP Iterations:34548
+Time Used:0.3689245s
+Estimated Memory Used:74343.848KB
 
 
 ***************************END*************************
@@ -7362,9 +7362,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:42301
-Time Used:0.4024463s
-Estimated Memory Used:81360.912KB
+MDP Iterations:42199
+Time Used:0.4074371s
+Estimated Memory Used:78669.408KB
 
 
 ***************************END*************************
@@ -7389,9 +7389,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:41701
-Time Used:0.3725336s
-Estimated Memory Used:79319.136KB
+MDP Iterations:40707
+Time Used:0.4528427s
+Estimated Memory Used:79690.88KB
 
 
 ***************************END*************************
@@ -7416,9 +7416,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:35950
-Time Used:0.3500013s
-Estimated Memory Used:74627.592KB
+MDP Iterations:34233
+Time Used:0.341565s
+Estimated Memory Used:74566.224KB
 
 
 ***************************END*************************
@@ -7444,8 +7444,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:33871
-Time Used:0.348954s
-Estimated Memory Used:74487.024KB
+Time Used:0.3632893s
+Estimated Memory Used:74273.08KB
 
 
 ***************************END*************************
@@ -7470,9 +7470,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:14036
 Total Transitions:18086
-MDP Iterations:24775
-Time Used:0.3071478s
-Estimated Memory Used:74078.24KB
+MDP Iterations:22579
+Time Used:0.3305445s
+Estimated Memory Used:74241.4KB
 
 
 ***************************END*************************
@@ -7497,9 +7497,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:14036
 Total Transitions:18086
-MDP Iterations:22249
-Time Used:0.2452502s
-Estimated Memory Used:144386.528KB
+MDP Iterations:23220
+Time Used:0.3012377s
+Estimated Memory Used:73983.024KB
 
 
 ***************************END*************************
@@ -7524,9 +7524,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19088
 Total Transitions:23808
-MDP Iterations:35772
-Time Used:0.4293806s
-Estimated Memory Used:77371.464KB
+MDP Iterations:34138
+Time Used:0.3915323s
+Estimated Memory Used:77823.248KB
 
 
 ***************************END*************************
@@ -7551,9 +7551,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:42758
-Time Used:0.4049524s
-Estimated Memory Used:79704.792KB
+MDP Iterations:43586
+Time Used:0.3932823s
+Estimated Memory Used:79317.424KB
 
 
 ***************************END*************************
@@ -7579,8 +7579,8 @@ Maximum difference threshold : 1E-06
 Visited States:14036
 Total Transitions:18086
 MDP Iterations:21718
-Time Used:0.2801599s
-Estimated Memory Used:144392.224KB
+Time Used:0.2922511s
+Estimated Memory Used:74108.688KB
 
 
 ***************************END*************************
@@ -7605,9 +7605,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:45163
-Time Used:0.3658817s
-Estimated Memory Used:79285.488KB
+MDP Iterations:43905
+Time Used:0.4077429s
+Estimated Memory Used:79705.376KB
 
 
 ***************************END*************************
@@ -7632,9 +7632,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:43985
-Time Used:0.4372032s
-Estimated Memory Used:79281.464KB
+MDP Iterations:43004
+Time Used:0.4282462s
+Estimated Memory Used:79705.28KB
 
 
 ***************************END*************************
@@ -7659,9 +7659,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:14036
 Total Transitions:18086
-MDP Iterations:24815
-Time Used:0.2357331s
-Estimated Memory Used:144721.152KB
+MDP Iterations:23558
+Time Used:0.3216213s
+Estimated Memory Used:74112.576KB
 
 
 ***************************END*************************
@@ -7686,9 +7686,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:24104
 Total Transitions:30474
-MDP Iterations:37924
-Time Used:0.3933854s
-Estimated Memory Used:77429.328KB
+MDP Iterations:38511
+Time Used:0.433243s
+Estimated Memory Used:77531.56KB
 
 
 ***************************END*************************
@@ -7713,9 +7713,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:41950
-Time Used:0.4127225s
-Estimated Memory Used:77544.704KB
+MDP Iterations:42464
+Time Used:0.4149245s
+Estimated Memory Used:77587.672KB
 
 
 ***************************END*************************
@@ -7740,9 +7740,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:40501
-Time Used:0.4188974s
-Estimated Memory Used:79839.568KB
+MDP Iterations:39591
+Time Used:0.4269391s
+Estimated Memory Used:79796.256KB
 
 
 ***************************END*************************
@@ -7768,8 +7768,8 @@ Maximum difference threshold : 1E-06
 Visited States:14036
 Total Transitions:18086
 MDP Iterations:22403
-Time Used:0.2750408s
-Estimated Memory Used:73987.528KB
+Time Used:0.3451234s
+Estimated Memory Used:74228.808KB
 
 
 ***************************END*************************
@@ -7795,8 +7795,8 @@ Maximum difference threshold : 1E-06
 Visited States:22122
 Total Transitions:27724
 MDP Iterations:40281
-Time Used:0.448962s
-Estimated Memory Used:78161.608KB
+Time Used:0.4730946s
+Estimated Memory Used:78235.784KB
 
 
 ***************************END*************************
@@ -7821,9 +7821,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:49366
-Time Used:0.4563362s
-Estimated Memory Used:75623.328KB
+MDP Iterations:45626
+Time Used:0.4547271s
+Estimated Memory Used:80067.84KB
 
 
 ***************************END*************************
@@ -7849,8 +7849,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:35208
-Time Used:0.3679174s
-Estimated Memory Used:74470.984KB
+Time Used:0.3650436s
+Estimated Memory Used:74533.496KB
 
 
 ***************************END*************************
@@ -7875,9 +7875,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:37293
-Time Used:0.3789627s
-Estimated Memory Used:76326.76KB
+MDP Iterations:36938
+Time Used:0.3843972s
+Estimated Memory Used:74648.104KB
 
 
 ***************************END*************************
@@ -7902,9 +7902,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:39664
-Time Used:0.4083691s
-Estimated Memory Used:79729.44KB
+MDP Iterations:41257
+Time Used:0.4212169s
+Estimated Memory Used:79713.192KB
 
 
 ***************************END*************************
@@ -7929,9 +7929,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:35361
-Time Used:0.3780585s
-Estimated Memory Used:74437.16KB
+MDP Iterations:35042
+Time Used:0.3741266s
+Estimated Memory Used:74405.472KB
 
 
 ***************************END*************************
@@ -7956,9 +7956,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:32772
-Time Used:0.3852116s
-Estimated Memory Used:74673.232KB
+MDP Iterations:33260
+Time Used:0.363481s
+Estimated Memory Used:74685.168KB
 
 
 ***************************END*************************
@@ -7984,8 +7984,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:32540
-Time Used:0.354103s
-Estimated Memory Used:78784.48KB
+Time Used:0.379846s
+Estimated Memory Used:78963.656KB
 
 
 ***************************END*************************
@@ -8011,8 +8011,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40811
-Time Used:0.3926579s
-Estimated Memory Used:79742.88KB
+Time Used:0.4434554s
+Estimated Memory Used:79317.128KB
 
 
 ***************************END*************************
@@ -8037,9 +8037,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43590
-Time Used:0.4076874s
-Estimated Memory Used:81354.4KB
+MDP Iterations:44980
+Time Used:0.4502806s
+Estimated Memory Used:80009.96KB
 
 
 ***************************END*************************
@@ -8065,8 +8065,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:45324
-Time Used:0.3804335s
-Estimated Memory Used:79472.904KB
+Time Used:0.4304393s
+Estimated Memory Used:79482.688KB
 
 
 ***************************END*************************
@@ -8091,9 +8091,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:40643
-Time Used:0.423068s
-Estimated Memory Used:78121.736KB
+MDP Iterations:40276
+Time Used:0.3911906s
+Estimated Memory Used:78144.832KB
 
 
 ***************************END*************************
@@ -8119,8 +8119,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:39729
-Time Used:0.414889s
-Estimated Memory Used:79124.424KB
+Time Used:0.4060571s
+Estimated Memory Used:79688.488KB
 
 
 ***************************END*************************
@@ -8145,9 +8145,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:20800
 Total Transitions:25806
-MDP Iterations:39646
-Time Used:0.354296s
-Estimated Memory Used:77170.864KB
+MDP Iterations:40608
+Time Used:0.4066404s
+Estimated Memory Used:77092.168KB
 
 
 ***************************END*************************
@@ -8172,9 +8172,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:45925
-Time Used:0.4129984s
-Estimated Memory Used:78939.76KB
+MDP Iterations:46071
+Time Used:0.4693561s
+Estimated Memory Used:79976.608KB
 
 
 ***************************END*************************
@@ -8200,8 +8200,8 @@ Maximum difference threshold : 1E-06
 Visited States:23960
 Total Transitions:30258
 MDP Iterations:38451
-Time Used:0.4255437s
-Estimated Memory Used:79778.048KB
+Time Used:0.4293929s
+Estimated Memory Used:80714.392KB
 
 
 ***************************END*************************
@@ -8226,9 +8226,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:44940
-Time Used:0.3825135s
-Estimated Memory Used:78869.296KB
+MDP Iterations:48059
+Time Used:0.4251279s
+Estimated Memory Used:75535.36KB
 
 
 ***************************END*************************
@@ -8254,8 +8254,8 @@ Maximum difference threshold : 1E-06
 Visited States:23960
 Total Transitions:30258
 MDP Iterations:37112
-Time Used:0.4197936s
-Estimated Memory Used:79549.608KB
+Time Used:0.4430094s
+Estimated Memory Used:81807.568KB
 
 
 ***************************END*************************
@@ -8281,8 +8281,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:35775
-Time Used:0.390911s
-Estimated Memory Used:76258.728KB
+Time Used:0.3644265s
+Estimated Memory Used:76182.64KB
 
 
 ***************************END*************************
@@ -8307,9 +8307,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:13932
 Total Transitions:17878
-MDP Iterations:23306
-Time Used:0.242978s
-Estimated Memory Used:143267.68KB
+MDP Iterations:25063
+Time Used:0.2523249s
+Estimated Memory Used:143379.008KB
 
 
 ***************************END*************************
@@ -8334,9 +8334,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:49600
-Time Used:0.3862165s
-Estimated Memory Used:75379.592KB
+MDP Iterations:47498
+Time Used:0.3769446s
+Estimated Memory Used:78685.352KB
 
 
 ***************************END*************************
@@ -8362,8 +8362,8 @@ Maximum difference threshold : 1E-06
 Visited States:14036
 Total Transitions:18086
 MDP Iterations:23668
-Time Used:0.2773147s
-Estimated Memory Used:74120.288KB
+Time Used:0.2769383s
+Estimated Memory Used:144466.352KB
 
 
 ***************************END*************************
@@ -8388,9 +8388,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:38417
-Time Used:0.3565883s
-Estimated Memory Used:76292.88KB
+MDP Iterations:37210
+Time Used:0.3816809s
+Estimated Memory Used:76369.184KB
 
 
 ***************************END*************************
@@ -8415,9 +8415,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:44993
-Time Used:0.4420966s
-Estimated Memory Used:75516.856KB
+MDP Iterations:44268
+Time Used:0.4651925s
+Estimated Memory Used:75440.56KB
 
 
 ***************************END*************************
@@ -8442,9 +8442,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:37497
-Time Used:0.4041205s
-Estimated Memory Used:82098.736KB
+MDP Iterations:38006
+Time Used:0.4554532s
+Estimated Memory Used:82015.84KB
 
 
 ***************************END*************************
@@ -8469,9 +8469,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:30564
-Time Used:0.3949214s
-Estimated Memory Used:78888.024KB
+MDP Iterations:30739
+Time Used:0.3641715s
+Estimated Memory Used:78808.72KB
 
 
 ***************************END*************************
@@ -8496,9 +8496,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:30716
-Time Used:0.3656783s
-Estimated Memory Used:78481.856KB
+MDP Iterations:30594
+Time Used:0.3470647s
+Estimated Memory Used:78847.392KB
 
 
 ***************************END*************************
@@ -8524,8 +8524,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:42262
-Time Used:0.391107s
-Estimated Memory Used:79777.144KB
+Time Used:0.4649714s
+Estimated Memory Used:79451.648KB
 
 
 ***************************END*************************
@@ -8550,9 +8550,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19088
 Total Transitions:23808
-MDP Iterations:38061
-Time Used:0.3987159s
-Estimated Memory Used:77533.624KB
+MDP Iterations:34302
+Time Used:0.403092s
+Estimated Memory Used:76126.408KB
 
 
 ***************************END*************************
@@ -8578,8 +8578,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43927
-Time Used:0.3780209s
-Estimated Memory Used:79737.088KB
+Time Used:0.4097258s
+Estimated Memory Used:77207.056KB
 
 
 ***************************END*************************
@@ -8604,9 +8604,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:41536
-Time Used:0.4065092s
-Estimated Memory Used:78207.376KB
+MDP Iterations:40493
+Time Used:0.4575126s
+Estimated Memory Used:78193.112KB
 
 
 ***************************END*************************
@@ -8631,9 +8631,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:40335
-Time Used:0.3864035s
-Estimated Memory Used:78409.168KB
+MDP Iterations:38657
+Time Used:0.4191433s
+Estimated Memory Used:78277.032KB
 
 
 ***************************END*************************
@@ -8658,9 +8658,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:20728
 Total Transitions:25698
-MDP Iterations:40109
-Time Used:0.4467816s
-Estimated Memory Used:76517.88KB
+MDP Iterations:41004
+Time Used:0.4109093s
+Estimated Memory Used:76516.184KB
 
 
 ***************************END*************************
@@ -8685,9 +8685,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44561
-Time Used:0.3736761s
-Estimated Memory Used:79777.704KB
+MDP Iterations:44156
+Time Used:0.397504s
+Estimated Memory Used:79703.408KB
 
 
 ***************************END*************************
@@ -8712,9 +8712,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:24104
 Total Transitions:30474
-MDP Iterations:39270
-Time Used:0.4196457s
-Estimated Memory Used:77516.992KB
+MDP Iterations:38807
+Time Used:0.419804s
+Estimated Memory Used:77668.32KB
 
 
 ***************************END*************************
@@ -8739,9 +8739,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:42180
-Time Used:0.3736804s
-Estimated Memory Used:77579.84KB
+MDP Iterations:45636
+Time Used:0.4207569s
+Estimated Memory Used:75360.696KB
 
 
 ***************************END*************************
@@ -8766,9 +8766,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18542
 Total Transitions:23372
-MDP Iterations:29554
-Time Used:0.3720014s
-Estimated Memory Used:76449.376KB
+MDP Iterations:31341
+Time Used:0.3802975s
+Estimated Memory Used:76309.192KB
 
 
 ***************************END*************************
@@ -8794,8 +8794,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43201
-Time Used:0.3985366s
-Estimated Memory Used:79126.32KB
+Time Used:0.4505337s
+Estimated Memory Used:79713.152KB
 
 
 ***************************END*************************
@@ -8821,8 +8821,8 @@ Maximum difference threshold : 1E-06
 Visited States:23960
 Total Transitions:30258
 MDP Iterations:42893
-Time Used:0.4243272s
-Estimated Memory Used:76346.328KB
+Time Used:0.4447636s
+Estimated Memory Used:80885.736KB
 
 
 ***************************END*************************
@@ -8848,8 +8848,8 @@ Maximum difference threshold : 1E-06
 Visited States:22470
 Total Transitions:28122
 MDP Iterations:50306
-Time Used:0.3964096s
-Estimated Memory Used:77457.832KB
+Time Used:0.4013889s
+Estimated Memory Used:76596.296KB
 
 
 ***************************END*************************
@@ -8875,8 +8875,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:42630
-Time Used:0.4053092s
-Estimated Memory Used:79111.192KB
+Time Used:0.409987s
+Estimated Memory Used:79638.312KB
 
 
 ***************************END*************************
@@ -8901,9 +8901,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:39688
-Time Used:0.3744766s
-Estimated Memory Used:76544.688KB
+MDP Iterations:35939
+Time Used:0.4234933s
+Estimated Memory Used:76167.432KB
 
 
 ***************************END*************************
@@ -8928,9 +8928,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:41870
-Time Used:0.4200393s
-Estimated Memory Used:78742.72KB
+MDP Iterations:42831
+Time Used:0.5060075s
+Estimated Memory Used:75538.696KB
 
 
 ***************************END*************************
@@ -8956,8 +8956,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:37649
-Time Used:0.3806989s
-Estimated Memory Used:74447.504KB
+Time Used:0.4613793s
+Estimated Memory Used:76367.088KB
 
 
 ***************************END*************************
@@ -8982,9 +8982,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:31569
-Time Used:0.3521621s
-Estimated Memory Used:78657.656KB
+MDP Iterations:32919
+Time Used:0.3841518s
+Estimated Memory Used:78705.128KB
 
 
 ***************************END*************************
@@ -9009,9 +9009,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:32127
-Time Used:0.3729717s
-Estimated Memory Used:78704.888KB
+MDP Iterations:31725
+Time Used:0.3741985s
+Estimated Memory Used:78833.864KB
 
 
 ***************************END*************************
@@ -9036,9 +9036,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40669
-Time Used:0.4565409s
-Estimated Memory Used:79673.584KB
+MDP Iterations:42262
+Time Used:0.4680249s
+Estimated Memory Used:77229.768KB
 
 
 ***************************END*************************
@@ -9064,8 +9064,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:35169
-Time Used:0.422153s
-Estimated Memory Used:75845.664KB
+Time Used:0.4149672s
+Estimated Memory Used:76127.28KB
 
 
 ***************************END*************************
@@ -9091,8 +9091,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:43311
-Time Used:0.3986632s
-Estimated Memory Used:79265.08KB
+Time Used:0.4217173s
+Estimated Memory Used:79738.184KB
 
 
 ***************************END*************************
@@ -9117,9 +9117,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21906
 Total Transitions:27400
-MDP Iterations:38435
-Time Used:0.4269672s
-Estimated Memory Used:75614.856KB
+MDP Iterations:37050
+Time Used:0.4395438s
+Estimated Memory Used:75822.96KB
 
 
 ***************************END*************************
@@ -9144,9 +9144,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:47331
-Time Used:0.3817744s
-Estimated Memory Used:75377KB
+MDP Iterations:42939
+Time Used:0.4255149s
+Estimated Memory Used:81255.808KB
 
 
 ***************************END*************************
@@ -9171,9 +9171,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18850
 Total Transitions:23612
-MDP Iterations:33887
-Time Used:0.3646147s
-Estimated Memory Used:78776.672KB
+MDP Iterations:35923
+Time Used:0.3767097s
+Estimated Memory Used:78861.6KB
 
 
 ***************************END*************************
@@ -9198,9 +9198,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:44023
-Time Used:0.4264966s
-Estimated Memory Used:79272.752KB
+MDP Iterations:43775
+Time Used:0.431776s
+Estimated Memory Used:79745.792KB
 
 
 ***************************END*************************
@@ -9225,9 +9225,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:23960
 Total Transitions:30258
-MDP Iterations:39297
-Time Used:0.4090773s
-Estimated Memory Used:80673.368KB
+MDP Iterations:39617
+Time Used:0.455624s
+Estimated Memory Used:82055.872KB
 
 
 ***************************END*************************
@@ -9253,8 +9253,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:34289
-Time Used:0.3644231s
-Estimated Memory Used:78824.072KB
+Time Used:0.3664943s
+Estimated Memory Used:78764.52KB
 
 
 ***************************END*************************
@@ -9280,8 +9280,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:40381
-Time Used:0.4181893s
-Estimated Memory Used:79420.616KB
+Time Used:0.4217113s
+Estimated Memory Used:79590.4KB
 
 
 ***************************END*************************
@@ -9306,9 +9306,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:36319
-Time Used:0.4045562s
-Estimated Memory Used:74515.344KB
+MDP Iterations:37318
+Time Used:0.3898855s
+Estimated Memory Used:76341.648KB
 
 
 ***************************END*************************
@@ -9333,9 +9333,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40836
-Time Used:0.4141609s
-Estimated Memory Used:79198.864KB
+MDP Iterations:41108
+Time Used:0.4050551s
+Estimated Memory Used:79126.384KB
 
 
 ***************************END*************************
@@ -9361,8 +9361,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:46464
-Time Used:0.4604825s
-Estimated Memory Used:75636.56KB
+Time Used:0.453435s
+Estimated Memory Used:75513.448KB
 
 
 ***************************END*************************
@@ -9388,8 +9388,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:32993
-Time Used:0.3589126s
-Estimated Memory Used:78577.576KB
+Time Used:0.3743732s
+Estimated Memory Used:78620.2KB
 
 
 ***************************END*************************
@@ -9415,8 +9415,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:35848
-Time Used:0.3993233s
-Estimated Memory Used:76018.128KB
+Time Used:0.4191205s
+Estimated Memory Used:76227.696KB
 
 
 ***************************END*************************
@@ -9441,9 +9441,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43903
-Time Used:0.4528496s
-Estimated Memory Used:75427.32KB
+MDP Iterations:41205
+Time Used:0.4680968s
+Estimated Memory Used:75398.36KB
 
 
 ***************************END*************************
@@ -9469,8 +9469,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:33848
-Time Used:0.3663271s
-Estimated Memory Used:74681.664KB
+Time Used:0.3782038s
+Estimated Memory Used:75814.776KB
 
 
 ***************************END*************************
@@ -9496,8 +9496,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:30131
-Time Used:0.325748s
-Estimated Memory Used:78539.568KB
+Time Used:0.3885126s
+Estimated Memory Used:76319.752KB
 
 
 ***************************END*************************
@@ -9523,8 +9523,8 @@ Maximum difference threshold : 1E-06
 Visited States:18850
 Total Transitions:23612
 MDP Iterations:31335
-Time Used:0.3758686s
-Estimated Memory Used:78744.328KB
+Time Used:0.3522743s
+Estimated Memory Used:78880.632KB
 
 
 ***************************END*************************
@@ -9549,9 +9549,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40820
-Time Used:0.3608551s
-Estimated Memory Used:79590.544KB
+MDP Iterations:40071
+Time Used:0.432902s
+Estimated Memory Used:79321.352KB
 
 
 ***************************END*************************
@@ -9576,9 +9576,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19088
 Total Transitions:23808
-MDP Iterations:34153
-Time Used:0.3753622s
-Estimated Memory Used:77412.808KB
+MDP Iterations:31676
+Time Used:0.4278537s
+Estimated Memory Used:75068.976KB
 
 
 ***************************END*************************
@@ -9603,9 +9603,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:43974
-Time Used:0.357422s
-Estimated Memory Used:79720.544KB
+MDP Iterations:43316
+Time Used:0.4414295s
+Estimated Memory Used:79704.632KB
 
 
 ***************************END*************************
@@ -9630,9 +9630,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:40500
-Time Used:0.4241964s
-Estimated Memory Used:78107.48KB
+MDP Iterations:37266
+Time Used:0.4222646s
+Estimated Memory Used:77893.064KB
 
 
 ***************************END*************************
@@ -9658,8 +9658,8 @@ Maximum difference threshold : 1E-06
 Visited States:22614
 Total Transitions:28338
 MDP Iterations:42731
-Time Used:0.4137878s
-Estimated Memory Used:78901.192KB
+Time Used:0.4551097s
+Estimated Memory Used:75516.016KB
 
 
 ***************************END*************************
@@ -9685,8 +9685,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:39714
-Time Used:0.3641129s
-Estimated Memory Used:79421.448KB
+Time Used:0.4330921s
+Estimated Memory Used:79326.36KB
 
 
 ***************************END*************************
@@ -9711,9 +9711,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:41963
-Time Used:0.3603658s
-Estimated Memory Used:79729.344KB
+MDP Iterations:43262
+Time Used:0.4242707s
+Estimated Memory Used:79757.592KB
 
 
 ***************************END*************************
@@ -9738,9 +9738,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21906
 Total Transitions:27400
-MDP Iterations:37006
-Time Used:0.4057286s
-Estimated Memory Used:75549.76KB
+MDP Iterations:40953
+Time Used:0.4275796s
+Estimated Memory Used:76102.592KB
 
 
 ***************************END*************************
@@ -9766,8 +9766,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:36139
-Time Used:0.3736815s
-Estimated Memory Used:76316.824KB
+Time Used:0.418614s
+Estimated Memory Used:76281.208KB
 
 
 ***************************END*************************
@@ -9792,9 +9792,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:24104
 Total Transitions:30474
-MDP Iterations:39485
-Time Used:0.4169562s
-Estimated Memory Used:77769.304KB
+MDP Iterations:36731
+Time Used:0.4567652s
+Estimated Memory Used:77526.992KB
 
 
 ***************************END*************************
@@ -9819,9 +9819,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:34837
-Time Used:0.352969s
-Estimated Memory Used:74589.856KB
+MDP Iterations:34790
+Time Used:0.3705428s
+Estimated Memory Used:74437.304KB
 
 
 ***************************END*************************
@@ -9847,8 +9847,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:35723
-Time Used:0.3550449s
-Estimated Memory Used:74539.92KB
+Time Used:0.3549618s
+Estimated Memory Used:74463.648KB
 
 
 ***************************END*************************
@@ -9874,8 +9874,8 @@ Maximum difference threshold : 1E-06
 Visited States:22470
 Total Transitions:28122
 MDP Iterations:50058
-Time Used:0.4066909s
-Estimated Memory Used:75879.032KB
+Time Used:0.4275774s
+Estimated Memory Used:80074.984KB
 
 
 ***************************END*************************
@@ -9901,8 +9901,8 @@ Maximum difference threshold : 1E-06
 Visited States:14036
 Total Transitions:18086
 MDP Iterations:21508
-Time Used:0.2474687s
-Estimated Memory Used:144294.752KB
+Time Used:0.2842303s
+Estimated Memory Used:144418.72KB
 
 
 ***************************END*************************
@@ -9927,9 +9927,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22614
 Total Transitions:28338
-MDP Iterations:43132
-Time Used:0.3945225s
-Estimated Memory Used:78702.168KB
+MDP Iterations:42060
+Time Used:0.4377448s
+Estimated Memory Used:81325.696KB
 
 
 ***************************END*************************
@@ -9955,8 +9955,8 @@ Maximum difference threshold : 1E-06
 Visited States:22122
 Total Transitions:27724
 MDP Iterations:36575
-Time Used:0.4346821s
-Estimated Memory Used:77608.008KB
+Time Used:0.4317201s
+Estimated Memory Used:77884.976KB
 
 
 ***************************END*************************
@@ -9981,9 +9981,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19526
 Total Transitions:24400
-MDP Iterations:33571
-Time Used:0.3937965s
-Estimated Memory Used:76289.968KB
+MDP Iterations:32950
+Time Used:0.4174392s
+Estimated Memory Used:76074.04KB
 
 
 ***************************END*************************
@@ -10008,9 +10008,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:18994
 Total Transitions:23828
-MDP Iterations:31265
-Time Used:0.3642847s
-Estimated Memory Used:74169.144KB
+MDP Iterations:30190
+Time Used:0.3418002s
+Estimated Memory Used:80202.88KB
 
 
 ***************************END*************************
@@ -10036,8 +10036,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:39374
-Time Used:0.3658331s
-Estimated Memory Used:79356KB
+Time Used:0.4213604s
+Estimated Memory Used:79232.168KB
 
 
 ***************************END*************************
@@ -10062,9 +10062,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40388
-Time Used:0.4008967s
-Estimated Memory Used:79387.984KB
+MDP Iterations:42165
+Time Used:0.4396018s
+Estimated Memory Used:79304.64KB
 
 
 ***************************END*************************
@@ -10089,9 +10089,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:19088
 Total Transitions:23808
-MDP Iterations:35238
-Time Used:0.4016268s
-Estimated Memory Used:77658.912KB
+MDP Iterations:34540
+Time Used:0.4143579s
+Estimated Memory Used:77643.072KB
 
 
 ***************************END*************************
@@ -10117,8 +10117,8 @@ Maximum difference threshold : 1E-06
 Visited States:21034
 Total Transitions:26076
 MDP Iterations:45220
-Time Used:0.3463096s
-Estimated Memory Used:79759.808KB
+Time Used:0.4289383s
+Estimated Memory Used:77230.528KB
 
 
 ***************************END*************************
@@ -10143,9 +10143,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:22122
 Total Transitions:27724
-MDP Iterations:40108
-Time Used:0.4387171s
-Estimated Memory Used:78075.856KB
+MDP Iterations:39273
+Time Used:0.4064313s
+Estimated Memory Used:78087.248KB
 
 
 ***************************END*************************
@@ -10170,9 +10170,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:14036
 Total Transitions:18086
-MDP Iterations:22788
-Time Used:0.2674529s
-Estimated Memory Used:74074.104KB
+MDP Iterations:20786
+Time Used:0.2785911s
+Estimated Memory Used:144262.656KB
 
 
 ***************************END*************************
@@ -10197,9 +10197,9 @@ Maximum difference threshold : 1E-06
 ********Verification Statistics********
 Visited States:21034
 Total Transitions:26076
-MDP Iterations:40065
-Time Used:0.4019133s
-Estimated Memory Used:79053.504KB
+MDP Iterations:40617
+Time Used:0.4105101s
+Estimated Memory Used:79070.4KB
 
 
 ***************************END*************************
@@ -10225,8 +10225,8 @@ Maximum difference threshold : 1E-06
 Visited States:18994
 Total Transitions:23828
 MDP Iterations:32672
-Time Used:0.3603898s
-Estimated Memory Used:74425.848KB
+Time Used:0.3910054s
+Estimated Memory Used:74556.72KB
 
 
 ***************************END*************************
@@ -10252,8 +10252,8 @@ Maximum difference threshold : 1E-06
 Visited States:19526
 Total Transitions:24400
 MDP Iterations:34846
-Time Used:0.3872922s
-Estimated Memory Used:76344.6KB
+Time Used:0.3956415s
+Estimated Memory Used:74526.696KB
 
 
 ***************************END*************************

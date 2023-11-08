@@ -56,7 +56,7 @@ AtkKep = [pos[C] == 1]Kep_1(80, 80, 49, C);
 AtkDef = [pos[R] == 1]Def(59, 52, 40, R) [] [pos[CR] == 1]Def(68, 64, 40, CR) [] [pos[CL] == 1]Def(69, 69, 40, CL) [] [pos[L] == 1]Def(71, 74, 40, L);
 AtkMid = [pos[R] == 1]Mid(75, 67, 79, 60, R) [] [pos[CR] == 1]Mid(78, 74, 61, 60, CR) [] [pos[CL] == 1]Mid(79, 76, 72, 60, CL) [] [pos[L] == 1]Mid(85, 75, 60, 60, L);
 AtkFor = [pos[CR] == 1]For(85, 76, 85, 75, 82, 22, 89, 81, CR) [] [pos[CL] == 1]For(77, 67, 59, 46, 82, 78, 89, 60, CL);
-DefKep = [pos[C] == 1]Kep_2(1,C);
+DefKep = [pos[C] == 1]Kep_2(50,C);
 
 ///////////// Individual Positions /////////////
 // There is a guard to every action (e.g., shortPass) a player can take

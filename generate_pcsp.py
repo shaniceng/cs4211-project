@@ -10,8 +10,8 @@ def find_match_and_teams(match_path, team_path, home_team, away_team):
     match_df = pd.read_csv(match_path)
     team_df = pd.read_csv(team_path)
 
-    # Replace NaN values with 1 in team_df
-    team_df = team_df.fillna(1)
+    # Replace NaN values with 50 in team_df
+    team_df = team_df.fillna(50)
 
     # Find match
     match_row_condition = (match_df['home_team'] == home_team) & (match_df['away_team'] == away_team)
