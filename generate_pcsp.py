@@ -329,14 +329,14 @@ def process_formation_to_dict(formation):
         atkDefPos = int(positions[0])
         atkMidPos = int(positions[1])
         atkForPos = int(positions[2])
-    elif len(positions) == 4: #def mid for for
+    elif len(positions) == 4: #def mid mid for
         atkDefPos = int(positions[0])
         atkMidPos = int(positions[1]) + int(positions[2]) 
         atkForPos = int(positions[3]) 
     elif len(positions) == 5: #def mid mid for for 
         atkDefPos = int(positions[0])
-        atkMidPos = int(positions[1]) + int(positions[2])
-        atkForPos = int(positions[3]) + int(positions[4])
+        atkMidPos = int(positions[1]) + int(positions[2]) + int(positions[3])
+        atkForPos = int(positions[4])
     else:
         raise ValueError("Invalid input format. Must be in the format 'X-Y-Z' or 'X-Y-Z-W' or 'X-Y-Z-W-V.")
     
