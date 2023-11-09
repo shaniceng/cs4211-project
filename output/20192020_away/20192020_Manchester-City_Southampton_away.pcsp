@@ -55,7 +55,7 @@ var defKepPos = [-1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, -1, -1, -1, -1, -1
 AtkKep = [pos[C] == 1]Kep_1(64, 64, 42, C);
 AtkDef = [pos[R] == 1]Def(61, 55, 47, R) [] [pos[CR] == 1]Def(67, 47, 47, CR) [] [pos[C] == 1]Def(72, 59, 47, C) [] [pos[CL] == 1]Def(66, 80, 47, CL) [] [pos[L] == 1]Def(79, 74, 47, L);
 AtkMid = [pos[RL] == 1]Mid(85, 82, 73, 64, RL) [] [pos[C] == 1]Mid(79, 71, 43, 64, C) [] [pos[LR] == 1]Mid(75, 71, 80, 64, LR);
-AtkFor = [pos[CR] == 1]For(76, 67, 66, 75, 73, 79, 80, 80, CR) [] [pos[CL] == 1]For(69, 75, 55, 33, 73, 87, 80, 50, CL);
+AtkFor = [pos[CR] == 1]For(76, 67, 66, 75, 73, 79, 80, 78, CR) [] [pos[CL] == 1]For(69, 75, 55, 33, 73, 87, 80, 41, CL);
 DefKep = [pos[C] == 1]Kep_2(85,C);
 
 ///////////// Individual Positions /////////////
@@ -83,7 +83,7 @@ AtkDefKeeperPass(i, j, p) =
 
 Def(i, j, k, p) = [atkMidPos[p-2] == 1 || atkMidPos[p-1] == 1 || atkMidPos[p] == 1 || atkMidPos[p+1] == 1 || atkMidPos[p+2] == 1]shortPass -> pcase {
 	i: pass -> 
-		if(num_def_backpass < 2) {
+		if(num_def_backpass < 3) {
 			pcase { 
 	            i: passForward -> UpdatePos(p,SP); AtkMid
 	            i: passBackward{num_def_backpass++;} -> UpdatePos(p,BW); AtkKep
@@ -101,7 +101,7 @@ Def(i, j, k, p) = [atkMidPos[p-2] == 1 || atkMidPos[p-1] == 1 || atkMidPos[p] ==
 
 Mid(i, j, k, l, p) = [atkForPos[p-2] == 1 || atkForPos[p-1] == 1 || atkForPos[p] == 1 || atkForPos[p+1] == 1 || atkForPos[p+2] == 1]shortPass -> pcase {
 	i: pass -> 
-		if(num_mid_backpass < 2) {
+		if(num_mid_backpass < 3) {
 			pcase { 
 	            i: passForward -> UpdatePos(p, SP); AtkFor
 	            i: passBackward{num_mid_backpass++;} -> UpdatePos(p,SP); AtkDef

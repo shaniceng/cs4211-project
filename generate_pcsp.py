@@ -251,7 +251,7 @@ def cal_atkFor_values(atkForPos_player_details, homeDefPos_player_details, away_
         result += f"{round((homeDefPos_player_details['defending_marking'].max() + homeDefPos_player_details['defending_standing_tackle'].max() + homeDefPos_player_details['defending_sliding_tackle'].max())/3)}, "
         result += f"{round(max_mentality_aggression)}, " 
         result += f"{away_rows['mentality_penalties'].max()}, "
-        result += f"{round(0.1 * atkForPos_player_details.iloc[i]['power_jumping'] + 0.6 * atkForPos_player_details.iloc[i]['attacking_heading_accuracy'] + 0.3 * round((atkForPos_player_details.iloc[i]['height_cm'] / max(away_rows['height_cm'].max(), home_rows['height_cm'].max())) * 100))}, "
+        result += f"{round(0.3 * atkForPos_player_details.iloc[i]['power_jumping'] + 0.6 * atkForPos_player_details.iloc[i]['attacking_heading_accuracy'] + 0.1 * round((atkForPos_player_details.iloc[i]['height_cm'] / max(away_rows['height_cm'].max(), home_rows['height_cm'].max())) * 100))}, "
         result += f"{position}"
         result += ")"
         if i < len(atkForPos_sequence_array) - 1:
